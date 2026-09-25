@@ -80,3 +80,7 @@ What we recommend next, in order:
 - Notes coded only for HPD, NYPD, DOT and DOB; other agencies get the checks that need no coding.
 - Survey and call data are context; they cannot validate any single request.
 - Open data stands in for the 311 CRM. A production answer would need the CRM and agency systems.
+
+## 5. Live re-run
+
+On 2026-09-25 at 17:52 UTC the pipeline pulled a fresh snapshot itself (`--source live`, published as `output/run_date=2026-09-26/`). All four datasets came through keyset pagination with counts matching the API exactly (969,004 requests, 950,999 calls, 3,563 SLA rules, 275,467 survey responses), and one read timeout was retried automatically. This pull added `descriptor_2`, the third level of the SLA key: clean response-target matches rose from 75.5% to 84.6% and ambiguous matches fell from 131,223 to 42,937. The KPI moved from 92.3% to 92.6% (strict reading unchanged at 67.3%). The conclusions above do not change.

@@ -1,0 +1,5 @@
+agency,closed_requests,unmapped_or_missing_note,fix_yes,fix_yes_high_certainty,closed_without_fix_evidence,closed_without_fix_evidence_strict
+NYPD,460231,3,120685,0,0.7378,1.0
+HPD,154124,0,14121,1,0.9084,1.0
+DOT,71639,2491,15752,12690,0.7722,0.8165
+DOB,26845,370,0,0,1.0,1.0

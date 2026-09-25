@@ -54,6 +54,8 @@ Supporting metrics: agency action mix (intervention), next step stated for open 
 - For a third of DOT requests (33.1%), the note points elsewhere for the status, mostly to DOT's website (20,225 requests): 311 does not hold it.
 - `due_date` is empty for 99.6% of requests, so "when will it be fixed" has no answer in the data.
 
+A second, live run on a fresh API pull (`output/run_date=2026-09-26/`) matched every source count exactly and gave the same conclusions (details in `docs/04_evidence.md`, section 5).
+
 Proposed decision (strict reading): 4 complaint types (12,681 requests) are candidates for a measurement pilot, 28 need a named fix first, 17 should hold; 7 of those hold under either reading. Full evidence, decision table and Known / Unknown / Assumption / Limitation: [`docs/04_evidence.md`](docs/04_evidence.md).
 
 ## Sources

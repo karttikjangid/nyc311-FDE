@@ -1,0 +1,5 @@
+agency,open_requests,with_next_step,no_next_step,note_missing_or_unmapped,next_step_rate
+HPD,5151,5147,4,0,0.9992
+DOT,4361,2630,1147,584,0.6031
+DOB,3759,2311,1284,164,0.6148
+NYPD,9,8,1,0,0.8889

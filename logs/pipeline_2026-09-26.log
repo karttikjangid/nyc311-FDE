@@ -8,3 +8,75 @@
 2026-09-25T17:58:00Z INFO extract service_requests: page 5 rows=50000 cumulative=250000
 2026-09-25T17:58:16Z INFO extract service_requests: page 6 rows=50000 cumulative=300000
 2026-09-25T17:58:31Z INFO extract service_requests: page 7 rows=50000 cumulative=350000
+2026-09-25T17:58:56Z INFO extract service_requests: page 8 rows=50000 cumulative=400000
+2026-09-25T17:59:10Z INFO extract service_requests: page 9 rows=50000 cumulative=450000
+2026-09-25T17:59:26Z INFO extract service_requests: page 10 rows=50000 cumulative=500000
+2026-09-25T17:59:39Z INFO extract service_requests: page 11 rows=50000 cumulative=550000
+2026-09-25T17:59:46Z INFO extract service_requests: page 12 rows=50000 cumulative=600000
+2026-09-25T17:59:54Z INFO extract service_requests: page 13 rows=50000 cumulative=650000
+2026-09-25T18:00:08Z INFO extract service_requests: page 14 rows=50000 cumulative=700000
+2026-09-25T18:00:20Z INFO extract service_requests: page 15 rows=50000 cumulative=750000
+2026-09-25T18:00:32Z INFO extract service_requests: page 16 rows=50000 cumulative=800000
+2026-09-25T18:00:43Z INFO extract service_requests: page 17 rows=50000 cumulative=850000
+2026-09-25T18:00:48Z INFO extract service_requests: page 18 rows=50000 cumulative=900000
+2026-09-25T18:01:04Z INFO extract service_requests: page 19 rows=50000 cumulative=950000
+2026-09-25T18:01:07Z INFO extract service_requests: page 20 rows=19004 cumulative=969004
+2026-09-25T18:01:08Z INFO extract call_center: expected rows 950999
+2026-09-25T18:01:29Z INFO extract call_center: page 1 rows=50000 cumulative=50000
+2026-09-25T18:01:51Z INFO extract call_center: page 2 rows=50000 cumulative=100000
+2026-09-25T18:01:58Z INFO extract call_center: page 3 rows=50000 cumulative=150000
+2026-09-25T18:02:06Z INFO extract call_center: page 4 rows=50000 cumulative=200000
+2026-09-25T18:02:12Z INFO extract call_center: page 5 rows=50000 cumulative=250000
+2026-09-25T18:02:23Z INFO extract call_center: page 6 rows=50000 cumulative=300000
+2026-09-25T18:02:27Z INFO extract call_center: page 7 rows=50000 cumulative=350000
+2026-09-25T18:02:38Z INFO extract call_center: page 8 rows=50000 cumulative=400000
+2026-09-25T18:02:45Z INFO extract call_center: page 9 rows=50000 cumulative=450000
+2026-09-25T18:02:53Z INFO extract call_center: page 10 rows=50000 cumulative=500000
+2026-09-25T18:03:00Z INFO extract call_center: page 11 rows=50000 cumulative=550000
+2026-09-25T18:03:21Z INFO extract call_center: page 12 rows=50000 cumulative=600000
+2026-09-25T18:03:25Z INFO extract call_center: page 13 rows=50000 cumulative=650000
+2026-09-25T18:03:30Z INFO extract call_center: page 14 rows=50000 cumulative=700000
+2026-09-25T18:03:37Z INFO extract call_center: page 15 rows=50000 cumulative=750000
+2026-09-25T18:03:44Z INFO extract call_center: page 16 rows=50000 cumulative=800000
+2026-09-25T18:03:52Z INFO extract call_center: page 17 rows=50000 cumulative=850000
+2026-09-25T18:04:06Z INFO extract call_center: page 18 rows=50000 cumulative=900000
+2026-09-25T18:04:12Z INFO extract call_center: page 19 rows=50000 cumulative=950000
+2026-09-25T18:04:14Z INFO extract call_center: page 20 rows=999 cumulative=950999
+2026-09-25T18:04:16Z INFO extract sla: expected rows 3563
+2026-09-25T18:04:16Z INFO extract sla: page 1 rows=3563 cumulative=3563
+2026-09-25T18:04:18Z INFO extract survey: expected rows 275467
+2026-09-25T18:04:37Z INFO extract survey: page 1 rows=50000 cumulative=50000
+2026-09-25T18:04:44Z INFO extract survey: page 2 rows=50000 cumulative=100000
+2026-09-25T18:05:17Z INFO extract survey: page 3 rows=50000 cumulative=150000
+2026-09-25T18:05:29Z INFO extract survey: page 4 rows=50000 cumulative=200000
+2026-09-25T18:05:39Z INFO extract survey: page 5 rows=50000 cumulative=250000
+2026-09-25T18:05:46Z INFO extract survey: page 6 rows=25467 cumulative=275467
+2026-09-25T18:05:47Z INFO extract snapshot complete: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/snapshots/20260925T175230Z
+2026-09-25T18:05:54Z INFO pipeline EXTRACT snapshot=20260925T175230Z rows={'call_center': 950999, 'service_requests': 969004, 'sla': 3563, 'survey': 275467} integrity_problems=0
+2026-09-25T18:05:58Z INFO pipeline CLEAN {'rows_in': 969004, 'exact_duplicate_rows_removed': 0, 'conflicting_duplicate_keys': 0, 'created_date_unparseable': 0, 'closed_date_unparseable': 0, 'due_date_unparseable': 0, 'resolution_action_updated_date_unparseable': 0, 'rows_out': 969004}
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R01 Retrieval count matches source count          reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R02 Raw files unchanged since retrieval           reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R03 Required columns present                      reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R04 Full SLA hierarchy available                  reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R05 One row per request                           reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R06 Timestamps parse                              reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R07 Rows inside the requested window              reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R08 Snapshot fresh enough                         reporting=PASS    live=UNKNOWN
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R09 Event order is possible                       reporting=WARN    live=FAIL
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R10 Status and closed date agree                  reporting=WARN    live=FAIL
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R11 Closure time has hour precision               reporting=WARN    live=WARN
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R12 No timestamps after the snapshot              reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R13 Status values are known                       reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R14 Closing note present                          reporting=WARN    live=FAIL
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R15 Closing note text intact                      reporting=WARN    live=FAIL
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R16 Mapping file is valid                         reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R17 Mapping covers the focus-agency notes         reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R18 Mapping agrees with an independent coder      reporting=WARN    live=UNKNOWN
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R19 SLA units understood                          reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R20 SLA reference is current                      reporting=WARN    live=FAIL
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R21 SLA match is unambiguous                      reporting=WARN    live=WARN
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R22 Joins do not duplicate rows                   reporting=PASS    live=PASS
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R23 Timezone of timestamps                        reporting=UNKNOWN live=UNKNOWN
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R24 Status calls attributable to an agency        reporting=WARN    live=WARN
+2026-09-25T18:06:00Z INFO pipeline VALIDATE R25 Survey represents all requests                reporting=WARN    live=FAIL
+2026-09-25T18:06:10Z INFO pipeline PUBLISHED /Users/kartik/Downloads/Computer Vision/FDE/nyc311/output/run_date=2026-09-26 gate=READY (with warnings) live_gate=NOT READY in 819.7s

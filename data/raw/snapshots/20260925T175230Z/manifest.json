@@ -1,0 +1,454 @@
+{
+  "as_of_utc": "2026-09-25T17:52:30+00:00",
+  "created_by": "pipeline/extract.py live",
+  "datasets": {
+    "call_center": {
+      "count_after_pull": 950999,
+      "dataset_id": "wewp-mm3p",
+      "duplicate_keys_seen": 0,
+      "expected_count": 950999,
+      "fields_missing_in_source": [],
+      "fields_requested": [
+        "unique_id",
+        "date",
+        "time",
+        "date_time",
+        "agency",
+        "agency_name",
+        "inquiry_name",
+        "brief_description",
+        "call_resolution"
+      ],
+      "files": [
+        {
+          "first_key": "166491093",
+          "last_key": "166541254",
+          "path": "call_center/page_00001.json.gz",
+          "rows": 50000,
+          "sha256": "e51ee7e1fd2c137e2d3618e04ea79791b2623c48d58bf7c580b245658d94e61a"
+        },
+        {
+          "first_key": "166541255",
+          "last_key": "166591316",
+          "path": "call_center/page_00002.json.gz",
+          "rows": 50000,
+          "sha256": "236a801ca531e2b7a9ce2fa3374d2299e4ff61b9a2cc8522f99202b2d246c88f"
+        },
+        {
+          "first_key": "166591317",
+          "last_key": "166641508",
+          "path": "call_center/page_00003.json.gz",
+          "rows": 50000,
+          "sha256": "d8d6bbdc0e37793ef8e91ae6ac0cdf9a9f2fff9f80bec1362465d64827c584c5"
+        },
+        {
+          "first_key": "166641509",
+          "last_key": "166691632",
+          "path": "call_center/page_00004.json.gz",
+          "rows": 50000,
+          "sha256": "5a3cd1a1bec762fbc4e14a94077a55d1c4f5320a003d149fc8b3b517c177fce0"
+        },
+        {
+          "first_key": "166691633",
+          "last_key": "166741706",
+          "path": "call_center/page_00005.json.gz",
+          "rows": 50000,
+          "sha256": "f491ae886e62b85d058c1c6ffd6fdb3af334620eedad6759f7858e9d1c9f5dbf"
+        },
+        {
+          "first_key": "166741707",
+          "last_key": "166791777",
+          "path": "call_center/page_00006.json.gz",
+          "rows": 50000,
+          "sha256": "cd6dd3ce1e298d8cb8e7429ad7a5d450a7348942353472c0beb865e5507f57ce"
+        },
+        {
+          "first_key": "166791778",
+          "last_key": "166841859",
+          "path": "call_center/page_00007.json.gz",
+          "rows": 50000,
+          "sha256": "ec0e1c8c3af43027974b8c703303374ba417ee5a3af24d1f57229b6fab06e2db"
+        },
+        {
+          "first_key": "166841860",
+          "last_key": "166891958",
+          "path": "call_center/page_00008.json.gz",
+          "rows": 50000,
+          "sha256": "3cfb30d4f14c302d90b78dfd413bd190ba59b92a64785ee108eb9d6a68f01aa9"
+        },
+        {
+          "first_key": "166891959",
+          "last_key": "166942081",
+          "path": "call_center/page_00009.json.gz",
+          "rows": 50000,
+          "sha256": "e0416b8643ab99dcc9c3a1b6fb6f97a7ab8c7e46efba34ec4a9ca5d2ae9cdd90"
+        },
+        {
+          "first_key": "166942082",
+          "last_key": "166992217",
+          "path": "call_center/page_00010.json.gz",
+          "rows": 50000,
+          "sha256": "e025b6830d00e0134e6f8fde483789d0faa9450752807a43047c33b91cece2d5"
+        },
+        {
+          "first_key": "166992218",
+          "last_key": "167042267",
+          "path": "call_center/page_00011.json.gz",
+          "rows": 50000,
+          "sha256": "02112bb4d394cbe065b097a9b20c1641b48b546a6c21a7bbcb2d8acc293881b9"
+        },
+        {
+          "first_key": "167042268",
+          "last_key": "167092320",
+          "path": "call_center/page_00012.json.gz",
+          "rows": 50000,
+          "sha256": "932ca025240b2920b9afd6f7c9121a91f9cc650f03d402ecd6ce6c3d47c82bc4"
+        },
+        {
+          "first_key": "167092321",
+          "last_key": "167142380",
+          "path": "call_center/page_00013.json.gz",
+          "rows": 50000,
+          "sha256": "39aa04c57118de262efaed25bd85cae04f59cf3e97dbceeccc42166d38b54983"
+        },
+        {
+          "first_key": "167142381",
+          "last_key": "167192429",
+          "path": "call_center/page_00014.json.gz",
+          "rows": 50000,
+          "sha256": "69ca5a15216067c5a787425569fd5845571ef260443456424e43f6a2b845de7f"
+        },
+        {
+          "first_key": "167192430",
+          "last_key": "167242617",
+          "path": "call_center/page_00015.json.gz",
+          "rows": 50000,
+          "sha256": "9fd60a3839bc097e67c2c6ae12eb20070864bd279ae679b5316170a692395e38"
+        },
+        {
+          "first_key": "167242618",
+          "last_key": "167292719",
+          "path": "call_center/page_00016.json.gz",
+          "rows": 50000,
+          "sha256": "734463d3bd1ae452d32132d6fb367b7055fd04f92b96df932105f89eddeacb9e"
+        },
+        {
+          "first_key": "167292720",
+          "last_key": "167342801",
+          "path": "call_center/page_00017.json.gz",
+          "rows": 50000,
+          "sha256": "2d428fdac091a64f1d20f6217363053ead9a8bfaab59b9af93b10ffc2c7e57bf"
+        },
+        {
+          "first_key": "167342802",
+          "last_key": "167392852",
+          "path": "call_center/page_00018.json.gz",
+          "rows": 50000,
+          "sha256": "0c1e78ea757afd13e4c1dda3c203d81d6a9ff56a9ca6ce8dfa7474c6247a57fd"
+        },
+        {
+          "first_key": "167392853",
+          "last_key": "167443031",
+          "path": "call_center/page_00019.json.gz",
+          "rows": 50000,
+          "sha256": "a41bcda95d3017b22ebe01bafe4a7c7db2dbca9d15cf48756e6dc790995fe20e"
+        },
+        {
+          "first_key": "167443032",
+          "last_key": "167451600",
+          "path": "call_center/page_00020.json.gz",
+          "rows": 999,
+          "sha256": "8d4b7ad829a4597a7c10db7f2ca3ca1595e1e5773d9a7cfb81f4b1a2079900e7"
+        }
+      ],
+      "key": "unique_id",
+      "metadata_file": "call_center/metadata_views.json",
+      "method": "keyset",
+      "pull_end_utc": "2026-09-25T18:04:15+00:00",
+      "pull_start_utc": "2026-09-25T18:01:08+00:00",
+      "received_rows": 950999,
+      "rows_updated_at_utc": "2026-09-25T01:05:21+00:00",
+      "where": "date >= '2026-04-01T00:00:00' AND date < '2026-07-01T00:00:00'"
+    },
+    "service_requests": {
+      "count_after_pull": 969004,
+      "dataset_id": "erm2-nwe9",
+      "duplicate_keys_seen": 0,
+      "expected_count": 969004,
+      "fields_missing_in_source": [],
+      "fields_requested": [
+        "unique_key",
+        "created_date",
+        "closed_date",
+        "due_date",
+        "resolution_action_updated_date",
+        "agency",
+        "agency_name",
+        "complaint_type",
+        "descriptor",
+        "descriptor_2",
+        "status",
+        "resolution_description",
+        "open_data_channel_type",
+        "borough",
+        "community_board",
+        "incident_zip",
+        "location_type"
+      ],
+      "files": [
+        {
+          "first_key": "68513303",
+          "last_key": "68577887",
+          "path": "service_requests/page_00001.json.gz",
+          "rows": 50000,
+          "sha256": "9c17f039aef87e41811b5660f01b51cf11ceda4d158c534516fba60437633927"
+        },
+        {
+          "first_key": "68577888",
+          "last_key": "68631082",
+          "path": "service_requests/page_00002.json.gz",
+          "rows": 50000,
+          "sha256": "6f1792ae58974659e180d54bea32a92f74acfdeea50808389909e8c2eafd4a7a"
+        },
+        {
+          "first_key": "68631083",
+          "last_key": "68683981",
+          "path": "service_requests/page_00003.json.gz",
+          "rows": 50000,
+          "sha256": "ab16e2e74ac20271bf7e1dcf35d44c984f457019a92c81823954fb1938c38f06"
+        },
+        {
+          "first_key": "68683982",
+          "last_key": "68736791",
+          "path": "service_requests/page_00004.json.gz",
+          "rows": 50000,
+          "sha256": "600020392d2c79ac9e31520ce838dc1844591742e3afbb5751b52ac94d7434dd"
+        },
+        {
+          "first_key": "68736792",
+          "last_key": "68789746",
+          "path": "service_requests/page_00005.json.gz",
+          "rows": 50000,
+          "sha256": "ac79b718f23c28693a7e71e666901b7dc08ebf83332f8a1a7303f740ac715c26"
+        },
+        {
+          "first_key": "68789747",
+          "last_key": "68843028",
+          "path": "service_requests/page_00006.json.gz",
+          "rows": 50000,
+          "sha256": "a2a01a9c7d1ebe14220e9bc0b7efd0e40df256dfb1a9fc55a3b7eb875f6ef1c4"
+        },
+        {
+          "first_key": "68843029",
+          "last_key": "68895671",
+          "path": "service_requests/page_00007.json.gz",
+          "rows": 50000,
+          "sha256": "68829de3fdd212f902c52d55c7004007efb0ea8bebf5d3ae67b35ae5d9cfed50"
+        },
+        {
+          "first_key": "68895672",
+          "last_key": "68948300",
+          "path": "service_requests/page_00008.json.gz",
+          "rows": 50000,
+          "sha256": "811b19ec9a5e70a47415c6426747282b65e8b250a9a395cc8962f11286a2a3de"
+        },
+        {
+          "first_key": "68948301",
+          "last_key": "69001426",
+          "path": "service_requests/page_00009.json.gz",
+          "rows": 50000,
+          "sha256": "d78082bc9583a028aaf234df3eb22ffb1e8adbb03248e48a768a35a8fb01cefa"
+        },
+        {
+          "first_key": "69001427",
+          "last_key": "69053913",
+          "path": "service_requests/page_00010.json.gz",
+          "rows": 50000,
+          "sha256": "3982e75e0be481937706cb3e1b4b309705162ab86f7059e5d7e024eb74ea6a11"
+        },
+        {
+          "first_key": "69053914",
+          "last_key": "69106867",
+          "path": "service_requests/page_00011.json.gz",
+          "rows": 50000,
+          "sha256": "cf03a075fae60bed2b8015900b42bd49eab3d4a57df618f8dcf118fe57a7e9d8"
+        },
+        {
+          "first_key": "69106868",
+          "last_key": "69159818",
+          "path": "service_requests/page_00012.json.gz",
+          "rows": 50000,
+          "sha256": "a14fe9bde325bdadecae93ddb8e69c098a1b6743286d7c95d209b4026594ecd8"
+        },
+        {
+          "first_key": "69159819",
+          "last_key": "69212695",
+          "path": "service_requests/page_00013.json.gz",
+          "rows": 50000,
+          "sha256": "3d0842da9f1efb141eb64e88dd4d2ba9f79cd7945f5c72d4397d81243080612c"
+        },
+        {
+          "first_key": "69212696",
+          "last_key": "69265875",
+          "path": "service_requests/page_00014.json.gz",
+          "rows": 50000,
+          "sha256": "e40096fd59475d061f437b629436845f9ae23816e437e4b7a845ec886a6def86"
+        },
+        {
+          "first_key": "69265876",
+          "last_key": "69318964",
+          "path": "service_requests/page_00015.json.gz",
+          "rows": 50000,
+          "sha256": "35d636181a556cca487bb0ebee0e42cae8b82b587bf6ad9d73f659c2d6728eb8"
+        },
+        {
+          "first_key": "69318965",
+          "last_key": "69371848",
+          "path": "service_requests/page_00016.json.gz",
+          "rows": 50000,
+          "sha256": "8d157c0aaed1982012518a020ae1ff1e3ec819da092cbffb54c8e629afcea9c9"
+        },
+        {
+          "first_key": "69371849",
+          "last_key": "69425212",
+          "path": "service_requests/page_00017.json.gz",
+          "rows": 50000,
+          "sha256": "dd59a4ee823360d15a1d7ec2623d8d64fe0c2e1cafa414143b706370a1ef5eba"
+        },
+        {
+          "first_key": "69425213",
+          "last_key": "69478009",
+          "path": "service_requests/page_00018.json.gz",
+          "rows": 50000,
+          "sha256": "e26b6107306f109820fce9cb3f8f3c4d0c0fe76f969c854b86782f0eb93835c5"
+        },
+        {
+          "first_key": "69478010",
+          "last_key": "69530543",
+          "path": "service_requests/page_00019.json.gz",
+          "rows": 50000,
+          "sha256": "503688da8d981dd419d9c4e533324a2851dc9ca7402ebe9097b1e7710c0006d4"
+        },
+        {
+          "first_key": "69530544",
+          "last_key": "70493143",
+          "path": "service_requests/page_00020.json.gz",
+          "rows": 19004,
+          "sha256": "13c814603998668cb34c3a8542f3fad187d3ddb60b7786a8a07af8b6079e4392"
+        }
+      ],
+      "key": "unique_key",
+      "metadata_file": "service_requests/metadata_views.json",
+      "method": "keyset",
+      "pull_end_utc": "2026-09-25T18:01:08+00:00",
+      "pull_start_utc": "2026-09-25T17:52:30+00:00",
+      "received_rows": 969004,
+      "rows_updated_at_utc": "2026-09-25T01:40:23+00:00",
+      "where": "created_date >= '2026-04-01T00:00:00' AND created_date < '2026-07-01T00:00:00'"
+    },
+    "sla": {
+      "count_after_pull": 3563,
+      "dataset_id": "cs9t-e3x8",
+      "duplicate_keys_seen": null,
+      "expected_count": 3563,
+      "fields_missing_in_source": [],
+      "fields_requested": [
+        "agency",
+        "problem",
+        "problem_details",
+        "additional_details",
+        "sla_days"
+      ],
+      "files": [
+        {
+          "first_key": null,
+          "last_key": null,
+          "path": "sla/page_00001.json.gz",
+          "rows": 3563,
+          "sha256": "72a08d3782b736eb27382ab8a1fb17f9c45de7b8fa8c157b77bbf4376ee01748"
+        }
+      ],
+      "key": ":id",
+      "metadata_file": "sla/metadata_views.json",
+      "method": "offset",
+      "pull_end_utc": "2026-09-25T18:04:17+00:00",
+      "pull_start_utc": "2026-09-25T18:04:15+00:00",
+      "received_rows": 3563,
+      "rows_updated_at_utc": "2024-03-05T20:10:53+00:00",
+      "where": null
+    },
+    "survey": {
+      "count_after_pull": 275467,
+      "dataset_id": "5ijn-vbdv",
+      "duplicate_keys_seen": 0,
+      "expected_count": 275467,
+      "fields_missing_in_source": [],
+      "fields_requested": [
+        "unique_key",
+        "agency",
+        "agency_name",
+        "complaint_type",
+        "descriptor",
+        "borough",
+        "resolution_description",
+        "year",
+        "month",
+        "overall_satisfaction",
+        "dissatisfaction_reason"
+      ],
+      "files": [
+        {
+          "first_key": "10000243-00570345",
+          "last_key": "26305572-00520860",
+          "path": "survey/page_00001.json.gz",
+          "rows": 50000,
+          "sha256": "9812ddee2b9d6f56ad85e546923a316a1b9b51085da5300a1772901e012a136f"
+        },
+        {
+          "first_key": "26305589-00315771",
+          "last_key": "42782486-00397841",
+          "path": "survey/page_00002.json.gz",
+          "rows": 50000,
+          "sha256": "e63b4391809609ba43c175f90223ebdab717dce94dab8dbfd29a45d78d739dab"
+        },
+        {
+          "first_key": "42782539-00533688",
+          "last_key": "59089354-00319928",
+          "path": "survey/page_00003.json.gz",
+          "rows": 50000,
+          "sha256": "0008fe21a847fdeef8c72facd28e22b2aecceff664af1fc7ee312ff4d9584f28"
+        },
+        {
+          "first_key": "59089385-00354115",
+          "last_key": "75291918-00463830",
+          "path": "survey/page_00004.json.gz",
+          "rows": 50000,
+          "sha256": "afa3ceec1082942c0ac848a5f49bc6cc373d64971a53b3de78addef7cee38414"
+        },
+        {
+          "first_key": "75291949-00499835",
+          "last_key": "91589261-00408485",
+          "path": "survey/page_00005.json.gz",
+          "rows": 50000,
+          "sha256": "edc2982c84d42732415395daa4531958639a344790fbf4fd0f03103ab943689d"
+        },
+        {
+          "first_key": "91589606-00460670",
+          "last_key": "99999339-00531877",
+          "path": "survey/page_00006.json.gz",
+          "rows": 25467,
+          "sha256": "c1255f8831d132f9b7bac64fe5256f8db1c93f728cf96353114bee8134eeb2fa"
+        }
+      ],
+      "key": "unique_key",
+      "metadata_file": "survey/metadata_views.json",
+      "method": "keyset",
+      "pull_end_utc": "2026-09-25T18:05:47+00:00",
+      "pull_start_utc": "2026-09-25T18:04:17+00:00",
+      "received_rows": 275467,
+      "rows_updated_at_utc": "2026-09-21T13:04:11+00:00",
+      "where": "year >= 2025"
+    }
+  },
+  "snapshot_id": "20260925T175230Z"
+}
