@@ -1,0 +1,20 @@
+{
+  "dataset_id": "5ijn-vbdv",
+  "query_url_template": "https://data.cityofnewyork.us/resource/5ijn-vbdv.json?%24select=%2A&%24where=year+%3E%3D+2025&%24limit=50000&%24offset=%7Boffset%7D&%24order=unique_key",
+  "pull_start_utc": "2026-09-25T11:52:40.461976+00:00",
+  "pull_end_utc": "2026-09-25T11:53:27.012151+00:00",
+  "page_count": 6,
+  "rows_per_page": [
+    50000,
+    50000,
+    50000,
+    50000,
+    50000,
+    25467
+  ],
+  "total_rows": 275467,
+  "expected_count": 275467,
+  "counts_match": true,
+  "difference_actual_minus_expected": 0,
+  "duplicate_unique_key_count": 0
+}

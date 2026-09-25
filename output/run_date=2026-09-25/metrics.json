@@ -1,0 +1,1439 @@
+{
+  "coder_agreement": {
+    "disagreements": [
+      {
+        "coder1": "contacted",
+        "coder2": "responded",
+        "field": "action",
+        "hash": "0790b55068b1f221",
+        "rows": "7088"
+      },
+      {
+        "coder1": "other",
+        "coder2": "reviewed",
+        "field": "action",
+        "hash": "1304c6ae03b64184",
+        "rows": "193"
+      },
+      {
+        "coder1": "violation_issued",
+        "coder2": "owner_notified",
+        "field": "action",
+        "hash": "2f483d53bb3fa1dd",
+        "rows": "514"
+      },
+      {
+        "coder1": "other",
+        "coder2": "reviewed",
+        "field": "action",
+        "hash": "2f893d284a01b73b",
+        "rows": "174"
+      },
+      {
+        "coder1": "violation_issued",
+        "coder2": "other",
+        "field": "action",
+        "hash": "4e0223ec0fe9e992",
+        "rows": "115"
+      },
+      {
+        "coder1": "violation_issued",
+        "coder2": "repaired",
+        "field": "action",
+        "hash": "51a61091f8d36410",
+        "rows": "204"
+      },
+      {
+        "coder1": "violation_issued",
+        "coder2": "other",
+        "field": "action",
+        "hash": "5378f8ef97dae0c6",
+        "rows": "28"
+      },
+      {
+        "coder1": "other",
+        "coder2": "received_only",
+        "field": "action",
+        "hash": "6bc8a636310fae13",
+        "rows": "154"
+      },
+      {
+        "coder1": "other",
+        "coder2": "received_only",
+        "field": "action",
+        "hash": "6e782ea40feb50f4",
+        "rows": "6"
+      },
+      {
+        "coder1": "violation_issued",
+        "coder2": "other",
+        "field": "action",
+        "hash": "7e2512ff5d3e350c",
+        "rows": "128"
+      },
+      {
+        "coder1": "inspected",
+        "coder2": "other",
+        "field": "action",
+        "hash": "876b613c0e5c5898",
+        "rows": "3882"
+      },
+      {
+        "coder1": "owner_notified",
+        "coder2": "other",
+        "field": "action",
+        "hash": "8b83a941dce28fee",
+        "rows": "5949"
+      },
+      {
+        "coder1": "inspected",
+        "coder2": "owner_notified",
+        "field": "action",
+        "hash": "92ec7f47372c664a",
+        "rows": "743"
+      },
+      {
+        "coder1": "repaired",
+        "coder2": "other",
+        "field": "action",
+        "hash": "9fa2f87ecd8202b8",
+        "rows": "2835"
+      },
+      {
+        "coder1": "violation_issued",
+        "coder2": "work_order",
+        "field": "action",
+        "hash": "a4994254b3551310",
+        "rows": "1052"
+      },
+      {
+        "coder1": "inspected",
+        "coder2": "reviewed",
+        "field": "action",
+        "hash": "a9d16ae8904d3a68",
+        "rows": "202"
+      },
+      {
+        "coder1": "inspected",
+        "coder2": "responded",
+        "field": "action",
+        "hash": "b568e392de468062",
+        "rows": "1515"
+      },
+      {
+        "coder1": "no_access",
+        "coder2": "other",
+        "field": "action",
+        "hash": "d148265a9ea0ea24",
+        "rows": "25416"
+      },
+      {
+        "coder1": "inspected",
+        "coder2": "reviewed",
+        "field": "action",
+        "hash": "e6e21e65ec8b6339",
+        "rows": "10904"
+      },
+      {
+        "coder1": "other",
+        "coder2": "insufficient_info",
+        "field": "action",
+        "hash": "f3ebf5581a170b6d",
+        "rows": "417"
+      },
+      {
+        "coder1": "not_applicable",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "0790b55068b1f221",
+        "rows": "7088"
+      },
+      {
+        "coder1": "not_applicable",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "118680b0bd68f453",
+        "rows": "5331"
+      },
+      {
+        "coder1": "not_applicable",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "1304c6ae03b64184",
+        "rows": "193"
+      },
+      {
+        "coder1": "violation",
+        "coder2": "condition_confirmed",
+        "field": "violation_finding",
+        "hash": "2f483d53bb3fa1dd",
+        "rows": "514"
+      },
+      {
+        "coder1": "not_applicable",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "2f893d284a01b73b",
+        "rows": "174"
+      },
+      {
+        "coder1": "condition_confirmed",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "395270941f457c95",
+        "rows": "5"
+      },
+      {
+        "coder1": "violation",
+        "coder2": "condition_confirmed",
+        "field": "violation_finding",
+        "hash": "4e0223ec0fe9e992",
+        "rows": "115"
+      },
+      {
+        "coder1": "violation",
+        "coder2": "condition_confirmed",
+        "field": "violation_finding",
+        "hash": "51a61091f8d36410",
+        "rows": "204"
+      },
+      {
+        "coder1": "violation",
+        "coder2": "condition_confirmed",
+        "field": "violation_finding",
+        "hash": "5378f8ef97dae0c6",
+        "rows": "28"
+      },
+      {
+        "coder1": "not_determined",
+        "coder2": "condition_confirmed",
+        "field": "violation_finding",
+        "hash": "54c8daa005dcbfdb",
+        "rows": "927"
+      },
+      {
+        "coder1": "not_determined",
+        "coder2": "condition_confirmed",
+        "field": "violation_finding",
+        "hash": "6e782ea40feb50f4",
+        "rows": "6"
+      },
+      {
+        "coder1": "no_violation",
+        "coder2": "not_applicable",
+        "field": "violation_finding",
+        "hash": "7d715154e8d9d6ac",
+        "rows": "3"
+      },
+      {
+        "coder1": "not_determined",
+        "coder2": "condition_confirmed",
+        "field": "violation_finding",
+        "hash": "8b83a941dce28fee",
+        "rows": "5949"
+      },
+      {
+        "coder1": "not_applicable",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "94865a0bb4e7b656",
+        "rows": "227"
+      },
+      {
+        "coder1": "not_applicable",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "9717e43947ea5f65",
+        "rows": "894"
+      },
+      {
+        "coder1": "not_applicable",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "9964cf672bb0ecae",
+        "rows": "449"
+      },
+      {
+        "coder1": "no_violation",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "9e34d851caa27ea6",
+        "rows": "238"
+      },
+      {
+        "coder1": "not_applicable",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "9fa2f87ecd8202b8",
+        "rows": "2835"
+      },
+      {
+        "coder1": "violation",
+        "coder2": "condition_confirmed",
+        "field": "violation_finding",
+        "hash": "a4994254b3551310",
+        "rows": "1052"
+      },
+      {
+        "coder1": "not_applicable",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "bbed8069ef2fd857",
+        "rows": "1701"
+      },
+      {
+        "coder1": "not_applicable",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "e25c4b933ca3b0db",
+        "rows": "215"
+      },
+      {
+        "coder1": "not_applicable",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "e446d457d62c72e5",
+        "rows": "1"
+      },
+      {
+        "coder1": "no_violation",
+        "coder2": "not_determined",
+        "field": "violation_finding",
+        "hash": "e6e21e65ec8b6339",
+        "rows": "10904"
+      },
+      {
+        "coder1": "unknown",
+        "coder2": "no",
+        "field": "fix_evidence",
+        "hash": "31aa934ecb8644ed",
+        "rows": "10712"
+      },
+      {
+        "coder1": "no",
+        "coder2": "unknown",
+        "field": "fix_evidence",
+        "hash": "5378f8ef97dae0c6",
+        "rows": "28"
+      },
+      {
+        "coder1": "yes",
+        "coder2": "unknown",
+        "field": "fix_evidence",
+        "hash": "9fa2f87ecd8202b8",
+        "rows": "2835"
+      },
+      {
+        "coder1": "no",
+        "coder2": "unknown",
+        "field": "fix_evidence",
+        "hash": "cbdc3dfc904d4fa3",
+        "rows": "261"
+      },
+      {
+        "coder1": "yes",
+        "coder2": "unknown",
+        "field": "fix_evidence",
+        "hash": "e446d457d62c72e5",
+        "rows": "1"
+      },
+      {
+        "coder1": "no",
+        "coder2": "unknown",
+        "field": "fix_evidence",
+        "hash": "fea5e41b628e97cd",
+        "rows": "139"
+      },
+      {
+        "coder1": "none",
+        "coder2": "resident",
+        "field": "next_step",
+        "hash": "0790b55068b1f221",
+        "rows": "7088"
+      },
+      {
+        "coder1": "none",
+        "coder2": "resident",
+        "field": "next_step",
+        "hash": "0c98b296ce96f0df",
+        "rows": "61131"
+      },
+      {
+        "coder1": "none",
+        "coder2": "resident",
+        "field": "next_step",
+        "hash": "118680b0bd68f453",
+        "rows": "5331"
+      },
+      {
+        "coder1": "none",
+        "coder2": "resident",
+        "field": "next_step",
+        "hash": "2c08ac6d5aacf6d1",
+        "rows": "74973"
+      },
+      {
+        "coder1": "resident",
+        "coder2": "other_party",
+        "field": "next_step",
+        "hash": "2f893d284a01b73b",
+        "rows": "174"
+      },
+      {
+        "coder1": "none",
+        "coder2": "agency",
+        "field": "next_step",
+        "hash": "395270941f457c95",
+        "rows": "5"
+      },
+      {
+        "coder1": "other_party",
+        "coder2": "agency",
+        "field": "next_step",
+        "hash": "487323458bf724d8",
+        "rows": "108"
+      },
+      {
+        "coder1": "other_party",
+        "coder2": "none",
+        "field": "next_step",
+        "hash": "51a61091f8d36410",
+        "rows": "204"
+      },
+      {
+        "coder1": "other_party",
+        "coder2": "agency",
+        "field": "next_step",
+        "hash": "5378f8ef97dae0c6",
+        "rows": "28"
+      },
+      {
+        "coder1": "other_party",
+        "coder2": "agency",
+        "field": "next_step",
+        "hash": "5e164154aa95a5d0",
+        "rows": "136"
+      },
+      {
+        "coder1": "none",
+        "coder2": "resident",
+        "field": "next_step",
+        "hash": "7d715154e8d9d6ac",
+        "rows": "3"
+      },
+      {
+        "coder1": "agency",
+        "coder2": "resident",
+        "field": "next_step",
+        "hash": "8b83a941dce28fee",
+        "rows": "5949"
+      },
+      {
+        "coder1": "none",
+        "coder2": "resident",
+        "field": "next_step",
+        "hash": "8cb78effa85af149",
+        "rows": "5304"
+      },
+      {
+        "coder1": "other_party",
+        "coder2": "agency",
+        "field": "next_step",
+        "hash": "9291f1e910fcb9b6",
+        "rows": "148"
+      },
+      {
+        "coder1": "none",
+        "coder2": "resident",
+        "field": "next_step",
+        "hash": "bbed8069ef2fd857",
+        "rows": "1701"
+      },
+      {
+        "coder1": "none",
+        "coder2": "resident",
+        "field": "next_step",
+        "hash": "df75584745e82369",
+        "rows": "120685"
+      },
+      {
+        "coder1": "none",
+        "coder2": "resident",
+        "field": "next_step",
+        "hash": "f73dba4136ecd5f2",
+        "rows": "116873"
+      },
+      {
+        "coder1": "partial",
+        "coder2": "no",
+        "field": "redirects_elsewhere",
+        "hash": "15673927a1964a85",
+        "rows": "335"
+      },
+      {
+        "coder1": "yes",
+        "coder2": "partial",
+        "field": "redirects_elsewhere",
+        "hash": "383722555a3e774e",
+        "rows": "45"
+      },
+      {
+        "coder1": "no",
+        "coder2": "partial",
+        "field": "redirects_elsewhere",
+        "hash": "5378f8ef97dae0c6",
+        "rows": "28"
+      },
+      {
+        "coder1": "no",
+        "coder2": "partial",
+        "field": "redirects_elsewhere",
+        "hash": "55e0c592d2f98bf5",
+        "rows": "494"
+      },
+      {
+        "coder1": "partial",
+        "coder2": "no",
+        "field": "redirects_elsewhere",
+        "hash": "7ced149ae4399def",
+        "rows": "1616"
+      },
+      {
+        "coder1": "no",
+        "coder2": "partial",
+        "field": "redirects_elsewhere",
+        "hash": "d148265a9ea0ea24",
+        "rows": "25416"
+      },
+      {
+        "coder1": "yes",
+        "coder2": "partial",
+        "field": "redirects_elsewhere",
+        "hash": "e70c1f68cc5b5024",
+        "rows": "5384"
+      },
+      {
+        "coder1": "no",
+        "coder2": "partial",
+        "field": "redirects_elsewhere",
+        "hash": "f19ed7b46ae99fbe",
+        "rows": "146"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "015ff3a186dfb7b4",
+        "rows": "1037"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "0790b55068b1f221",
+        "rows": "7088"
+      },
+      {
+        "coder1": "medium",
+        "coder2": "high",
+        "field": "certainty",
+        "hash": "21bcb92f65bb79d8",
+        "rows": "1"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "31aa934ecb8644ed",
+        "rows": "10712"
+      },
+      {
+        "coder1": "low",
+        "coder2": "high",
+        "field": "certainty",
+        "hash": "383722555a3e774e",
+        "rows": "45"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "5378f8ef97dae0c6",
+        "rows": "28"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "62bb642af3725422",
+        "rows": "3597"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "799dfb92c5125a12",
+        "rows": "27"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "7e2512ff5d3e350c",
+        "rows": "128"
+      },
+      {
+        "coder1": "medium",
+        "coder2": "high",
+        "field": "certainty",
+        "hash": "908eb7e1562cf082",
+        "rows": "1022"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "94f3ece0af99f3aa",
+        "rows": "522"
+      },
+      {
+        "coder1": "medium",
+        "coder2": "high",
+        "field": "certainty",
+        "hash": "9717e43947ea5f65",
+        "rows": "894"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "9eb5e52516c8f42c",
+        "rows": "234"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "9fa2f87ecd8202b8",
+        "rows": "2835"
+      },
+      {
+        "coder1": "low",
+        "coder2": "high",
+        "field": "certainty",
+        "hash": "b37290ec8cd1f47a",
+        "rows": "5993"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "b568e392de468062",
+        "rows": "1515"
+      },
+      {
+        "coder1": "medium",
+        "coder2": "high",
+        "field": "certainty",
+        "hash": "b7c15cf612b149bc",
+        "rows": "6964"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "bbed8069ef2fd857",
+        "rows": "1701"
+      },
+      {
+        "coder1": "medium",
+        "coder2": "high",
+        "field": "certainty",
+        "hash": "cbe4be88823ccf34",
+        "rows": "907"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "d148265a9ea0ea24",
+        "rows": "25416"
+      },
+      {
+        "coder1": "medium",
+        "coder2": "high",
+        "field": "certainty",
+        "hash": "df75584745e82369",
+        "rows": "120685"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "e446d457d62c72e5",
+        "rows": "1"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "e70c1f68cc5b5024",
+        "rows": "5384"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "ea1f6d2c59f3ffa0",
+        "rows": "320"
+      },
+      {
+        "coder1": "high",
+        "coder2": "medium",
+        "field": "certainty",
+        "hash": "f73dba4136ecd5f2",
+        "rows": "116873"
+      }
+    ],
+    "fields": {
+      "action": {
+        "cohen_kappa_strings": 0.8005,
+        "percent_agreement_rows": 0.9149,
+        "percent_agreement_strings": 0.8182
+      },
+      "certainty": {
+        "cohen_kappa_strings": 0.4655,
+        "percent_agreement_rows": 0.5655,
+        "percent_agreement_strings": 0.7727
+      },
+      "fix_evidence": {
+        "cohen_kappa_strings": 0.8668,
+        "percent_agreement_rows": 0.9807,
+        "percent_agreement_strings": 0.9455
+      },
+      "next_step": {
+        "cohen_kappa_strings": 0.7787,
+        "percent_agreement_rows": 0.4466,
+        "percent_agreement_strings": 0.8455
+      },
+      "redirects_elsewhere": {
+        "cohen_kappa_strings": 0.7582,
+        "percent_agreement_rows": 0.9537,
+        "percent_agreement_strings": 0.9273
+      },
+      "violation_finding": {
+        "cohen_kappa_strings": 0.6902,
+        "percent_agreement_rows": 0.9459,
+        "percent_agreement_strings": 0.7909
+      }
+    },
+    "strings_both": 110,
+    "strings_coder1": 110,
+    "strings_coder2": 110
+  },
+  "guardrail": [
+    {
+      "agency": "NYPD",
+      "closed_requests": 460231,
+      "closed_without_fix_evidence": 0.7378,
+      "closed_without_fix_evidence_strict": 1.0,
+      "fix_yes": 120685,
+      "fix_yes_high_certainty": 0,
+      "unmapped_or_missing_note": 3
+    },
+    {
+      "agency": "HPD",
+      "closed_requests": 154124,
+      "closed_without_fix_evidence": 0.9084,
+      "closed_without_fix_evidence_strict": 1.0,
+      "fix_yes": 14121,
+      "fix_yes_high_certainty": 1,
+      "unmapped_or_missing_note": 0
+    },
+    {
+      "agency": "DOT",
+      "closed_requests": 71639,
+      "closed_without_fix_evidence": 0.7722,
+      "closed_without_fix_evidence_strict": 0.8165,
+      "fix_yes": 15752,
+      "fix_yes_high_certainty": 12690,
+      "unmapped_or_missing_note": 2491
+    },
+    {
+      "agency": "DOB",
+      "closed_requests": 26845,
+      "closed_without_fix_evidence": 1.0,
+      "closed_without_fix_evidence_strict": 1.0,
+      "fix_yes": 0,
+      "fix_yes_high_certainty": 0,
+      "unmapped_or_missing_note": 370
+    }
+  ],
+  "project_kpi": {
+    "by_agency": [
+      {
+        "a1_fail": 0.0,
+        "a2_fail": 0.0,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.008,
+        "a4_fail_of_open": 0.0,
+        "a4_pass_of_open": 1.0,
+        "a4_unknown_of_open": 0.0,
+        "a5_fail": 0.0197,
+        "a5_unknown": 0.0,
+        "agency": "NYPD",
+        "answerable_share": 0.9803,
+        "answerable_share_strict": 0.7153,
+        "deep_dive": 1,
+        "fail_share": 0.0197,
+        "open_requests": 9,
+        "requests": 460240,
+        "unknown_share": 0.0
+      },
+      {
+        "a1_fail": 0.0006,
+        "a2_fail": 0.0,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.0247,
+        "a4_fail_of_open": 0.0,
+        "a4_pass_of_open": 0.529,
+        "a4_unknown_of_open": 0.471,
+        "a5_fail": 0.0247,
+        "a5_unknown": 0.0,
+        "agency": "HPD",
+        "answerable_share": 0.9596,
+        "answerable_share_strict": 0.689,
+        "deep_dive": 1,
+        "fail_share": 0.0252,
+        "open_requests": 5151,
+        "requests": 159275,
+        "unknown_share": 0.0152
+      },
+      {
+        "a1_fail": 0.0053,
+        "a2_fail": 0.005,
+        "a3_fail": 0.0058,
+        "a3_unknown": 0.3661,
+        "a4_fail_of_open": 0.0,
+        "a4_pass_of_open": 0.1445,
+        "a4_unknown_of_open": 0.8555,
+        "a5_fail": 0.3306,
+        "a5_unknown": 0.0405,
+        "agency": "DOT",
+        "answerable_share": 0.6033,
+        "answerable_share_strict": 0.3978,
+        "deep_dive": 1,
+        "fail_share": 0.3366,
+        "open_requests": 4361,
+        "requests": 76000,
+        "unknown_share": 0.0601
+      },
+      {
+        "a1_fail": 0.0,
+        "a2_fail": 0.1228,
+        "a3_fail": 0.0434,
+        "a3_unknown": 0.2118,
+        "a4_fail_of_open": 0.0,
+        "a4_pass_of_open": 0.0516,
+        "a4_unknown_of_open": 0.9484,
+        "a5_fail": 0.0,
+        "a5_unknown": 0.0174,
+        "agency": "DOB",
+        "answerable_share": 0.6693,
+        "answerable_share_strict": 0.6326,
+        "deep_dive": 1,
+        "fail_share": 0.1234,
+        "open_requests": 3759,
+        "requests": 30604,
+        "unknown_share": 0.2073
+      },
+      {
+        "a1_fail": 0.0175,
+        "a2_fail": 0.0,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.0,
+        "a4_fail_of_open": 0.0,
+        "a4_pass_of_open": 0.8432,
+        "a4_unknown_of_open": 0.1568,
+        "a5_fail": 0.0,
+        "a5_unknown": 0.0,
+        "agency": "DSNY",
+        "answerable_share": 0.0,
+        "answerable_share_strict": 0.0,
+        "deep_dive": 0,
+        "fail_share": 0.0,
+        "open_requests": 1263,
+        "requests": 80490,
+        "unknown_share": 0.0
+      },
+      {
+        "a1_fail": 0.0008,
+        "a2_fail": 0.0013,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.0,
+        "a4_fail_of_open": 0.0,
+        "a4_pass_of_open": 0.0998,
+        "a4_unknown_of_open": 0.9002,
+        "a5_fail": 0.0,
+        "a5_unknown": 0.0,
+        "agency": "DEP",
+        "answerable_share": 0.0,
+        "answerable_share_strict": 0.0,
+        "deep_dive": 0,
+        "fail_share": 0.0,
+        "open_requests": 1062,
+        "requests": 56619,
+        "unknown_share": 0.0
+      },
+      {
+        "a1_fail": 0.0,
+        "a2_fail": 0.0,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.0,
+        "a4_fail_of_open": 0.0001,
+        "a4_pass_of_open": 0.9999,
+        "a4_unknown_of_open": 0.0,
+        "a5_fail": 0.0,
+        "a5_unknown": 0.0,
+        "agency": "DPR",
+        "answerable_share": 0.0,
+        "answerable_share_strict": 0.0,
+        "deep_dive": 0,
+        "fail_share": 0.0,
+        "open_requests": 15278,
+        "requests": 46360,
+        "unknown_share": 0.0
+      },
+      {
+        "a1_fail": 0.0133,
+        "a2_fail": 0.0001,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.0,
+        "a4_fail_of_open": 0.0007,
+        "a4_pass_of_open": 0.9457,
+        "a4_unknown_of_open": 0.0536,
+        "a5_fail": 0.0,
+        "a5_unknown": 0.0,
+        "agency": "DOHMH",
+        "answerable_share": 0.0,
+        "answerable_share_strict": 0.0,
+        "deep_dive": 0,
+        "fail_share": 0.0,
+        "open_requests": 1492,
+        "requests": 22995,
+        "unknown_share": 0.0
+      },
+      {
+        "a1_fail": 0.0007,
+        "a2_fail": 0.0,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.0,
+        "a4_fail_of_open": 0.9561,
+        "a4_pass_of_open": 0.0439,
+        "a4_unknown_of_open": 0.0,
+        "a5_fail": 0.0,
+        "a5_unknown": 0.0,
+        "agency": "DHS",
+        "answerable_share": 0.0,
+        "answerable_share_strict": 0.0,
+        "deep_dive": 0,
+        "fail_share": 0.0,
+        "open_requests": 866,
+        "requests": 15383,
+        "unknown_share": 0.0
+      },
+      {
+        "a1_fail": 0.0,
+        "a2_fail": 0.0,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.0,
+        "a4_fail_of_open": 0.0595,
+        "a4_pass_of_open": 0.9159,
+        "a4_unknown_of_open": 0.0246,
+        "a5_fail": 0.0,
+        "a5_unknown": 0.0,
+        "agency": "TLC",
+        "answerable_share": 0.0,
+        "answerable_share_strict": 0.0,
+        "deep_dive": 0,
+        "fail_share": 0.0,
+        "open_requests": 7026,
+        "requests": 10660,
+        "unknown_share": 0.0
+      },
+      {
+        "a1_fail": 0.0,
+        "a2_fail": 0.0,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.0,
+        "a4_fail_of_open": 0.0,
+        "a4_pass_of_open": 1.0,
+        "a4_unknown_of_open": 0.0,
+        "a5_fail": 0.0,
+        "a5_unknown": 0.0,
+        "agency": "DCWP",
+        "answerable_share": 0.0,
+        "answerable_share_strict": 0.0,
+        "deep_dive": 0,
+        "fail_share": 0.0,
+        "open_requests": 10,
+        "requests": 5735,
+        "unknown_share": 0.0
+      },
+      {
+        "a1_fail": 0.0,
+        "a2_fail": 0.0,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.0,
+        "a4_fail_of_open": 0.0,
+        "a4_pass_of_open": 1.0,
+        "a4_unknown_of_open": 0.0,
+        "a5_fail": 0.0,
+        "a5_unknown": 0.0,
+        "agency": "EDC",
+        "answerable_share": 0.0,
+        "answerable_share_strict": 0.0,
+        "deep_dive": 0,
+        "fail_share": 0.0,
+        "open_requests": 3090,
+        "requests": 3090,
+        "unknown_share": 0.0
+      },
+      {
+        "a1_fail": 0.0,
+        "a2_fail": 0.0,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.0,
+        "a4_fail_of_open": 0.0,
+        "a4_pass_of_open": 0.0,
+        "a4_unknown_of_open": 1.0,
+        "a5_fail": 0.0,
+        "a5_unknown": 0.0,
+        "agency": "OOS",
+        "answerable_share": 0.0,
+        "answerable_share_strict": 0.0,
+        "deep_dive": 0,
+        "fail_share": 0.0,
+        "open_requests": 124,
+        "requests": 1174,
+        "unknown_share": 0.0
+      },
+      {
+        "a1_fail": 0.0,
+        "a2_fail": 0.0,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.0,
+        "a4_fail_of_open": NaN,
+        "a4_pass_of_open": NaN,
+        "a4_unknown_of_open": NaN,
+        "a5_fail": 0.0,
+        "a5_unknown": 0.0,
+        "agency": "NYC311-PRD",
+        "answerable_share": 0.0,
+        "answerable_share_strict": 0.0,
+        "deep_dive": 0,
+        "fail_share": 0.0,
+        "open_requests": 0,
+        "requests": 294,
+        "unknown_share": 0.0
+      },
+      {
+        "a1_fail": 0.0,
+        "a2_fail": 0.0,
+        "a3_fail": 0.0,
+        "a3_unknown": 0.0,
+        "a4_fail_of_open": 0.0,
+        "a4_pass_of_open": 1.0,
+        "a4_unknown_of_open": 0.0,
+        "a5_fail": 0.0,
+        "a5_unknown": 0.0,
+        "agency": "OTI",
+        "answerable_share": 0.0,
+        "answerable_share_strict": 0.0,
+        "deep_dive": 0,
+        "fail_share": 0.0,
+        "open_requests": 5,
+        "requests": 85,
+        "unknown_share": 0.0
+      }
+    ],
+    "deep_dive_overall": {
+      "answerable_share": 0.9232,
+      "answerable_share_strict": 0.6728,
+      "fail_share": 0.0585,
+      "requests": 726119.0,
+      "unknown_share": 0.0184
+    },
+    "name": "record-answerability proxy at as-of time"
+  },
+  "run": {
+    "as_of_local_assumed": "2026-09-25 07:24:31",
+    "as_of_utc": "2026-09-25T11:24:31.783964+00:00",
+    "chaos": null,
+    "mapping_version": "closing_text_map_v2",
+    "run_date": "2026-09-25",
+    "snapshot_id": "20260925T112431Z_initial"
+  },
+  "supporting": {
+    "intervention_mix": [
+      {
+        "action": "inspected",
+        "agency": "DOB",
+        "requests": 10904,
+        "share_of_agency": 0.3563
+      },
+      {
+        "action": "reviewed",
+        "agency": "DOB",
+        "requests": 6231,
+        "share_of_agency": 0.2036
+      },
+      {
+        "action": "no_access",
+        "agency": "DOB",
+        "requests": 5722,
+        "share_of_agency": 0.187
+      },
+      {
+        "action": "summons_issued",
+        "agency": "DOB",
+        "requests": 3453,
+        "share_of_agency": 0.1128
+      },
+      {
+        "action": "received_only",
+        "agency": "DOB",
+        "requests": 1284,
+        "share_of_agency": 0.042
+      },
+      {
+        "action": "duplicate",
+        "agency": "DOB",
+        "requests": 907,
+        "share_of_agency": 0.0296
+      },
+      {
+        "action": "other",
+        "agency": "DOB",
+        "requests": 632,
+        "share_of_agency": 0.0207
+      },
+      {
+        "action": "UNMAPPED_OR_MISSING",
+        "agency": "DOB",
+        "requests": 534,
+        "share_of_agency": 0.0174
+      },
+      {
+        "action": "violation_issued",
+        "agency": "DOB",
+        "requests": 495,
+        "share_of_agency": 0.0162
+      },
+      {
+        "action": "referred",
+        "agency": "DOB",
+        "requests": 442,
+        "share_of_agency": 0.0144
+      },
+      {
+        "action": "redirect",
+        "agency": "DOT",
+        "requests": 20710,
+        "share_of_agency": 0.2725
+      },
+      {
+        "action": "repaired",
+        "agency": "DOT",
+        "requests": 15367,
+        "share_of_agency": 0.2022
+      },
+      {
+        "action": "inspected",
+        "agency": "DOT",
+        "requests": 14007,
+        "share_of_agency": 0.1843
+      },
+      {
+        "action": "duplicate",
+        "agency": "DOT",
+        "requests": 6964,
+        "share_of_agency": 0.0916
+      },
+      {
+        "action": "referred",
+        "agency": "DOT",
+        "requests": 6895,
+        "share_of_agency": 0.0907
+      },
+      {
+        "action": "UNMAPPED_OR_MISSING",
+        "agency": "DOT",
+        "requests": 3075,
+        "share_of_agency": 0.0405
+      },
+      {
+        "action": "received_only",
+        "agency": "DOT",
+        "requests": 2274,
+        "share_of_agency": 0.0299
+      },
+      {
+        "action": "violation_issued",
+        "agency": "DOT",
+        "requests": 1770,
+        "share_of_agency": 0.0233
+      },
+      {
+        "action": "other",
+        "agency": "DOT",
+        "requests": 1415,
+        "share_of_agency": 0.0186
+      },
+      {
+        "action": "not_jurisdiction",
+        "agency": "DOT",
+        "requests": 1127,
+        "share_of_agency": 0.0148
+      },
+      {
+        "action": "summons_issued",
+        "agency": "DOT",
+        "requests": 1043,
+        "share_of_agency": 0.0137
+      },
+      {
+        "action": "work_order",
+        "agency": "DOT",
+        "requests": 819,
+        "share_of_agency": 0.0108
+      },
+      {
+        "action": "reviewed",
+        "agency": "DOT",
+        "requests": 534,
+        "share_of_agency": 0.007
+      },
+      {
+        "action": "inspected",
+        "agency": "HPD",
+        "requests": 47535,
+        "share_of_agency": 0.2984
+      },
+      {
+        "action": "violation_issued",
+        "agency": "HPD",
+        "requests": 28673,
+        "share_of_agency": 0.18
+      },
+      {
+        "action": "no_access",
+        "agency": "HPD",
+        "requests": 26818,
+        "share_of_agency": 0.1684
+      },
+      {
+        "action": "other",
+        "agency": "HPD",
+        "requests": 25422,
+        "share_of_agency": 0.1596
+      },
+      {
+        "action": "contacted",
+        "agency": "HPD",
+        "requests": 14121,
+        "share_of_agency": 0.0887
+      },
+      {
+        "action": "duplicate",
+        "agency": "HPD",
+        "requests": 10712,
+        "share_of_agency": 0.0673
+      },
+      {
+        "action": "owner_notified",
+        "agency": "HPD",
+        "requests": 5949,
+        "share_of_agency": 0.0374
+      },
+      {
+        "action": "admin_closed",
+        "agency": "HPD",
+        "requests": 45,
+        "share_of_agency": 0.0003
+      },
+      {
+        "action": "responded",
+        "agency": "NYPD",
+        "requests": 380233,
+        "share_of_agency": 0.8262
+      },
+      {
+        "action": "summons_issued",
+        "agency": "NYPD",
+        "requests": 54476,
+        "share_of_agency": 0.1184
+      },
+      {
+        "action": "no_access",
+        "agency": "NYPD",
+        "requests": 11935,
+        "share_of_agency": 0.0259
+      },
+      {
+        "action": "not_jurisdiction",
+        "agency": "NYPD",
+        "requests": 5384,
+        "share_of_agency": 0.0117
+      },
+      {
+        "action": "referred",
+        "agency": "NYPD",
+        "requests": 4153,
+        "share_of_agency": 0.009
+      },
+      {
+        "action": "reviewed",
+        "agency": "NYPD",
+        "requests": 3682,
+        "share_of_agency": 0.008
+      },
+      {
+        "action": "arrest",
+        "agency": "NYPD",
+        "requests": 301,
+        "share_of_agency": 0.0007
+      },
+      {
+        "action": "insufficient_info",
+        "agency": "NYPD",
+        "requests": 67,
+        "share_of_agency": 0.0001
+      },
+      {
+        "action": "work_order",
+        "agency": "NYPD",
+        "requests": 5,
+        "share_of_agency": 0.0
+      },
+      {
+        "action": "UNMAPPED_OR_MISSING",
+        "agency": "NYPD",
+        "requests": 3,
+        "share_of_agency": 0.0
+      },
+      {
+        "action": "received_only",
+        "agency": "NYPD",
+        "requests": 1,
+        "share_of_agency": 0.0
+      }
+    ],
+    "open_next_step": [
+      {
+        "agency": "HPD",
+        "next_step_rate": 0.9992,
+        "no_next_step": 4,
+        "note_missing_or_unmapped": 0,
+        "open_requests": 5151,
+        "with_next_step": 5147
+      },
+      {
+        "agency": "DOT",
+        "next_step_rate": 0.6031,
+        "no_next_step": 1147,
+        "note_missing_or_unmapped": 584,
+        "open_requests": 4361,
+        "with_next_step": 2630
+      },
+      {
+        "agency": "DOB",
+        "next_step_rate": 0.6148,
+        "no_next_step": 1284,
+        "note_missing_or_unmapped": 164,
+        "open_requests": 3759,
+        "with_next_step": 2311
+      },
+      {
+        "agency": "NYPD",
+        "next_step_rate": 0.8889,
+        "no_next_step": 1,
+        "note_missing_or_unmapped": 0,
+        "open_requests": 9,
+        "with_next_step": 8
+      }
+    ],
+    "status_calls_weekly": [
+      {
+        "new_requests": 46994,
+        "status_calls": 880,
+        "week": "2026-W13"
+      },
+      {
+        "new_requests": 68912,
+        "status_calls": 1480,
+        "week": "2026-W14"
+      },
+      {
+        "new_requests": 74155,
+        "status_calls": 1553,
+        "week": "2026-W15"
+      },
+      {
+        "new_requests": 70584,
+        "status_calls": 1465,
+        "week": "2026-W16"
+      },
+      {
+        "new_requests": 70682,
+        "status_calls": 1517,
+        "week": "2026-W17"
+      },
+      {
+        "new_requests": 72230,
+        "status_calls": 1601,
+        "week": "2026-W18"
+      },
+      {
+        "new_requests": 76776,
+        "status_calls": 1586,
+        "week": "2026-W19"
+      },
+      {
+        "new_requests": 75441,
+        "status_calls": 1608,
+        "week": "2026-W20"
+      },
+      {
+        "new_requests": 78397,
+        "status_calls": 1601,
+        "week": "2026-W21"
+      },
+      {
+        "new_requests": 80941,
+        "status_calls": 1668,
+        "week": "2026-W22"
+      },
+      {
+        "new_requests": 78308,
+        "status_calls": 1750,
+        "week": "2026-W23"
+      },
+      {
+        "new_requests": 76341,
+        "status_calls": 1466,
+        "week": "2026-W24"
+      },
+      {
+        "new_requests": 75982,
+        "status_calls": 1619,
+        "week": "2026-W25"
+      },
+      {
+        "new_requests": 23261,
+        "status_calls": 595,
+        "week": "2026-W26"
+      }
+    ]
+  }
+}

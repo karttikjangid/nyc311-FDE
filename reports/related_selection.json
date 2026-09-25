@@ -1,0 +1,35 @@
+[
+  {
+    "role": "311 call center / inquiry",
+    "id": "wewp-mm3p",
+    "name": "311 Call Center Inquiry",
+    "description": "Agent-handled calls to the City's 311 information line, with date, time, topic and call resolution. The first saved Q2 page contains the inquiry_name 'Service Request Status'. The publisher warns that activity since March 2020 does not fully represent all agent-handled calls.",
+    "update_frequency": "Daily",
+    "row_count_shown": "Not shown in catalog or views metadata",
+    "one_row": "An inquiry to the 311 call center handled by a 311 agent (publisher row label)",
+    "date_column": "date",
+    "q2_pull": "Pulled 950999 rows in 20 raw pages; matches pre-pull window count"
+  },
+  {
+    "role": "311 resolution satisfaction survey",
+    "id": "5ijn-vbdv",
+    "name": "311 Resolution Satisfaction Survey",
+    "description": "Customer feedback on how a City agency resolved a service request; response time is aggregated to survey year and month to protect anonymity.",
+    "update_frequency": "Weekly (data change frequency: Daily)",
+    "row_count_shown": "Not shown in catalog or views metadata",
+    "one_row": "One survey response (publisher description and row label)",
+    "date_column": null,
+    "q2_pull": "Not pulled: no date column; only numeric year and month"
+  },
+  {
+    "role": "311 service level targets",
+    "id": "cs9t-e3x8",
+    "name": "311 Service Level Agreements",
+    "description": "Time commitments City agencies have made for responding to assigned 311 service requests.",
+    "update_frequency": "Annually",
+    "row_count_shown": "Not shown in catalog or views metadata",
+    "one_row": "An agency and service-request problem/detail combination with its SLA days (inferred from columns)",
+    "date_column": null,
+    "q2_pull": "Not pulled: no date column"
+  }
+]

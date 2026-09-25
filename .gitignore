@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+output/.tmp_*
+output/*.old
+output/**/model.sqlite
+logs/pipeline_*.log.tmp
+reviews/scratch/
+data/raw/snapshots/*.partial/
+.DS_Store
+.venv/

@@ -1,0 +1,111 @@
+text_sha256_16,action,violation_finding,fix_evidence,next_step,redirects_elsewhere,certainty,rationale
+015ff3a186dfb7b4,received_only,not_determined,unknown,agency,no,medium,The note promises a future inspection and possible owner notice without reporting a finding or repair.
+01dd58dcd0812012,not_jurisdiction,not_applicable,unknown,none,no,high,Transportation inspected the issue and determined it was outside its jurisdiction.
+0790b55068b1f221,responded,not_determined,yes,resident,no,medium,The note reports restored heat or hot water through an occupant and asks for a new request if the problem remains.
+0c98b296ce96f0df,responded,no_violation,unknown,resident,no,high,Police responded and found no action necessary while directing the resident to refile if the problem persists.
+118680b0bd68f453,contacted,not_determined,yes,resident,no,medium,HPD called and received a third party report that the condition was corrected.
+1304c6ae03b64184,reviewed,not_determined,unknown,agency,no,high,Transportation approved a future reinspection and says it will mail the owner the date.
+13acc59c4941fb59,referred,not_determined,unknown,agency,no,high,Transportation sent the complaint to its Inspections Unit for further action.
+15673927a1964a85,work_order,condition_confirmed,no,agency,no,high,Transportation found maintenance was needed and entered the location for a repair expected later.
+172c3c315516e0b0,no_access,not_determined,unknown,resident,no,high,The inspector could not gain access and asks the resident to schedule an appointment if needed.
+1f2db931dcbd8c77,reviewed,not_determined,unknown,none,yes,low,Police say they reviewed the complaint but place the additional information outside this text.
+21bcb92f65bb79d8,received_only,not_determined,unknown,agency,no,high,Police received and assigned the complaint for a future assessment.
+2870fd1fe68c55ca,no_access,not_determined,unknown,resident,no,high,The inspector could not gain access and asks the resident to schedule an appointment if needed.
+2c08ac6d5aacf6d1,responded,no_violation,unknown,resident,no,high,Police responded and observed no criminal violation while advising a new complaint if the issue persists.
+2f483d53bb3fa1dd,owner_notified,condition_confirmed,no,other_party,no,high,Transportation inspected the condition and told the responsible party to correct it.
+2f893d284a01b73b,reviewed,not_determined,unknown,other_party,no,high,Transportation could not schedule dismissal inspection because the owner must obtain a repair permit first.
+31a845025ae29982,no_access,not_determined,unknown,resident,no,high,The inspector could not gain access and asks the resident to schedule an appointment if needed.
+31aa934ecb8644ed,duplicate,not_determined,no,agency,partial,medium,HPD identifies a duplicate with an open original complaint and describes possible follow up and an online status check.
+383722555a3e774e,admin_closed,not_determined,unknown,none,partial,high,HPD closed the complaint administratively and directs readers online for more information.
+395270941f457c95,work_order,not_determined,unknown,agency,no,medium,Police requested a tow truck but the note does not say whether the vehicle was removed.
+4303d2461a8c80c2,no_access,not_determined,unknown,resident,no,high,HPD could not gain access and asks the resident to call if inspection is still needed.
+487323458bf724d8,referred,not_determined,unknown,agency,no,high,Buildings reviewed the complaint and sent it to Environmental Protection for further action.
+4983a6e181ed5482,violation_issued,violation,no,other_party,partial,high,HPD issued violations and gives the owner time to correct them with details online.
+4b99161e7ca98dc0,no_access,not_determined,unknown,none,no,high,Buildings was denied access on its second inspection attempt and says there will be no more attempts.
+4dc7fa7af504c493,no_access,not_determined,unknown,resident,no,high,HPD could not inspect for lack of access and asks for a new request if the condition remains.
+4e0223ec0fe9e992,other,condition_confirmed,unknown,none,no,high,Buildings found an imminent danger and issued a partial vacate order without reporting a repair.
+51a61091f8d36410,repaired,condition_confirmed,partial,none,no,high,Transportation says temporary repairs made the area safe without claiming a permanent correction.
+5378f8ef97dae0c6,other,condition_confirmed,unknown,agency,partial,medium,HPD issued a Section 8 Failure and says the parties will receive details and agency action by mail.
+54c8daa005dcbfdb,referred,condition_confirmed,no,agency,no,high,Transportation referred the complaint to a maintenance unit for a future repair.
+55e0c592d2f98bf5,inspected,condition_confirmed,no,agency,partial,high,Transportation found the street meets resurfacing standards and plans future work with scheduling details elsewhere.
+5bc30a6506df30f2,no_access,not_determined,unknown,resident,no,high,Police could not gain entry and ask the resident to refile with access information if needed.
+5d5b90ab084318cf,inspected,violation,unknown,none,partial,high,HPD inspected and reports previously issued violations with their details online.
+5e082be2f4ed577b,summons_issued,violation,unknown,none,no,high,Police determined a legal violation occurred and issued a summons.
+5e164154aa95a5d0,referred,not_determined,unknown,agency,no,high,Buildings sent the reviewed complaint to Transportation for further action.
+62bb642af3725422,inspected,no_violation,unknown,none,no,medium,Transportation found either compliance with standards or a valid work permit.
+62f107a7641ee888,inspected,no_violation,unknown,none,no,high,HPD inspected and explicitly found no housing law violation.
+64dad3e792517b97,no_access,not_determined,unknown,resident,no,high,HPD could not gain access and asks the resident to call if inspection is still needed.
+65caa6057666bd92,reviewed,not_determined,unknown,none,yes,low,Transportation says it reviewed the complaint but puts the result in Notes to Customer.
+66436e75e2bc09b8,inspected,not_determined,unknown,none,yes,low,Transportation reports an inspection but places the additional result in Notes to Customer.
+699c93e53efe8ef1,no_access,not_determined,unknown,resident,no,high,The inspector could not gain access and asks the resident to schedule an appointment if needed.
+6ae98dcc908d2058,no_access,not_determined,unknown,agency,no,high,Buildings was denied access and plans a second inspection attempt.
+6bc8a636310fae13,received_only,not_determined,no,agency,no,medium,The note describes regular scheduled maintenance that will correct the condition in the future.
+6e52c866e14ad7fb,work_order,condition_confirmed,no,agency,no,high,Transportation opened a repair order and says the repair will occur later.
+6e782ea40feb50f4,received_only,condition_confirmed,no,agency,no,medium,The note says the conditions remain open and HPD may verify them later.
+71a2f58c4813f240,no_access,not_determined,unknown,none,no,high,HPD could not access the rooms so the absence of issued violations does not establish a finding.
+7660affed19c93bb,received_only,not_determined,unknown,none,no,high,The request was submitted to Buildings and no investigation outcome is reported.
+799dfb92c5125a12,inspected,not_determined,unknown,agency,no,medium,HPD found potential lead paint and plans a follow up test before determining the condition.
+7a467722079a7ed5,violation_issued,violation,unknown,none,no,high,Buildings investigated and issued a stop work order violation.
+7af14fc8b82fefb2,received_only,not_determined,unknown,agency,no,high,Transportation promises a future inspection and conditional notice to the owner.
+7c4f100f9a41ed9c,inspected,no_violation,unknown,none,no,high,Transportation inspected and did not find the reported problem.
+7ce5bb97d9f882b1,no_access,not_determined,unknown,none,no,high,HPD could not access the rooms so no violation finding can be inferred.
+7ced149ae4399def,no_access,not_determined,unknown,resident,no,high,Buildings could not gain access and asks the resident to schedule a follow up inspection.
+7d715154e8d9d6ac,responded,not_applicable,unknown,resident,no,high,Police determined a tow request was unnecessary and advised refiling if the problem persists.
+7e2512ff5d3e350c,other,violation,unknown,none,no,medium,Buildings found a compliance deficiency and imposed a full stop work order without saying it was repaired.
+837f63fd4c3a267a,no_access,not_determined,unknown,resident,no,high,HPD could not gain access and asks for a new complaint if the condition remains.
+848330e81726e333,referred,not_determined,unknown,agency,no,high,Transportation inspected and sent the complaint to its Arterial Division for further action.
+876b613c0e5c5898,other,not_determined,unknown,none,yes,low,HPD says it either conducted or attempted an inspection and sends readers online for the result.
+8a372a12961dd3f7,referred,condition_confirmed,no,agency,no,high,Transportation asked Environmental Protection to address the issue and plans to reinspect.
+8b83a941dce28fee,other,condition_confirmed,no,resident,no,medium,The conditions remain open and the tenant is asked to provide owner access for repair.
+8cb78effa85af149,responded,no_violation,unknown,resident,no,high,Police responded and observed no encampment while advising a new complaint if needed.
+8e2c6db07334e583,work_order,condition_confirmed,no,agency,no,high,Transportation entered the inspected condition into maintenance for a repair due later.
+908eb7e1562cf082,responded,not_determined,unknown,none,no,high,Police responded and prepared a report without stating a finding or correction.
+91df1bac002a9cf5,insufficient_info,not_determined,unknown,resident,no,high,The request cannot be processed without contact information and asks the resident to refile.
+9291f1e910fcb9b6,referred,not_determined,unknown,agency,no,high,Buildings sent the reviewed complaint to the Housing Authority for further action.
+92ec7f47372c664a,owner_notified,not_determined,unknown,other_party,no,medium,Transportation says it notified the owner of any defects but does not say a defect was found.
+94865a0bb4e7b656,repaired,not_determined,yes,none,no,medium,A contractor reports that the requested work is complete without independent confirmation.
+94f3ece0af99f3aa,not_jurisdiction,not_applicable,unknown,other_party,no,medium,Transportation found the condition outside its jurisdiction and notified the responsible party.
+9717e43947ea5f65,other,not_determined,unknown,agency,no,high,Transportation scheduled a future dismissal inspection and reports contact with the responsible party.
+9964cf672bb0ecae,inspected,not_determined,yes,none,no,high,Transportation inspected and explicitly says the problem was fixed.
+9e34d851caa27ea6,reviewed,not_determined,unknown,none,no,high,Buildings reviewed the complaint and decided no further action was needed without stating a violation finding.
+9eb5e52516c8f42c,inspected,no_violation,unknown,none,no,medium,The inspected condition was either compliant or covered by a permit.
+9fa2f87ecd8202b8,other,not_determined,unknown,none,no,medium,Transportation says it completed the request or corrected the condition so a fix is not certain.
+a083d74273290bf2,repaired,condition_confirmed,yes,none,no,high,Transportation says it inspected and repaired the reported problem.
+a0bf83a110a60464,no_access,not_determined,unknown,resident,no,high,HPD could not gain access and asks the resident to call if inspection is still needed.
+a16f0cbc84c0a83d,referred,condition_confirmed,no,agency,no,high,Police observed an encampment and referred it to DHS for future inspection.
+a4994254b3551310,work_order,condition_confirmed,no,other_party,no,high,Transportation issued a corrective action repair to the contractor or utility with time to fix it.
+a9d16ae8904d3a68,reviewed,condition_confirmed,no,agency,no,medium,Transportation found reconstruction was required but only describes an existing or possible future project.
+aac34d39cfe390f3,summons_issued,violation,unknown,none,no,high,Buildings investigated and issued an OATH summons.
+ac2f994391caf1b1,inspected,no_violation,unknown,resident,no,high,Transportation could not find the reported problem and asks the resident to call with more detail if pursuing it.
+af78d283240b5a64,inspected,no_violation,unknown,none,no,high,HPD inspected and issued no violations before closing the complaint.
+b37290ec8cd1f47a,reviewed,not_determined,unknown,resident,no,high,Buildings reviewed and closed the complaint while asking for a new complaint if the problem persists.
+b461b76c6f2a84cd,arrest,violation,unknown,none,no,high,Police determined a violation of law and made an arrest.
+b568e392de468062,responded,no_violation,unknown,resident,no,medium,HPD found the outside temperature did not meet the legal heat threshold and asks for a new complaint under qualifying conditions.
+b7c15cf612b149bc,duplicate,not_determined,unknown,agency,no,high,Transportation identified a duplicate and says the original complaint is being addressed.
+bbed8069ef2fd857,contacted,not_determined,yes,resident,no,medium,HPD verified correction with a tenant and asks for a new complaint if the condition persists.
+bc03acfb6c2b62bd,redirect,not_determined,unknown,none,yes,low,The note provides no outcome and places service request status on Transportation's website.
+c176c6a0a348bce2,referred,not_determined,unknown,agency,no,high,Buildings reviewed and assigned the complaint to its Special Operations Team for further action.
+c361f8972427cd73,no_access,not_determined,unknown,resident,no,high,HPD could not gain access and asks the resident to call if inspection is still needed.
+c43ce7b07e2c1b2a,no_access,not_determined,unknown,resident,no,high,Buildings could not gain access twice and asks for a new complaint with access information.
+cbdc3dfc904d4fa3,violation_issued,violation,unknown,none,partial,high,HPD verified inadequate heat or hot water elsewhere and issued a violation with details online.
+cbe4be88823ccf34,duplicate,not_determined,unknown,none,partial,high,Buildings says the condition was handled under another request and directs readers elsewhere for details.
+cce5b2f506fafe20,no_access,not_determined,unknown,resident,no,high,HPD could not gain access and asks the resident to call if inspection is still needed.
+cd67fff9bb30eeb0,redirect,not_determined,unknown,none,yes,low,The note provides no outcome and places service request status on Transportation's website.
+cfeab4d8742901b2,summons_issued,violation,no,agency,no,high,Transportation issued a summons and plans reinspection with possible later enforcement or repair.
+d148265a9ea0ea24,other,not_determined,unknown,resident,partial,medium,HPD could not complete an attempted inspection and directs the resident to refile or call for the reason.
+df528ee11108f3bd,not_jurisdiction,not_applicable,unknown,none,no,high,Transportation determined the issue was outside its jurisdiction.
+df75584745e82369,responded,no_violation,yes,resident,no,high,Police found no criminal violation and explicitly say the condition was corrected.
+e25c4b933ca3b0db,other,not_determined,unknown,none,no,medium,Buildings removed a stop work order without saying whether the reported condition was fixed.
+e446d457d62c72e5,contacted,not_determined,unknown,none,no,medium,HPD verified with an occupant that the complaint was addressed but does not explicitly say the condition was corrected.
+e4e436f109ecfa80,no_access,not_determined,unknown,agency,no,high,Buildings failed to gain access during a warrant attempt and plans another attempt.
+e6e21e65ec8b6339,reviewed,not_determined,unknown,none,no,high,Buildings investigated and decided no further action was needed without stating a finding.
+e70c1f68cc5b5024,not_jurisdiction,not_applicable,unknown,resident,partial,medium,Police say the complaint is outside their jurisdiction and direct the resident to the precinct for referral details.
+e76ac866e92436a7,redirect,not_determined,unknown,resident,yes,low,The status is unavailable online and the resident must call 311 for it.
+ea1f6d2c59f3ffa0,inspected,no_violation,unknown,none,no,medium,Transportation found either compliance with standards or a valid permit.
+eabebe68e41ad5fe,no_access,not_determined,unknown,resident,no,high,HPD could not access any apartment to check heat or hot water and asks for a new complaint if needed.
+f19ed7b46ae99fbe,inspected,condition_confirmed,no,agency,partial,high,Transportation found the street qualifies for resurfacing but schedules the work later with weekly details elsewhere.
+f3ebf5581a170b6d,insufficient_info,not_determined,unknown,resident,no,high,Buildings could not locate the premises and asks for a new complaint with more location information.
+f73dba4136ecd5f2,responded,no_violation,unknown,resident,no,medium,Police observed no evidence of a criminal violation with the information available and invite a new complaint.
+f8b2328d4a44092a,summons_issued,violation,unknown,none,no,high,Transportation issued a summons to the restaurant without reporting a correction.
+fcbe9a1c12da8c06,responded,condition_confirmed,no,resident,partial,medium,Police determined another specific tow was required and direct the resident to the precinct for details.
+fea5e41b628e97cd,violation_issued,violation,unknown,none,partial,high,HPD inspected and issued violations with specific details available online.

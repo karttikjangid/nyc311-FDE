@@ -1,0 +1,352 @@
+{
+  "as_of_utc": "2026-09-25T11:24:31.783964+00:00",
+  "created_by": "acquire/acquire.py (offset paging), registered by tools/register_codex_snapshot.py",
+  "datasets": {
+    "call_center": {
+      "count_after_pull": null,
+      "dataset_id": "wewp-mm3p",
+      "expected_count": 950999,
+      "fields_missing_in_source": [],
+      "fields_seen_in_first_page": [
+        "brief_description",
+        "date",
+        "date_time",
+        "inquiry_name",
+        "time",
+        "unique_id"
+      ],
+      "files": [
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00001.json.gz",
+          "rows": 50000,
+          "sha256": "10d917c3549945bcf368fcd61142c5a97fa70aee00bc80886dbb6b4780a33950"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00002.json.gz",
+          "rows": 50000,
+          "sha256": "3ba4aba515a661a35971342ea288745c2b744b30c4a61e7b263acb43c51724d0"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00003.json.gz",
+          "rows": 50000,
+          "sha256": "3d27f88ba16c3669d8590baf41a3166d78a39008eb2344787242baaaaaaef2da"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00004.json.gz",
+          "rows": 50000,
+          "sha256": "b861f8287263a171d5a06501465b0d0615180f6999554740a2ce16688bf88bfe"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00005.json.gz",
+          "rows": 50000,
+          "sha256": "e25525531d208d24ccb1a0b64b919069f8cfd9a34e3020412b0e749b20813b3f"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00006.json.gz",
+          "rows": 50000,
+          "sha256": "cb32f1bc4c8d0d07f25d73801bf4c353eb4caa414d85aeac3e97683d9e0d2929"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00007.json.gz",
+          "rows": 50000,
+          "sha256": "fee8082fec81e6e01168b5bf0055e6ff5954ea2e7769c98262527132a4d9708c"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00008.json.gz",
+          "rows": 50000,
+          "sha256": "cafd98e26bd21bd6f5d95831cb5e23c126ca5ad7cd238b80dd32ec2934ea6741"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00009.json.gz",
+          "rows": 50000,
+          "sha256": "6e364051473bb4757a945cb73afe7506fb86a70d1954738cd266882cccb3d368"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00010.json.gz",
+          "rows": 50000,
+          "sha256": "c2457ca86a09562898d8336cc03ee3961721f6a0c87a58a7998e201f18b6f899"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00011.json.gz",
+          "rows": 50000,
+          "sha256": "ff0e33ec0ba77304124e8d2b1ab216077e3f81b777736bcfc9e06703ef187ba8"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00012.json.gz",
+          "rows": 50000,
+          "sha256": "b521c79be311deef3aa9aea3a3a94f269bfbbbb5cf1815a5eed1195f1faeb3dc"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00013.json.gz",
+          "rows": 50000,
+          "sha256": "1e079a1cc4fbae5a28103deff07aa27d58de19d11e7cfa5be520e65948aa3018"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00014.json.gz",
+          "rows": 50000,
+          "sha256": "2b891f354201bc901abadc2e746722d5066568966063576ce3c1c29ac0beac58"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00015.json.gz",
+          "rows": 50000,
+          "sha256": "1cf4addba8a1bdafac14da51376b55bf46d9ae4dfda17fa9b5f9628912399760"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00016.json.gz",
+          "rows": 50000,
+          "sha256": "5df1ee0294ec902ad342d2c9f586870ae38bd70584ef40f9012e28cb30302b55"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00017.json.gz",
+          "rows": 50000,
+          "sha256": "f756c784ded241d71ed8d09b2f4d6007333f748f4fe2fb691c22228602bbfd05"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00018.json.gz",
+          "rows": 50000,
+          "sha256": "4bc0bd6e3b32f7573287d3dd6ad78dd15df1dc5ba082b1bd5738a71030895abb"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00019.json.gz",
+          "rows": 50000,
+          "sha256": "e4ad7d8f35bdadc657706f6476b62a66d3744072e83d9e7f62a05f4bfab4de14"
+        },
+        {
+          "path": "@root/data/raw/related/wewp-mm3p/created_2026Q2/page_00020.json.gz",
+          "rows": 999,
+          "sha256": "3b93c0ba07e1e8011447de78dbc0bbc19b8b4830bec8fab97ff6d7a6697bd4d1"
+        }
+      ],
+      "key": "unique_id",
+      "metadata_file": "@root/data/raw/related/wewp-mm3p/metadata_views.json",
+      "method": "offset",
+      "pull_end_utc": "2026-09-25T11:32:07.883942+00:00",
+      "pull_start_utc": "2026-09-25T11:28:56.300618+00:00",
+      "received_rows": 950999,
+      "rows_updated_at_utc": "2026-09-25T01:05:21+00:00",
+      "source_manifest": "@root/data/raw/related/wewp-mm3p/created_2026Q2/_manifest.json"
+    },
+    "service_requests": {
+      "count_after_pull": null,
+      "dataset_id": "erm2-nwe9",
+      "expected_count": 969004,
+      "fields_missing_in_source": [],
+      "fields_seen_in_first_page": [
+        "agency",
+        "agency_name",
+        "borough",
+        "closed_date",
+        "community_board",
+        "complaint_type",
+        "created_date",
+        "descriptor",
+        "due_date",
+        "incident_zip",
+        "location_type",
+        "open_data_channel_type",
+        "resolution_action_updated_date",
+        "resolution_description",
+        "status",
+        "unique_key"
+      ],
+      "files": [
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00001.json.gz",
+          "rows": 50000,
+          "sha256": "ae0ad824c54974de23bd3a382eae9cfac89eecde52ae6b7e332ac265a183c7c1"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00002.json.gz",
+          "rows": 50000,
+          "sha256": "0f234586332c8796b5f90aa6f96fbeafb74515070ecbef3327a8fc99c7185260"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00003.json.gz",
+          "rows": 50000,
+          "sha256": "3fead16c6631ea7f28d62798fd7c8e7cbf59e54f31805f06a4611efd1d6751c0"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00004.json.gz",
+          "rows": 50000,
+          "sha256": "620b015dbcb0cabd2d81995f21025b9d9f9c45b58946772d7cef6751bf6cc0cf"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00005.json.gz",
+          "rows": 50000,
+          "sha256": "aa99fd27fc8e4e660afd75af3533d1221fb39fd635b29482b9e85f543828af64"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00006.json.gz",
+          "rows": 50000,
+          "sha256": "a79b8f5721d76a13f405ff92e2ba2abdc0cb3e68a12451ac257c206432c3b3d3"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00007.json.gz",
+          "rows": 50000,
+          "sha256": "69925f62c1829aaf2bf48dc5caff0b5a69ff5bfbf9b9d3c03457e59d1f72557d"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00008.json.gz",
+          "rows": 50000,
+          "sha256": "94dc811059cce55914bc42f76e8f22dd84622546a37efb330ae7ed99a9d7a3ee"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00009.json.gz",
+          "rows": 50000,
+          "sha256": "c3fdacd33879d79d6e1040c644853c847a42153e639f4e1d6c96c720559f05f1"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00010.json.gz",
+          "rows": 50000,
+          "sha256": "f5846a58433c398ebc5f002a35cd0f45508dc421fd39796a8d6ffb8d086b8135"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00011.json.gz",
+          "rows": 50000,
+          "sha256": "d09f6f10e2076ca990638c51746f969e73081c402986742a48e605514e808003"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00012.json.gz",
+          "rows": 50000,
+          "sha256": "c4e8a91005a709ad6f23b1d2fb7fd0277450b6c35ca50ae35e98bf7fb18b1704"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00013.json.gz",
+          "rows": 50000,
+          "sha256": "fa4b7112aa3b74cb06b8d246296e839ee20002e1c0f621d3cb1dc2ab6ff8ca30"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00014.json.gz",
+          "rows": 50000,
+          "sha256": "5d1d7da5bd42b7e718beb87520181213e89464b6541495e2360a47878cd647a7"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00015.json.gz",
+          "rows": 50000,
+          "sha256": "9e832bcc20cb3679426f1c6c564aecce8d6228bf0f61f0b5d3ebdfff97578332"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00016.json.gz",
+          "rows": 50000,
+          "sha256": "2d71ec55224d0029d973eb3a37100ca15c618546aa371e94245a3d84b4c22c39"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00017.json.gz",
+          "rows": 50000,
+          "sha256": "61bed4a76c4553b6c08d527ef6c655cbc0de64d2d489738dad3e98c1cef26d63"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00018.json.gz",
+          "rows": 50000,
+          "sha256": "152c3717c4f52ff6580490838e629b1279a7def17afa83343ea9d6d3bf76286c"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00019.json.gz",
+          "rows": 50000,
+          "sha256": "0690e34f49e840c1c9d9e36ac3eb83e6da2d56e7f3b2f5cec2eb68b36d2dc52b"
+        },
+        {
+          "path": "@root/data/raw/service_requests/created_2026Q2/page_00020.json.gz",
+          "rows": 19004,
+          "sha256": "3e9ee73dfce32967059e08d8c23d0575bf32bd5ef107a6c74429e6963a621009"
+        }
+      ],
+      "key": "unique_key",
+      "metadata_file": "@root/data/raw/metadata/erm2-nwe9_views.json",
+      "method": "offset",
+      "pull_end_utc": "2026-09-25T11:38:09.575904+00:00",
+      "pull_start_utc": "2026-09-25T11:24:31.783964+00:00",
+      "received_rows": 969004,
+      "rows_updated_at_utc": "2026-09-25T01:40:23+00:00",
+      "source_manifest": "@root/data/raw/service_requests/created_2026Q2/_manifest.json"
+    },
+    "sla": {
+      "count_after_pull": null,
+      "dataset_id": "cs9t-e3x8",
+      "expected_count": 3563,
+      "fields_missing_in_source": [],
+      "fields_seen_in_first_page": [
+        "additional_details",
+        "agency",
+        "problem",
+        "problem_details",
+        "sla_days"
+      ],
+      "files": [
+        {
+          "path": "@root/data/raw/related/cs9t-e3x8/full/page_00001.json.gz",
+          "rows": 3563,
+          "sha256": "2275eecb84abec95b26e39364f81057f578c239d766fa74e1bc76dd10dc2af28"
+        }
+      ],
+      "key": ":id",
+      "metadata_file": "@root/data/raw/related/cs9t-e3x8/metadata_views.json",
+      "method": "offset",
+      "pull_end_utc": "2026-09-25T11:52:39.222243+00:00",
+      "pull_start_utc": "2026-09-25T11:52:38.499008+00:00",
+      "received_rows": 3563,
+      "rows_updated_at_utc": "2024-03-05T20:10:53+00:00",
+      "source_manifest": "@root/data/raw/related/cs9t-e3x8/full/_manifest.json"
+    },
+    "survey": {
+      "count_after_pull": null,
+      "dataset_id": "5ijn-vbdv",
+      "expected_count": 275467,
+      "fields_missing_in_source": [],
+      "fields_seen_in_first_page": [
+        "agency",
+        "agency_name",
+        "borough",
+        "complaint_type",
+        "descriptor",
+        "dissatisfaction_reason",
+        "month",
+        "overall_satisfaction",
+        "resolution_description",
+        "unique_key",
+        "year"
+      ],
+      "files": [
+        {
+          "path": "@root/data/raw/related/5ijn-vbdv/year_gte_2025/page_00001.json.gz",
+          "rows": 50000,
+          "sha256": "5f6dcb6f351e974413b2f4db09507d5a8785cec341c5747e75dc11d22874fe9c"
+        },
+        {
+          "path": "@root/data/raw/related/5ijn-vbdv/year_gte_2025/page_00002.json.gz",
+          "rows": 50000,
+          "sha256": "43e1416c0ff781ba3fefb6b52433a3675ebf101a2db0f6c081fda5734ade52c1"
+        },
+        {
+          "path": "@root/data/raw/related/5ijn-vbdv/year_gte_2025/page_00003.json.gz",
+          "rows": 50000,
+          "sha256": "a8e0f1c0c6f444d727c0ca4d2aaf7d95b461171206cd26220ff29db63b5531c2"
+        },
+        {
+          "path": "@root/data/raw/related/5ijn-vbdv/year_gte_2025/page_00004.json.gz",
+          "rows": 50000,
+          "sha256": "dc9e7b3cde7dbbf00c96c593bc405f684152144aea8403e3942508624170c542"
+        },
+        {
+          "path": "@root/data/raw/related/5ijn-vbdv/year_gte_2025/page_00005.json.gz",
+          "rows": 50000,
+          "sha256": "d74ccf4e40976b9e371d73d82dd0c23ecd88270b7069883148ee667796bf4ab7"
+        },
+        {
+          "path": "@root/data/raw/related/5ijn-vbdv/year_gte_2025/page_00006.json.gz",
+          "rows": 25467,
+          "sha256": "0ba0e43a27f0cc37e213781220b4ba84a2bd89fbdb040f7496aa94cab6dae658"
+        }
+      ],
+      "key": "unique_key",
+      "metadata_file": "@root/data/raw/related/5ijn-vbdv/metadata_views.json",
+      "method": "offset",
+      "pull_end_utc": "2026-09-25T11:53:27.012151+00:00",
+      "pull_start_utc": "2026-09-25T11:52:40.461976+00:00",
+      "received_rows": 275467,
+      "rows_updated_at_utc": "2026-09-21T13:04:11+00:00",
+      "source_manifest": "@root/data/raw/related/5ijn-vbdv/year_gte_2025/_manifest.json"
+    }
+  },
+  "snapshot_id": "20260925T112431Z_initial"
+}

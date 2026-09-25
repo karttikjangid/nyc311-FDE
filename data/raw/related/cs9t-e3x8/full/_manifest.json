@@ -1,0 +1,15 @@
+{
+  "dataset_id": "cs9t-e3x8",
+  "query_url_template": "https://data.cityofnewyork.us/resource/cs9t-e3x8.json?%24select=%2A&%24limit=50000&%24offset=%7Boffset%7D&%24order=%3Aid",
+  "pull_start_utc": "2026-09-25T11:52:38.499008+00:00",
+  "pull_end_utc": "2026-09-25T11:52:39.222243+00:00",
+  "page_count": 1,
+  "rows_per_page": [
+    3563
+  ],
+  "total_rows": 3563,
+  "expected_count": 3563,
+  "counts_match": true,
+  "difference_actual_minus_expected": 0,
+  "duplicate_unique_key_count": null
+}

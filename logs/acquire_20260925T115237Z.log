@@ -1,0 +1,21 @@
+2026-09-25 11:52:37,122 UTC INFO Run started; log=/Users/kartik/Downloads/Computer Vision/FDE/nyc311/logs/acquire_20260925T115237Z.log
+2026-09-25 11:52:37,123 UTC INFO SOCRATA_APP_TOKEN is absent
+2026-09-25 11:52:37,123 UTC INFO Existing raw file retained unchanged: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/cs9t-e3x8/metadata_views.json
+2026-09-25 11:52:38,498 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/cs9t-e3x8/full_count.json bytes=19
+2026-09-25 11:52:39,218 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/cs9t-e3x8/full/page_00001.json.gz bytes=656127
+2026-09-25 11:52:39,221 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/cs9t-e3x8/full/page_00001.json.gz rows=3563 cumulative=3563
+2026-09-25 11:52:39,223 UTC INFO Existing raw file retained unchanged: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/metadata_views.json
+2026-09-25 11:52:40,461 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/by_year_month.json bytes=2208
+2026-09-25 11:53:00,709 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/year_gte_2025/page_00001.json.gz bytes=28871174
+2026-09-25 11:53:00,815 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/year_gte_2025/page_00001.json.gz rows=50000 cumulative=50000
+2026-09-25 11:53:05,777 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/year_gte_2025/page_00002.json.gz bytes=28925214
+2026-09-25 11:53:05,894 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/year_gte_2025/page_00002.json.gz rows=50000 cumulative=100000
+2026-09-25 11:53:08,264 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/year_gte_2025/page_00003.json.gz bytes=28887242
+2026-09-25 11:53:08,367 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/year_gte_2025/page_00003.json.gz rows=50000 cumulative=150000
+2026-09-25 11:53:19,517 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/year_gte_2025/page_00004.json.gz bytes=28933544
+2026-09-25 11:53:19,613 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/year_gte_2025/page_00004.json.gz rows=50000 cumulative=200000
+2026-09-25 11:53:23,814 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/year_gte_2025/page_00005.json.gz bytes=28845900
+2026-09-25 11:53:23,909 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/year_gte_2025/page_00005.json.gz rows=50000 cumulative=250000
+2026-09-25 11:53:26,962 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/year_gte_2025/page_00006.json.gz bytes=14681899
+2026-09-25 11:53:27,011 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/5ijn-vbdv/year_gte_2025/page_00006.json.gz rows=25467 cumulative=275467
+2026-09-25 11:53:28,474 UTC INFO Pull 2 completed

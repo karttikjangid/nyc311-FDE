@@ -1,0 +1,864 @@
+{
+  "id" : "wewp-mm3p",
+  "name" : "311 Call Center Inquiry",
+  "assetType" : "dataset",
+  "attribution" : "311",
+  "averageRating" : 0,
+  "category" : "City Government",
+  "createdAt" : 1463093907,
+  "description" : "<b>Please note: Due to pandemic call handling modifications, the activity data since March 2020 does not fully represent the agent-handled calls to 311. The actual calls handled are higher.</b>\r\n\r\nThe 311 Call Center Inquiry dataset contains information on all agent-handled calls to the City’s 311 information line, including date, time and topic.\r\n\r\nClick <a href=\"https://data.cityofnewyork.us/api/views/wewp-mm3p/files/5ec79733-6c0b-4f84-b511-936142db396e?download=true&filename=Call%20Center%20Inquiry%20Data%20Dictionary.xlsx\">here </a>for the data dictionary.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 43351,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1543875577,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 25040220,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1481239070,
+  "publicationGroup" : 10692277,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowIdentifierColumnId" : 280850961,
+  "rowsUpdatedAt" : 1790298321,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 13941074,
+  "totalTimesRated" : 0,
+  "viewCount" : 20082,
+  "viewLastModified" : 1706131974,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1481239070,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1067150,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1481239070,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 280850961,
+    "name" : "UNIQUE_ID",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "unique_id",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36171729,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "99999999",
+      "non_null" : "105211554",
+      "null" : "0",
+      "top" : [ {
+        "item" : "100000001",
+        "count" : "1"
+      }, {
+        "item" : "100000002",
+        "count" : "1"
+      }, {
+        "item" : "100000003",
+        "count" : "1"
+      }, {
+        "item" : "100000004",
+        "count" : "1"
+      }, {
+        "item" : "100000005",
+        "count" : "1"
+      }, {
+        "item" : "100000006",
+        "count" : "1"
+      }, {
+        "item" : "100000007",
+        "count" : "1"
+      }, {
+        "item" : "100000008",
+        "count" : "1"
+      }, {
+        "item" : "100000009",
+        "count" : "1"
+      }, {
+        "item" : "100000010",
+        "count" : "1"
+      }, {
+        "item" : "100000011",
+        "count" : "1"
+      }, {
+        "item" : "100000012",
+        "count" : "1"
+      }, {
+        "item" : "100000013",
+        "count" : "1"
+      }, {
+        "item" : "100000014",
+        "count" : "1"
+      }, {
+        "item" : "100000015",
+        "count" : "1"
+      }, {
+        "item" : "100000016",
+        "count" : "1"
+      }, {
+        "item" : "100000017",
+        "count" : "1"
+      }, {
+        "item" : "100000018",
+        "count" : "1"
+      }, {
+        "item" : "100000019",
+        "count" : "1"
+      }, {
+        "item" : "100000000",
+        "count" : "1"
+      } ],
+      "not_null" : "77069051",
+      "smallest" : "100000000",
+      "count" : "105211554",
+      "cardinality" : "105211554"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 280850962,
+    "name" : "DATE",
+    "dataTypeName" : "calendar_date",
+    "fieldName" : "date",
+    "position" : 2,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 36172085,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "2026-09-24T00:00:00.000",
+      "non_null" : "105211554",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2012-10-29T00:00:00.000",
+        "count" : "51772"
+      }, {
+        "item" : "2010-03-15T00:00:00.000",
+        "count" : "47303"
+      }, {
+        "item" : "2010-02-10T00:00:00.000",
+        "count" : "46678"
+      }, {
+        "item" : "2010-07-06T00:00:00.000",
+        "count" : "46029"
+      }, {
+        "item" : "2010-01-04T00:00:00.000",
+        "count" : "44672"
+      }, {
+        "item" : "2010-03-01T00:00:00.000",
+        "count" : "44428"
+      }, {
+        "item" : "2010-02-16T00:00:00.000",
+        "count" : "44397"
+      }, {
+        "item" : "2011-01-27T00:00:00.000",
+        "count" : "44119"
+      }, {
+        "item" : "2010-02-25T00:00:00.000",
+        "count" : "43953"
+      }, {
+        "item" : "2012-11-06T00:00:00.000",
+        "count" : "43915"
+      }, {
+        "item" : "2011-01-12T00:00:00.000",
+        "count" : "43890"
+      }, {
+        "item" : "2010-03-22T00:00:00.000",
+        "count" : "43770"
+      }, {
+        "item" : "2012-10-31T00:00:00.000",
+        "count" : "43760"
+      }, {
+        "item" : "2011-01-03T00:00:00.000",
+        "count" : "43542"
+      }, {
+        "item" : "2011-01-31T00:00:00.000",
+        "count" : "42687"
+      }, {
+        "item" : "2010-11-02T00:00:00.000",
+        "count" : "42361"
+      }, {
+        "item" : "2010-01-25T00:00:00.000",
+        "count" : "42345"
+      }, {
+        "item" : "2012-11-05T00:00:00.000",
+        "count" : "42062"
+      }, {
+        "item" : "2010-02-01T00:00:00.000",
+        "count" : "41980"
+      }, {
+        "item" : "2010-02-09T00:00:00.000",
+        "count" : "41836"
+      } ],
+      "not_null" : "77069051",
+      "smallest" : "2010-01-01T00:00:00.000",
+      "count" : "105211554",
+      "cardinality" : "105211554"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 280850963,
+    "name" : "TIME",
+    "dataTypeName" : "text",
+    "description" : "Time the call was received.",
+    "fieldName" : "time",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36171731,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "9:59:59 PM",
+      "non_null" : "105211554",
+      "null" : "0",
+      "top" : [ {
+        "item" : "9:00:08 AM",
+        "count" : "4083"
+      }, {
+        "item" : "9:00:09 AM",
+        "count" : "3966"
+      }, {
+        "item" : "9:00:07 AM",
+        "count" : "3961"
+      }, {
+        "item" : "9:00:10 AM",
+        "count" : "3905"
+      }, {
+        "item" : "9:00:06 AM",
+        "count" : "3775"
+      }, {
+        "item" : "9:00:11 AM",
+        "count" : "3732"
+      }, {
+        "item" : "9:00:12 AM",
+        "count" : "3605"
+      }, {
+        "item" : "9:00:13 AM",
+        "count" : "3476"
+      }, {
+        "item" : "9:00:04 AM",
+        "count" : "3402"
+      }, {
+        "item" : "9:00:14 AM",
+        "count" : "3366"
+      }, {
+        "item" : "9:00:05 AM",
+        "count" : "3363"
+      }, {
+        "item" : "9:00:15 AM",
+        "count" : "3214"
+      }, {
+        "item" : "11:00:05 AM",
+        "count" : "3197"
+      }, {
+        "item" : "11:15:05 AM",
+        "count" : "3185"
+      }, {
+        "item" : "11:15:04 AM",
+        "count" : "3167"
+      }, {
+        "item" : "11:00:03 AM",
+        "count" : "3164"
+      }, {
+        "item" : "11:15:06 AM",
+        "count" : "3129"
+      }, {
+        "item" : "11:00:06 AM",
+        "count" : "3126"
+      }, {
+        "item" : "11:00:07 AM",
+        "count" : "3126"
+      }, {
+        "item" : "11:00:10 AM",
+        "count" : "3120"
+      } ],
+      "not_null" : "77069051",
+      "smallest" : "10:00:00 AM",
+      "count" : "105211554",
+      "cardinality" : "105211554"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 280850964,
+    "name" : "DATE_TIME",
+    "dataTypeName" : "calendar_date",
+    "fieldName" : "date_time",
+    "position" : 4,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 41152560,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "2026-09-24T01:49:40.000",
+      "non_null" : "105211554",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2019-12-07T11:23:54.000",
+        "count" : "256"
+      }, {
+        "item" : "2020-02-15T16:25:32.000",
+        "count" : "187"
+      }, {
+        "item" : "2019-11-06T09:02:26.000",
+        "count" : "159"
+      }, {
+        "item" : "2019-12-02T10:44:51.000",
+        "count" : "128"
+      }, {
+        "item" : "2019-10-26T08:35:35.000",
+        "count" : "118"
+      }, {
+        "item" : "2019-11-06T10:11:29.000",
+        "count" : "116"
+      }, {
+        "item" : "2019-11-24T13:52:07.000",
+        "count" : "112"
+      }, {
+        "item" : "2019-11-15T16:04:55.000",
+        "count" : "108"
+      }, {
+        "item" : "2019-10-10T12:23:49.000",
+        "count" : "98"
+      }, {
+        "item" : "2019-07-08T10:05:18.000",
+        "count" : "96"
+      }, {
+        "item" : "2019-12-20T11:34:48.000",
+        "count" : "96"
+      }, {
+        "item" : "2019-07-03T12:40:46.000",
+        "count" : "93"
+      }, {
+        "item" : "2019-07-30T14:36:05.000",
+        "count" : "92"
+      }, {
+        "item" : "2019-07-01T08:30:15.000",
+        "count" : "90"
+      }, {
+        "item" : "2019-07-03T11:55:17.000",
+        "count" : "82"
+      }, {
+        "item" : "2019-12-30T14:53:50.000",
+        "count" : "81"
+      }, {
+        "item" : "2019-08-14T11:08:25.000",
+        "count" : "79"
+      }, {
+        "item" : "2019-12-27T12:43:02.000",
+        "count" : "79"
+      }, {
+        "item" : "2019-12-11T17:23:21.000",
+        "count" : "73"
+      }, {
+        "item" : "2019-06-29T09:43:04.000",
+        "count" : "72"
+      } ],
+      "not_null" : "77069051",
+      "smallest" : "2010-01-01T00:00:16.000",
+      "count" : "105211554",
+      "cardinality" : "105211554"
+    },
+    "format" : { }
+  }, {
+    "id" : 280850965,
+    "name" : "AGENCY",
+    "dataTypeName" : "text",
+    "description" : "Agency associated with the specific topic",
+    "fieldName" : "agency",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36171733,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "ZTSTAGY",
+      "non_null" : "74923274",
+      "null" : "30288280",
+      "top" : [ {
+        "item" : "DOF",
+        "count" : "10091181"
+      }, {
+        "item" : "NYPD",
+        "count" : "8742374"
+      }, {
+        "item" : "3-1-1",
+        "count" : "7595073"
+      }, {
+        "item" : "DSNY",
+        "count" : "5769668"
+      }, {
+        "item" : "HPD",
+        "count" : "4866834"
+      }, {
+        "item" : "DOHMH",
+        "count" : "3790040"
+      }, {
+        "item" : "DOT",
+        "count" : "3315571"
+      }, {
+        "item" : "HRA",
+        "count" : "3262602"
+      }, {
+        "item" : "DOB",
+        "count" : "3087092"
+      }, {
+        "item" : "DEP",
+        "count" : "2635084"
+      }, {
+        "item" : "DOE",
+        "count" : "1705474"
+      }, {
+        "item" : "DPR",
+        "count" : "1594718"
+      }, {
+        "item" : "MTA",
+        "count" : "1356797"
+      }, {
+        "item" : "NYCOURTS",
+        "count" : "1194115"
+      }, {
+        "item" : "DCA",
+        "count" : "1192863"
+      }, {
+        "item" : "TLC",
+        "count" : "999459"
+      }, {
+        "item" : "DHS",
+        "count" : "983079"
+      }, {
+        "item" : "NYSDMV",
+        "count" : "839827"
+      }, {
+        "item" : "DOC",
+        "count" : "836514"
+      }, {
+        "item" : "ACS",
+        "count" : "758248"
+      } ],
+      "not_null" : "74923274",
+      "smallest" : "1DONOTUSE",
+      "count" : "105211554",
+      "cardinality" : "105211554"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 280850967,
+    "name" : "AGENCY_NAME",
+    "dataTypeName" : "text",
+    "fieldName" : "agency_name",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 41153027,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "Z Test AgencyRename12092014",
+      "non_null" : "74923274",
+      "null" : "30288280",
+      "top" : [ {
+        "item" : "Department of Finance",
+        "count" : "10091181"
+      }, {
+        "item" : "New York City Police Department",
+        "count" : "8742374"
+      }, {
+        "item" : "3-1-1 Call Center",
+        "count" : "7595073"
+      }, {
+        "item" : "Department of Sanitation",
+        "count" : "5769668"
+      }, {
+        "item" : "Department of Housing Preservation and Development",
+        "count" : "4866834"
+      }, {
+        "item" : "Department of Health and Mental Hygiene",
+        "count" : "3790040"
+      }, {
+        "item" : "Department of Transportation",
+        "count" : "3315571"
+      }, {
+        "item" : "Human Resources Administration",
+        "count" : "3262602"
+      }, {
+        "item" : "Department of Buildings",
+        "count" : "3087092"
+      }, {
+        "item" : "Department of Environmental Protection",
+        "count" : "2635084"
+      }, {
+        "item" : "Department of Education",
+        "count" : "1705474"
+      }, {
+        "item" : "Department of Parks and Recreation",
+        "count" : "1594718"
+      }, {
+        "item" : "Metropolitan Transportation Authority",
+        "count" : "1356797"
+      }, {
+        "item" : "New York Courts",
+        "count" : "1194115"
+      }, {
+        "item" : "Department of Consumer Affairs",
+        "count" : "1192863"
+      }, {
+        "item" : "Taxi and Limousine Commission",
+        "count" : "999459"
+      }, {
+        "item" : "Department of Homeless Services",
+        "count" : "983079"
+      }, {
+        "item" : "NYS Department of Motor Vehicles",
+        "count" : "839827"
+      }, {
+        "item" : "Department of Correction",
+        "count" : "836514"
+      }, {
+        "item" : "Administration for Children Services",
+        "count" : "758248"
+      } ],
+      "not_null" : "74923274",
+      "smallest" : "1 Dummy Agency",
+      "count" : "105211554",
+      "cardinality" : "105211554"
+    },
+    "format" : { }
+  }, {
+    "id" : 280850966,
+    "name" : "INQUIRY_NAME",
+    "dataTypeName" : "text",
+    "description" : "Topic the call center representative used to resolve the customer's inquiry",
+    "fieldName" : "inquiry_name",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36171732,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "Zoos and Aquariums",
+      "non_null" : "105211554",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Parking Ticket Lookup - Ticket or Plate Number Known",
+        "count" : "1767841"
+      }, {
+        "item" : "Service Request Status - General",
+        "count" : "1707164"
+      }, {
+        "item" : "Division Transfer",
+        "count" : "1612733"
+      }, {
+        "item" : "Noise from Neighbor",
+        "count" : "1499158"
+      }, {
+        "item" : "Apartment Maintenance Complaint",
+        "count" : "1477446"
+      }, {
+        "item" : "Contact Information - Directory Assistance",
+        "count" : "1142294"
+      }, {
+        "item" : "Schedule a Plan Examiner Appointment",
+        "count" : "1120444"
+      }, {
+        "item" : "Find a Towed Vehicle - Plate Number Known",
+        "count" : "972001"
+      }, {
+        "item" : "Property Tax Account Assistance and Bill Information",
+        "count" : "916484"
+      }, {
+        "item" : "Division Information Provided",
+        "count" : "809190"
+      }, {
+        "item" : "Vehicle Blocking Driveway Complaint",
+        "count" : "799562"
+      }, {
+        "item" : "City Worker or Agency Complaint or Compliment",
+        "count" : "798313"
+      }, {
+        "item" : "Bus or Subway - Information and Complaint",
+        "count" : "788976"
+      }, {
+        "item" : "Find a Police Precinct or PSA by Location",
+        "count" : "788398"
+      }, {
+        "item" : "Landlord Complaint - Maintenance",
+        "count" : "684395"
+      }, {
+        "item" : "Parking Ticket or Camera Violation Status",
+        "count" : "673025"
+      }, {
+        "item" : "Bulk Item Disposal Information",
+        "count" : "671588"
+      }, {
+        "item" : "Heat Complaint - Residential Building - Inadequate Heat",
+        "count" : "648649"
+      }, {
+        "item" : "Illegal Parking Complaint",
+        "count" : "573960"
+      }, {
+        "item" : "Outside of 311 Jurisdiction",
+        "count" : "556205"
+      } ],
+      "not_null" : "77069051",
+      "smallest" : "1.09 TEST_DUPLICATE_CONTENT 2",
+      "count" : "105211554",
+      "cardinality" : "105211554"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 280850968,
+    "name" : "BRIEF_DESCRIPTION",
+    "dataTypeName" : "text",
+    "description" : "Brief description of the topic.",
+    "fieldName" : "brief_description",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36171734,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "Zoning information for specific properties, such as the zoning designation and the type of uses allowed.",
+      "non_null" : "105211554",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Hidden service for activity coding.",
+        "count" : "3640805"
+      }, {
+        "item" : "Status of a parking ticket. Must know ticket or license plate number.",
+        "count" : "1767841"
+      }, {
+        "item" : "Status of most Service Requests filed with 311.",
+        "count" : "1707164"
+      }, {
+        "item" : "Report a noisy neighbor.",
+        "count" : "1499158"
+      }, {
+        "item" : "Request for the phone number or address of a specific person or business.",
+        "count" : "1142294"
+      }, {
+        "item" : "Request an appointment with a Plan Examiner.",
+        "count" : "1119539"
+      }, {
+        "item" : "Location of a vehicle that may have been towed. Must know license plate number.",
+        "count" : "972001"
+      }, {
+        "item" : "Help with questions about the property tax bill, also known as the Statement of Account.",
+        "count" : "916484"
+      }, {
+        "item" : "Report a vehicle that is blocking a driveway.",
+        "count" : "799562"
+      }, {
+        "item" : "Complaint or compliment about a City agency or a specific employee.",
+        "count" : "798313"
+      }, {
+        "item" : "Information or complaint about City buses and subways.",
+        "count" : "788976"
+      }, {
+        "item" : "Find a precinct or police service area (PSA) for a specific address.",
+        "count" : "788398"
+      }, {
+        "item" : "Report of a housing maintenance problem.",
+        "count" : "684395"
+      }, {
+        "item" : "Look up information about your parking or camera violations and get payment, dispute, and appeal status.",
+        "count" : "673025"
+      }, {
+        "item" : "Report a maintenance problem inside an apartment.",
+        "count" : "671818"
+      }, {
+        "item" : "Learn about throwing away a large item that does not fit in a garbage bin or bag.",
+        "count" : "671588"
+      }, {
+        "item" : "Complaint that an apartment, house, or single room occupancy is too cold.",
+        "count" : "648649"
+      }, {
+        "item" : "Report a non-emergency illegally parked vehicle.",
+        "count" : "573960"
+      }, {
+        "item" : "Find a towed vehicle and get it back or stop a tow in progress.",
+        "count" : "546460"
+      }, {
+        "item" : "Information about recycling and trash collection days for a specific residential or non-profit address.",
+        "count" : "539149"
+      } ],
+      "not_null" : "77069051",
+      "smallest" : "~*~*~*~*~*~*~",
+      "count" : "105211554",
+      "cardinality" : "105211554"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 280850969,
+    "name" : "CALL_RESOLUTION",
+    "dataTypeName" : "text",
+    "description" : "How the call ended/was resolved.",
+    "fieldName" : "call_resolution",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36171735,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "Voice Mail",
+      "non_null" : "74820479",
+      "null" : "30391075",
+      "top" : [ {
+        "item" : "Information Provided",
+        "count" : "27428336"
+      }, {
+        "item" : "Transfer to City Agency",
+        "count" : "12438145"
+      }, {
+        "item" : "Routed to Web Page",
+        "count" : "9934655"
+      }, {
+        "item" : "CSMS SR",
+        "count" : "8979146"
+      }, {
+        "item" : "Internal Transfer",
+        "count" : "5267160"
+      }, {
+        "item" : "Universal Intake SR",
+        "count" : "2307544"
+      }, {
+        "item" : "Hot Transfer 911",
+        "count" : "1942188"
+      }, {
+        "item" : "Agency Closed",
+        "count" : "1293692"
+      }, {
+        "item" : "Referral",
+        "count" : "1236393"
+      }, {
+        "item" : "Alert Information Provided",
+        "count" : "1173641"
+      }, {
+        "item" : "Scheduled Appt",
+        "count" : "792331"
+      }, {
+        "item" : "Out of 3-1-1 Jurisdiction",
+        "count" : "556640"
+      }, {
+        "item" : "Caller Hung Up",
+        "count" : "507144"
+      }, {
+        "item" : "Facility Finder",
+        "count" : "363926"
+      }, {
+        "item" : "Appointment",
+        "count" : "170934"
+      }, {
+        "item" : "Cancelled Appt",
+        "count" : "146007"
+      }, {
+        "item" : "SR Information Provided",
+        "count" : "144503"
+      }, {
+        "item" : "Rescheduled Appt",
+        "count" : "70233"
+      }, {
+        "item" : "Appt Information Provided",
+        "count" : "24614"
+      }, {
+        "item" : "SmartScript",
+        "count" : "23115"
+      } ],
+      "not_null" : "74820479",
+      "smallest" : "Additional Requests Created",
+      "count" : "105211554",
+      "cardinality" : "105211554"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "Call Center Inquiry Data Dictionary.xlsx",
+      "assetId" : "3a563b1d-9e0b-4824-98c7-a308bbc5ce6e",
+      "blobId" : "",
+      "name" : "Call Center Inquiry Data Dictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "6/13/2016",
+        "Update Frequency" : "Daily"
+      },
+      "Dataset Information" : {
+        "Agency" : "Office of Technology and Innovation (OTI)"
+      }
+    },
+    "rowIdentifier" : 280850961,
+    "rowLabel" : "Inquiry to the 311 Call Center handled by a 311 Agent",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

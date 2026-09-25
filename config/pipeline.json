@@ -1,0 +1,142 @@
+{
+  "timezone_assumed": "America/New_York",
+  "socrata_base": "https://data.cityofnewyork.us",
+  "window": {
+    "created_from": "2026-04-01T00:00:00",
+    "created_to": "2026-07-01T00:00:00"
+  },
+  "page_size": 50000,
+  "http": {
+    "timeout_connect_s": 20,
+    "timeout_read_s": 180,
+    "max_retries": 5,
+    "backoff_base_s": 2,
+    "retry_statuses": [
+      429,
+      500,
+      502,
+      503,
+      504
+    ]
+  },
+  "datasets": {
+    "service_requests": {
+      "id": "erm2-nwe9",
+      "key": "unique_key",
+      "where": "created_date >= '{created_from}' AND created_date < '{created_to}'",
+      "fields": [
+        "unique_key",
+        "created_date",
+        "closed_date",
+        "due_date",
+        "resolution_action_updated_date",
+        "agency",
+        "agency_name",
+        "complaint_type",
+        "descriptor",
+        "descriptor_2",
+        "status",
+        "resolution_description",
+        "open_data_channel_type",
+        "borough",
+        "community_board",
+        "incident_zip",
+        "location_type"
+      ],
+      "required": [
+        "unique_key",
+        "created_date",
+        "closed_date",
+        "resolution_action_updated_date",
+        "agency",
+        "agency_name",
+        "complaint_type",
+        "descriptor",
+        "status",
+        "resolution_description"
+      ]
+    },
+    "call_center": {
+      "id": "wewp-mm3p",
+      "key": "unique_id",
+      "where": "date >= '{created_from}' AND date < '{created_to}'",
+      "fields": [
+        "unique_id",
+        "date",
+        "time",
+        "date_time",
+        "agency",
+        "agency_name",
+        "inquiry_name",
+        "brief_description",
+        "call_resolution"
+      ],
+      "required": [
+        "unique_id",
+        "date",
+        "inquiry_name"
+      ]
+    },
+    "sla": {
+      "id": "cs9t-e3x8",
+      "key": ":id",
+      "where": null,
+      "fields": null,
+      "required": [
+        "agency",
+        "problem",
+        "sla_days"
+      ]
+    },
+    "survey": {
+      "id": "5ijn-vbdv",
+      "key": "unique_key",
+      "where": "year >= 2025",
+      "fields": null,
+      "required": [
+        "unique_key",
+        "agency",
+        "complaint_type",
+        "year",
+        "month",
+        "overall_satisfaction"
+      ]
+    }
+  },
+  "paths": {
+    "snapshots": "data/raw/snapshots",
+    "output": "output",
+    "logs": "logs",
+    "mapping": "reference/closing_text_map_v2.csv",
+    "coder2": "reference/closing_text_map_coder2.csv",
+    "mapping_blind_coder1": "reference/closing_text_map_v1.csv"
+  },
+  "deep_dive_agencies": [
+    "HPD",
+    "NYPD",
+    "DOT",
+    "DOB"
+  ],
+  "status_values_known": [
+    "Closed",
+    "Open",
+    "In Progress",
+    "Assigned",
+    "Pending",
+    "Started",
+    "Unspecified"
+  ],
+  "thresholds": {
+    "snapshot_max_age_days": 7,
+    "unparseable_date_share_fail": 0.01,
+    "chronology_bad_share_warn": 0.0,
+    "chronology_bad_share_fail_reporting": 0.02,
+    "status_conflict_share_fail_reporting": 0.02,
+    "null_note_share_fail_reporting": 0.05,
+    "mapping_coverage_pass": 0.95,
+    "mapping_coverage_fail": 0.9,
+    "kappa_pass": 0.6,
+    "sla_age_days_warn": 365,
+    "long_open_days": 7
+  }
+}

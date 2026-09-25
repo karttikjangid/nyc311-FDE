@@ -1,0 +1,6 @@
+2026-09-25 11:23:03,740 UTC INFO Run started; log=/Users/kartik/Downloads/Computer Vision/FDE/nyc311/logs/acquire_20260925T112303Z.log
+2026-09-25 11:23:03,740 UTC INFO SOCRATA_APP_TOKEN is absent
+2026-09-25 11:23:06,034 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/counts/total.json bytes=21
+2026-09-25 11:24:20,455 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/counts/by_agency.json bytes=517
+2026-09-25 11:24:22,321 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/counts/by_status.json bytes=265
+2026-09-25 11:24:22,322 UTC INFO Run completed

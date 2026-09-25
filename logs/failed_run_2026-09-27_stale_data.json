@@ -1,0 +1,443 @@
+{
+  "chaos": "stale_data",
+  "gate": {
+    "blocking_failures": [
+      "R08"
+    ],
+    "live_answer_blockers": [
+      "R08",
+      "R09",
+      "R10",
+      "R12",
+      "R14",
+      "R15",
+      "R18",
+      "R20",
+      "R23",
+      "R25"
+    ],
+    "live_answer_gate": "NOT READY",
+    "publish": false,
+    "reporting_gate": "NOT READY"
+  },
+  "reason": "blocking validation failure",
+  "rules": [
+    {
+      "assumption": "We received every row the source says exists.",
+      "blocking": true,
+      "denominator": 4,
+      "evidence": {
+        "mismatch_expected_received": {},
+        "source_count_changed_during_pull": {}
+      },
+      "id": "R01",
+      "live": "PASS",
+      "name": "Retrieval count matches source count",
+      "reporting": "PASS",
+      "value": 0
+    },
+    {
+      "assumption": "Replayed bytes are the bytes the API returned.",
+      "blocking": true,
+      "denominator": null,
+      "evidence": [],
+      "id": "R02",
+      "live": "PASS",
+      "name": "Raw files unchanged since retrieval",
+      "reporting": "PASS",
+      "value": 0
+    },
+    {
+      "assumption": "Every field the model needs exists in each source.",
+      "blocking": true,
+      "denominator": null,
+      "evidence": {},
+      "id": "R03",
+      "live": "PASS",
+      "name": "Required columns present",
+      "reporting": "PASS",
+      "value": 0
+    },
+    {
+      "assumption": "Requests carry descriptor_2, the third level of the SLA key.",
+      "blocking": false,
+      "denominator": 1,
+      "evidence": "descriptor_2 missing: SLA matched at detail level only; more AMBIGUOUS results",
+      "id": "R04",
+      "live": "WARN",
+      "name": "Full SLA hierarchy available",
+      "reporting": "WARN",
+      "value": 0
+    },
+    {
+      "assumption": "unique_key identifies one request.",
+      "blocking": true,
+      "denominator": 969004,
+      "evidence": {
+        "conflicting_duplicate_keys": 0,
+        "exact_duplicate_rows_removed": 0
+      },
+      "id": "R05",
+      "live": "PASS",
+      "name": "One row per request",
+      "reporting": "PASS",
+      "value": 0
+    },
+    {
+      "assumption": "Date fields are valid ISO timestamps.",
+      "blocking": true,
+      "denominator": 969004,
+      "evidence": {
+        "closed_date_unparseable": 0,
+        "created_date_unparseable": 0,
+        "due_date_unparseable": 0,
+        "resolution_action_updated_date_unparseable": 0
+      },
+      "id": "R06",
+      "live": "PASS",
+      "name": "Timestamps parse",
+      "reporting": "PASS",
+      "value": 0
+    },
+    {
+      "assumption": "The API filter returned only the cohort we asked for.",
+      "blocking": true,
+      "denominator": 969004,
+      "evidence": {
+        "created_from": "2026-04-01T00:00:00",
+        "created_to": "2026-07-01T00:00:00"
+      },
+      "id": "R07",
+      "live": "PASS",
+      "name": "Rows inside the requested window",
+      "reporting": "PASS",
+      "value": 0
+    },
+    {
+      "assumption": "The snapshot is recent relative to the run date.",
+      "blocking": true,
+      "denominator": 7,
+      "evidence": {
+        "live_note": "Open data publication lag vs the 311 system is not measurable from this source.",
+        "max_age_days": 7,
+        "snapshot_age_days": 32
+      },
+      "id": "R08",
+      "live": "UNKNOWN",
+      "name": "Snapshot fresh enough",
+      "reporting": "FAIL",
+      "value": 32
+    },
+    {
+      "assumption": "No request is closed or updated before it was created.",
+      "blocking": false,
+      "denominator": 969004,
+      "evidence": {
+        "action_before_created": 2251,
+        "by_agency": {
+          "DEP": 43,
+          "DHS": 10,
+          "DOHMH": 305,
+          "DOT": 403,
+          "DSNY": 1408,
+          "HPD": 91,
+          "NYPD": 1
+        },
+        "closed_before_created": 170,
+        "not_counted_date_only_same_day": {
+          "by_agency": {
+            "DEP": 3,
+            "DOB": 3361,
+            "HPD": 5150
+          },
+          "closed": 0,
+          "last_action": 8514,
+          "why": "timestamp is 00:00:00 on the creation date: date-only precision, reported under R11"
+        },
+        "rows": 2261,
+        "share": 0.002333
+      },
+      "id": "R09",
+      "live": "FAIL",
+      "name": "Event order is possible",
+      "reporting": "WARN",
+      "value": 2261
+    },
+    {
+      "assumption": "Closed requests have a closed date; others do not.",
+      "blocking": false,
+      "denominator": 969004,
+      "evidence": {
+        "by_agency": {
+          "DEP": 74,
+          "DOB": 3759,
+          "DOHMH": 2,
+          "DOT": 377,
+          "DSNY": 1,
+          "HPD": 2,
+          "NYPD": 10
+        },
+        "rows": 4225,
+        "share": 0.00436
+      },
+      "id": "R10",
+      "live": "FAIL",
+      "name": "Status and closed date agree",
+      "reporting": "WARN",
+      "value": 4225
+    },
+    {
+      "assumption": "closed_date carries a real time of day.",
+      "blocking": false,
+      "denominator": 929729,
+      "evidence": {
+        "action": "exclude these agencies from hour-level durations; do not treat as ordering errors",
+        "agencies_over_50pct_midnight_closures": {
+          "DOB": 0.89
+        },
+        "date_only_timestamps_earlier_than_creation_same_day": 8514
+      },
+      "id": "R11",
+      "live": "WARN",
+      "name": "Closure time has hour precision",
+      "reporting": "WARN",
+      "value": 30797
+    },
+    {
+      "assumption": "Nothing happened after the data was pulled.",
+      "blocking": false,
+      "denominator": 969004,
+      "evidence": {
+        "rows": 5895
+      },
+      "id": "R12",
+      "live": "FAIL",
+      "name": "No timestamps after the snapshot",
+      "reporting": "WARN",
+      "value": 5895
+    },
+    {
+      "assumption": "Status uses the documented set of values.",
+      "blocking": false,
+      "denominator": 969004,
+      "evidence": {
+        "observed": {
+          "Assigned": 3565,
+          "Closed": 925508,
+          "In Progress": 29742,
+          "Open": 7984,
+          "Pending": 1660,
+          "Started": 526,
+          "Unspecified": 19
+        },
+        "unknown_values": {}
+      },
+      "id": "R13",
+      "live": "PASS",
+      "name": "Status values are known",
+      "reporting": "PASS",
+      "value": 0
+    },
+    {
+      "assumption": "Every request has a note a resident could be shown.",
+      "blocking": false,
+      "denominator": 969004,
+      "evidence": {
+        "by_agency": {
+          "DEP": 542,
+          "DHS": 866,
+          "DOHMH": 1472,
+          "DOT": 377,
+          "DPR": 7661,
+          "DSNY": 10393,
+          "EDC": 3090,
+          "TLC": 1509
+        },
+        "by_status": {
+          "Assigned": 25,
+          "Closed": 9671,
+          "In Progress": 15920,
+          "Open": 458,
+          "Pending": 3,
+          "Unspecified": 10
+        },
+        "rows": 26087,
+        "share": 0.026921
+      },
+      "id": "R14",
+      "live": "FAIL",
+      "name": "Closing note present",
+      "reporting": "WARN",
+      "value": 26087
+    },
+    {
+      "assumption": "Notes are complete and correctly encoded.",
+      "blocking": false,
+      "denominator": 969004,
+      "evidence": {
+        "mojibake_rows": 24899,
+        "truncated_at_500_chars_rows": 28245,
+        "truncation_rule": "length exactly 500 and last character not sentence punctuation (heuristic)"
+      },
+      "id": "R15",
+      "live": "FAIL",
+      "name": "Closing note text intact",
+      "reporting": "WARN",
+      "value": 53144
+    },
+    {
+      "assumption": "Every code in the closing-text mapping is an allowed value.",
+      "blocking": true,
+      "denominator": 110,
+      "evidence": {
+        "duplicate_hashes": 0,
+        "invalid_values": [],
+        "rows": 110
+      },
+      "id": "R16",
+      "live": "PASS",
+      "name": "Mapping file is valid",
+      "reporting": "PASS",
+      "value": 0
+    },
+    {
+      "assumption": "Coded notes cover almost all focus-agency requests.",
+      "blocking": true,
+      "denominator": 725695,
+      "evidence": {
+        "by_agency": {
+          "DOB": 0.984,
+          "DOT": 0.9643,
+          "HPD": 1.0,
+          "NYPD": 1.0
+        },
+        "coverage": 0.995607,
+        "unmapped_rows_are": "UNKNOWN in the KPI, never dropped"
+      },
+      "id": "R17",
+      "live": "PASS",
+      "name": "Mapping covers the focus-agency notes",
+      "reporting": "PASS",
+      "value": 722507
+    },
+    {
+      "assumption": "A second coder reads the notes the same way.",
+      "blocking": false,
+      "denominator": 110,
+      "evidence": {
+        "kappa_by_field": {
+          "action": 0.8005,
+          "certainty": 0.4655,
+          "fix_evidence": 0.8668,
+          "next_step": 0.7787,
+          "redirects_elsewhere": 0.7582,
+          "violation_finding": 0.6902
+        },
+        "live_note": "Needs agency sign-off before any resident-facing use."
+      },
+      "id": "R18",
+      "live": "UNKNOWN",
+      "name": "Mapping agrees with an independent coder",
+      "reporting": "WARN",
+      "value": 0.4655
+    },
+    {
+      "assumption": "Every SLA value is a number of hours or days, or the known sentinel.",
+      "blocking": false,
+      "denominator": 3563,
+      "evidence": {
+        "assumption": "days = calendar days x 24h (UNVERIFIED)",
+        "unparsed_values": {}
+      },
+      "id": "R19",
+      "live": "PASS",
+      "name": "SLA units understood",
+      "reporting": "PASS",
+      "value": 0
+    },
+    {
+      "assumption": "The response targets still apply to requests in this cohort.",
+      "blocking": false,
+      "denominator": null,
+      "evidence": {
+        "age_days_at_snapshot": 903,
+        "sla_rows_updated_at_utc": "2024-03-05T20:10:53+00:00"
+      },
+      "id": "R20",
+      "live": "FAIL",
+      "name": "SLA reference is current",
+      "reporting": "WARN",
+      "value": 903
+    },
+    {
+      "assumption": "Each request maps to at most one response target.",
+      "blocking": false,
+      "denominator": 969004,
+      "evidence": {
+        "states": {
+          "AMBIGUOUS": 131223,
+          "MATCHED": 731686,
+          "NOT_MANAGED_BY_311": 12392,
+          "UNMATCHED": 93703
+        }
+      },
+      "id": "R21",
+      "live": "WARN",
+      "name": "SLA match is unambiguous",
+      "reporting": "WARN",
+      "value": 131223
+    },
+    {
+      "assumption": "Adding SLA and mapping keeps one row per request.",
+      "blocking": true,
+      "denominator": 969004,
+      "evidence": "row count before vs after joins",
+      "id": "R22",
+      "live": "PASS",
+      "name": "Joins do not duplicate rows",
+      "reporting": "PASS",
+      "value": 969004
+    },
+    {
+      "assumption": "Floating timestamps are America/New_York local time.",
+      "blocking": false,
+      "denominator": null,
+      "evidence": {
+        "assumed": "America/New_York",
+        "basis": "hour-of-day pattern only; publisher does not state it"
+      },
+      "id": "R23",
+      "live": "UNKNOWN",
+      "name": "Timezone of timestamps",
+      "reporting": "UNKNOWN",
+      "value": null
+    },
+    {
+      "assumption": "Call-center rows can be linked to an agency or request.",
+      "blocking": false,
+      "denominator": 950999,
+      "evidence": {
+        "agency_null_rows": 950999,
+        "use": "context only; no request key exists"
+      },
+      "id": "R24",
+      "live": "WARN",
+      "name": "Status calls attributable to an agency",
+      "reporting": "WARN",
+      "value": 950999
+    },
+    {
+      "assumption": "Survey answers describe requests in general.",
+      "blocking": false,
+      "denominator": null,
+      "evidence": "Self-selected respondents who gave contact info; month = response month; no request key. Context only.",
+      "id": "R25",
+      "live": "FAIL",
+      "name": "Survey represents all requests",
+      "reporting": "WARN",
+      "value": 275467
+    }
+  ],
+  "run_date": "2026-09-27",
+  "snapshot_id": "20260925T112431Z_initial"
+}

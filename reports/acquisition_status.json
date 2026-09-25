@@ -1,0 +1,277 @@
+{
+  "problems": [],
+  "steps": {
+    "metadata": {
+      "id": "erm2-nwe9",
+      "name": "311 Service Requests from 2020 to Present",
+      "rowsUpdatedAt": 1790300423,
+      "rowsUpdatedAt_iso_utc": "2026-09-25T01:40:23+00:00",
+      "columns": [
+        "unique_key",
+        "created_date",
+        "closed_date",
+        "agency",
+        "agency_name",
+        "complaint_type",
+        "descriptor",
+        "descriptor_2",
+        "location_type",
+        "incident_zip",
+        "incident_address",
+        "street_name",
+        "cross_street_1",
+        "cross_street_2",
+        "intersection_street_1",
+        "intersection_street_2",
+        "address_type",
+        "city",
+        "landmark",
+        "facility_type",
+        "status",
+        "due_date",
+        "resolution_description",
+        "resolution_action_updated_date",
+        "community_board",
+        "council_district",
+        "police_precinct",
+        "bbl",
+        "borough",
+        "x_coordinate_state_plane",
+        "y_coordinate_state_plane",
+        "open_data_channel_type",
+        "park_facility_name",
+        "park_borough",
+        "vehicle_type",
+        "taxi_company_borough",
+        "taxi_pick_up_location",
+        "bridge_highway_name",
+        "bridge_highway_direction",
+        "road_ramp",
+        "bridge_highway_segment",
+        "latitude",
+        "longitude",
+        "location",
+        ":@computed_region_f5dn_yrer",
+        ":@computed_region_yeji_bk3q",
+        ":@computed_region_sbqj_enih",
+        ":@computed_region_92fq_4b7q"
+      ],
+      "raw_path": "data/raw/metadata/erm2-nwe9_views.json"
+    },
+    "counts": {
+      "total": 969004,
+      "groups": {
+        "agency": [
+          {
+            "agency": "DCWP",
+            "count": "5735"
+          },
+          {
+            "agency": "DEP",
+            "count": "56619"
+          },
+          {
+            "agency": "DHS",
+            "count": "15383"
+          },
+          {
+            "agency": "DOB",
+            "count": "30604"
+          },
+          {
+            "agency": "DOHMH",
+            "count": "22995"
+          },
+          {
+            "agency": "DOT",
+            "count": "76000"
+          },
+          {
+            "agency": "DPR",
+            "count": "46360"
+          },
+          {
+            "agency": "DSNY",
+            "count": "80490"
+          },
+          {
+            "agency": "EDC",
+            "count": "3090"
+          },
+          {
+            "agency": "HPD",
+            "count": "159275"
+          },
+          {
+            "agency": "NYC311-PRD",
+            "count": "294"
+          },
+          {
+            "agency": "NYPD",
+            "count": "460240"
+          },
+          {
+            "agency": "OOS",
+            "count": "1174"
+          },
+          {
+            "agency": "OTI",
+            "count": "85"
+          },
+          {
+            "agency": "TLC",
+            "count": "10660"
+          }
+        ],
+        "status": [
+          {
+            "status": "Assigned",
+            "count": "3565"
+          },
+          {
+            "status": "Closed",
+            "count": "925508"
+          },
+          {
+            "status": "In Progress",
+            "count": "29742"
+          },
+          {
+            "status": "Open",
+            "count": "7984"
+          },
+          {
+            "status": "Pending",
+            "count": "1660"
+          },
+          {
+            "status": "Started",
+            "count": "526"
+          },
+          {
+            "status": "Unspecified",
+            "count": "19"
+          }
+        ]
+      },
+      "where": "created_date >= '2026-04-01T00:00:00' AND created_date < '2026-07-01T00:00:00'"
+    },
+    "main_pull": {
+      "dataset_id": "erm2-nwe9",
+      "query_url_template": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cdue_date%2Cresolution_action_updated_date%2Cagency%2Cagency_name%2Ccomplaint_type%2Cdescriptor%2Cstatus%2Cresolution_description%2Copen_data_channel_type%2Cborough%2Ccommunity_board%2Cincident_zip%2Clocation_type&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-01T00%3A00%3A00%27&%24limit=50000&%24offset=%7Boffset%7D&%24order=unique_key",
+      "pull_start_utc": "2026-09-25T11:24:31.783964+00:00",
+      "pull_end_utc": "2026-09-25T11:38:09.575904+00:00",
+      "page_count": 20,
+      "rows_per_page": [
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        19004
+      ],
+      "total_rows": 969004,
+      "expected_count": 969004,
+      "counts_match": true,
+      "difference_actual_minus_expected": 0,
+      "duplicate_unique_key_count": 0
+    },
+    "catalog": {
+      "path": "data/raw/catalog/311_limit100.json",
+      "result_count": 47
+    },
+    "related:wewp-mm3p": {
+      "expected_count": 950999,
+      "manifest": {
+        "dataset_id": "wewp-mm3p",
+        "query_url_template": "https://data.cityofnewyork.us/resource/wewp-mm3p.json?%24select=unique_id%2Cdate%2Ctime%2Cdate_time%2Cagency%2Cagency_name%2Cinquiry_name%2Cbrief_description%2Ccall_resolution&%24where=date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+date+%3C+%272026-07-01T00%3A00%3A00%27&%24limit=50000&%24offset=%7Boffset%7D&%24order=unique_id",
+        "pull_start_utc": "2026-09-25T11:28:56.300618+00:00",
+        "pull_end_utc": "2026-09-25T11:32:07.883942+00:00",
+        "page_count": 20,
+        "rows_per_page": [
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          999
+        ],
+        "total_rows": 950999,
+        "expected_count": 950999,
+        "counts_match": true,
+        "difference_actual_minus_expected": 0,
+        "duplicate_unique_key_count": null
+      }
+    },
+    "pull2_sla": {
+      "expected_count": 3563,
+      "manifest": {
+        "dataset_id": "cs9t-e3x8",
+        "query_url_template": "https://data.cityofnewyork.us/resource/cs9t-e3x8.json?%24select=%2A&%24limit=50000&%24offset=%7Boffset%7D&%24order=%3Aid",
+        "pull_start_utc": "2026-09-25T11:52:38.499008+00:00",
+        "pull_end_utc": "2026-09-25T11:52:39.222243+00:00",
+        "page_count": 1,
+        "rows_per_page": [
+          3563
+        ],
+        "total_rows": 3563,
+        "expected_count": 3563,
+        "counts_match": true,
+        "difference_actual_minus_expected": 0,
+        "duplicate_unique_key_count": null
+      }
+    },
+    "pull2_survey": {
+      "expected_count": 275467,
+      "grouped_count_rows": 49,
+      "manifest": {
+        "dataset_id": "5ijn-vbdv",
+        "query_url_template": "https://data.cityofnewyork.us/resource/5ijn-vbdv.json?%24select=%2A&%24where=year+%3E%3D+2025&%24limit=50000&%24offset=%7Boffset%7D&%24order=unique_key",
+        "pull_start_utc": "2026-09-25T11:52:40.461976+00:00",
+        "pull_end_utc": "2026-09-25T11:53:27.012151+00:00",
+        "page_count": 6,
+        "rows_per_page": [
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          25467
+        ],
+        "total_rows": 275467,
+        "expected_count": 275467,
+        "counts_match": true,
+        "difference_actual_minus_expected": 0,
+        "duplicate_unique_key_count": 0
+      }
+    }
+  }
+}

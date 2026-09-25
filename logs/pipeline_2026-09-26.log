@@ -1,0 +1,10 @@
+2026-09-25T17:52:30Z INFO pipeline START run_date=2026-09-26 source=live chaos=None
+2026-09-25T17:52:40Z INFO extract service_requests: expected rows 969004
+2026-09-25T17:55:40Z WARNING http retry 1/5 in 2.0s: ReadTimeout: HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=180)
+2026-09-25T17:57:13Z INFO extract service_requests: page 1 rows=50000 cumulative=50000
+2026-09-25T17:57:26Z INFO extract service_requests: page 2 rows=50000 cumulative=100000
+2026-09-25T17:57:40Z INFO extract service_requests: page 3 rows=50000 cumulative=150000
+2026-09-25T17:57:54Z INFO extract service_requests: page 4 rows=50000 cumulative=200000
+2026-09-25T17:58:00Z INFO extract service_requests: page 5 rows=50000 cumulative=250000
+2026-09-25T17:58:16Z INFO extract service_requests: page 6 rows=50000 cumulative=300000
+2026-09-25T17:58:31Z INFO extract service_requests: page 7 rows=50000 cumulative=350000

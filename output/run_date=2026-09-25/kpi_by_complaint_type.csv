@@ -1,0 +1,50 @@
+agency,complaint_type,requests,answerable_share,unknown_share,fail_share,answerable_share_strict,main_blocker,main_blocker_share,proposed_decision,decision_if_loose_reading
+DOB,General Construction/Plumbing,11619,0.8566,0.0756,0.0678,0.8037,A3,0.1292,fix blocker first,fix blocker first
+DOB,Elevator,6380,0.4011,0.5834,0.0155,0.3997,A3,0.585,hold,hold
+DOB,Building/Use,6267,0.3976,0.2114,0.3909,0.351,A2,0.3908,hold,hold
+DOB,Real Time Enforcement,1741,0.9529,0.0465,0.0006,0.9339,A3,0.0655,candidate for measurement pilot,candidate for measurement pilot
+DOB,Special Projects Inspection Team (SPIT),1002,0.5998,0.1188,0.2814,0.5439,A2,0.2764,hold,hold
+DOB,Emergency Response Team (ERT),930,0.9376,0.0591,0.0032,0.9151,A3,0.0839,candidate for measurement pilot,candidate for measurement pilot
+DOB,Plumbing,921,0.8284,0.0673,0.1042,0.8035,A2,0.1042,fix blocker first,fix blocker first
+DOB,Boilers,667,0.8636,0.1304,0.006,0.8081,A3,0.1874,fix blocker first,fix blocker first
+DOB,Electrical,604,0.9636,0.0132,0.0232,0.9619,A2,0.0232,candidate for measurement pilot,candidate for measurement pilot
+DOT,Street Condition,38233,0.8956,0.0599,0.0445,0.6453,A3,0.267,fix blocker first,fix blocker first
+DOT,Traffic Signal Condition,11581,0.0,0.0,1.0,0.0,A5,0.9801,hold,hold
+DOT,Street Light Condition,8782,0.0,0.0,1.0,0.0,A5,0.9406,hold,hold
+DOT,Sidewalk Condition,7191,0.6993,0.099,0.2016,0.3514,A3,0.4526,hold,fix blocker first
+DOT,Curb Condition,2470,0.7733,0.104,0.1227,0.7158,A3,0.1632,fix blocker first,fix blocker first
+DOT,Street Sign - Damaged,1503,0.6979,0.0452,0.2568,0.171,A3,0.5755,hold,fix blocker first
+DOT,Outdoor Dining,1299,0.3256,0.2502,0.4242,0.3256,A5,0.4119,hold,hold
+DOT,Highway Condition,1039,0.7738,0.2089,0.0173,0.1126,A3,0.8874,hold,fix blocker first
+DOT,Street Sign - Dangling,1004,0.9243,0.006,0.0697,0.0916,A3,0.8396,hold,candidate for measurement pilot
+DOT,Street Sign - Missing,1003,0.7119,0.0219,0.2662,0.3101,A3,0.4237,hold,fix blocker first
+DOT,Broken Parking Meter,722,0.4931,0.0028,0.5042,0.0042,A5,0.5042,hold,hold
+HPD,HEAT/HOT WATER,33764,0.8895,0.0,0.1105,0.5148,A3,0.3747,hold,fix blocker first
+HPD,UNSANITARY CONDITION,32847,0.9791,0.0206,0.0003,0.7589,A3,0.2406,fix blocker first,candidate for measurement pilot
+HPD,PLUMBING,18978,0.9601,0.0341,0.0057,0.6501,A3,0.3419,fix blocker first,candidate for measurement pilot
+HPD,PAINT/PLASTER,15886,0.9901,0.0087,0.0013,0.783,A3,0.2143,fix blocker first,candidate for measurement pilot
+HPD,DOOR/WINDOW,12342,0.9792,0.0206,0.0002,0.7711,A3,0.2282,fix blocker first,candidate for measurement pilot
+HPD,GENERAL,10260,0.9838,0.0041,0.0121,0.7567,A3,0.2312,fix blocker first,candidate for measurement pilot
+HPD,WATER LEAK,9479,0.9963,0.0033,0.0004,0.7856,A3,0.2138,fix blocker first,candidate for measurement pilot
+HPD,ELECTRIC,8082,0.98,0.0192,0.0009,0.6571,A3,0.3405,fix blocker first,candidate for measurement pilot
+HPD,FLOORING/STAIRS,7407,0.9769,0.0227,0.0004,0.7294,A3,0.2696,fix blocker first,candidate for measurement pilot
+HPD,APPLIANCE,5887,0.9535,0.0462,0.0003,0.6851,A3,0.3139,fix blocker first,candidate for measurement pilot
+HPD,SAFETY,3605,0.9895,0.0105,0.0,0.6949,A3,0.3051,fix blocker first,candidate for measurement pilot
+NYPD,Illegal Parking,164499,0.9826,0.0,0.0174,0.7845,A3,0.1982,fix blocker first,candidate for measurement pilot
+NYPD,Noise - Residential,102229,0.9831,0.0,0.0169,0.6537,A3,0.3294,fix blocker first,candidate for measurement pilot
+NYPD,Noise - Street/Sidewalk,56500,0.9923,0.0,0.0077,0.5921,A3,0.4002,hold,candidate for measurement pilot
+NYPD,Blocked Driveway,47435,0.9843,0.0,0.0157,0.8716,A3,0.1127,fix blocker first,candidate for measurement pilot
+NYPD,Abandoned Vehicle,20601,0.8751,0.0,0.1249,0.4517,A3,0.4234,hold,fix blocker first
+NYPD,Noise - Commercial,17798,0.9901,0.0,0.0099,0.4913,A3,0.4988,hold,candidate for measurement pilot
+NYPD,Noise - Vehicle,16218,0.9945,0.0,0.0055,0.7871,A3,0.2074,fix blocker first,candidate for measurement pilot
+NYPD,Encampment,9406,0.9999,0.0,0.0001,0.9994,A3,0.0006,candidate for measurement pilot,candidate for measurement pilot
+NYPD,Non-Emergency Police Matter,6437,0.9784,0.0,0.0216,0.6775,A3,0.3009,fix blocker first,candidate for measurement pilot
+NYPD,Panhandling,2957,0.9888,0.0,0.0112,0.7163,A3,0.2726,fix blocker first,candidate for measurement pilot
+NYPD,Noise - Park,2944,0.982,0.0,0.018,0.5914,A3,0.3906,hold,candidate for measurement pilot
+NYPD,Animal-Abuse,2885,0.9695,0.0,0.0305,0.6804,A3,0.2891,fix blocker first,candidate for measurement pilot
+NYPD,Illegal Fireworks,2313,0.9974,0.0,0.0026,0.7821,A3,0.2153,fix blocker first,candidate for measurement pilot
+NYPD,Drug Activity,2307,0.9926,0.0,0.0074,0.8145,A3,0.1782,fix blocker first,candidate for measurement pilot
+NYPD,Traffic,2005,0.9651,0.0,0.0349,0.8204,A3,0.1446,fix blocker first,candidate for measurement pilot
+NYPD,Drinking,1351,0.9904,0.0,0.0096,0.661,A3,0.3294,fix blocker first,candidate for measurement pilot
+NYPD,Noise - House of Worship,812,0.9889,0.0,0.0111,0.8571,A3,0.1318,fix blocker first,candidate for measurement pilot
+NYPD,Bike/Roller/Skate,757,0.9908,0.0,0.0092,0.8336,A3,0.1572,fix blocker first,candidate for measurement pilot

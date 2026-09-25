@@ -1,0 +1,22 @@
+0 verbose cli /Users/kartik/.nvm/versions/node/v24.18.0/bin/node /Users/kartik/.nvm/versions/node/v24.18.0/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v24.18.0
+3 silly config load:file:/Users/kartik/.nvm/versions/node/v24.18.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/kartik/Downloads/Computer Vision/FDE/.npmrc
+5 silly config load:file:/Users/kartik/.npmrc
+6 silly config load:file:/Users/kartik/.nvm/versions/node/v24.18.0/etc/npmrc
+7 verbose title npm exec ctx7@latest docs /websites/dev_socrata Discovery API catalog v1 domains q limit response metadata resource id rowsUpdatedAt columns rows count update frequency
+8 verbose argv "exec" "--" "ctx7@latest" "docs" "/websites/dev_socrata" "Discovery API catalog v1 domains q limit response metadata resource id rowsUpdatedAt columns rows count update frequency"
+9 verbose logfile logs-max:10 dir:/Users/kartik/Downloads/Computer Vision/FDE/nyc311/.npm-cache/_logs/2026-09-25T11_21_08_488Z-
+10 verbose logfile /Users/kartik/Downloads/Computer Vision/FDE/nyc311/.npm-cache/_logs/2026-09-25T11_21_08_488Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 http fetch GET 200 https://registry.npmjs.org/ctx7 192ms (cache revalidated)
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+15 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+16 verbose cwd /Users/kartik/Downloads/Computer Vision/FDE
+17 verbose os Darwin 27.0.0
+18 verbose node v24.18.0
+19 verbose npm  v11.16.0
+20 verbose exit 0
+21 info ok

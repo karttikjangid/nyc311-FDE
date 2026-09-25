@@ -1,0 +1,6 @@
+2026-09-25 11:38:18,708 UTC INFO Run started; log=/Users/kartik/Downloads/Computer Vision/FDE/nyc311/logs/acquire_20260925T113818Z.log
+2026-09-25 11:38:18,708 UTC INFO SOCRATA_APP_TOKEN is absent
+2026-09-25 11:38:18,709 UTC INFO Existing raw file retained unchanged: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/wewp-mm3p/metadata_views.json
+2026-09-25 11:38:18,710 UTC INFO Existing raw file retained unchanged: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/wewp-mm3p/total.json
+2026-09-25 11:38:18,710 UTC INFO Existing manifest retained unchanged: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/related/wewp-mm3p/created_2026Q2/_manifest.json
+2026-09-25 11:38:18,711 UTC INFO Run completed

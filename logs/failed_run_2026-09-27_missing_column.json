@@ -1,0 +1,59 @@
+{
+  "chaos": "missing_column",
+  "gate": {
+    "blocking_failures": [
+      "R03"
+    ],
+    "live_answer_blockers": [
+      "R03"
+    ],
+    "live_answer_gate": "NOT READY",
+    "publish": false,
+    "reporting_gate": "NOT READY"
+  },
+  "reason": "structural checks failed before cleaning",
+  "rules": [
+    {
+      "assumption": "We received every row the source says exists.",
+      "blocking": true,
+      "denominator": 4,
+      "evidence": {
+        "mismatch_expected_received": {},
+        "source_count_changed_during_pull": {}
+      },
+      "id": "R01",
+      "live": "PASS",
+      "name": "Retrieval count matches source count",
+      "reporting": "PASS",
+      "value": 0
+    },
+    {
+      "assumption": "Replayed bytes are the bytes the API returned.",
+      "blocking": true,
+      "denominator": null,
+      "evidence": [],
+      "id": "R02",
+      "live": "PASS",
+      "name": "Raw files unchanged since retrieval",
+      "reporting": "PASS",
+      "value": 0
+    },
+    {
+      "assumption": "Every field the model needs exists in each source.",
+      "blocking": true,
+      "denominator": null,
+      "evidence": {
+        "service_requests": [
+          "status"
+        ]
+      },
+      "id": "R03",
+      "live": "FAIL",
+      "name": "Required columns present",
+      "reporting": "FAIL",
+      "value": 1
+    }
+  ],
+  "run_date": "2026-09-27",
+  "snapshot_id": "20260925T112431Z_initial"
+}

@@ -1,0 +1,789 @@
+{
+  "id" : "5ijn-vbdv",
+  "name" : "311 Resolution Satisfaction Survey",
+  "assetType" : "dataset",
+  "attribution" : "Office of Technology and Innovation (OTI)",
+  "averageRating" : 0,
+  "category" : "City Government",
+  "createdAt" : 1746473398,
+  "description" : "Every customer who makes a <a href=\"https://data.cityofnewyork.us/d/erm2-nwe9\" target=\"_blank\" rel=\"noopener\">Service Request to 311</a> and provides their contact information is offered the 311 Resolution Satisfaction Survey to provide feedback on their satisfaction with how a City Agency resolved their problem. Each row of data represents a survey response, and contains information about the survey response and the underlying service request. \n\nIn order to protect the anonymity of survey responses, the time the response is completed is aggregated to the month, and the location the service request pertains to is aggregated to the borough.\n\nSee the <a href=\"https://data.cityofnewyork.us/d/kizp-4dfk\" target=\"_blank\" rel=\"noopener\">311 Customer Satisfaction Survey</a> dataset for customer feedback on the performance of 311 call takers.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 3836,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41305945,
+  "provenance" : "official",
+  "publicationAppendEnabled" : true,
+  "publicationDate" : 1746631362,
+  "publicationGroup" : 19880866,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1789995851,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 19882066,
+  "totalTimesRated" : 0,
+  "viewCount" : 4526,
+  "viewLastModified" : 1789995638,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1748013703,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 6896942,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1748013666,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "reviewer" : {
+      "id" : "8u8s-8cxv",
+      "displayName" : "Zachary Feder (NYC Open Data)"
+    },
+    "submissionDetails" : {
+      "permissionType" : "read"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1748013703,
+      "failureCount" : 0,
+      "startedAt" : 1748013703,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "8u8s-8cxv",
+      "displayName" : "Zachary Feder (NYC Open Data)"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 609644073,
+    "name" : "Unique Key",
+    "dataTypeName" : "text",
+    "description" : "Unique identifier of a survey response in this dataset.",
+    "fieldName" : "unique_key",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 158320760,
+    "cachedContents" : {
+      "non_null" : "566868",
+      "largest" : "99999674-00132353",
+      "null" : "0",
+      "top" : [ {
+        "item" : "89615158-00535959",
+        "count" : "1"
+      }, {
+        "item" : "11163556-00070062",
+        "count" : "1"
+      }, {
+        "item" : "14359210-00123311",
+        "count" : "1"
+      }, {
+        "item" : "52121747-00532593",
+        "count" : "1"
+      }, {
+        "item" : "86097773-00453252",
+        "count" : "1"
+      }, {
+        "item" : "36772574-00020040",
+        "count" : "1"
+      }, {
+        "item" : "31143192-00418745",
+        "count" : "1"
+      }, {
+        "item" : "76947063-00020866",
+        "count" : "1"
+      }, {
+        "item" : "24393624-00403027",
+        "count" : "1"
+      }, {
+        "item" : "93047595-00531537",
+        "count" : "1"
+      }, {
+        "item" : "82081244-00391208",
+        "count" : "1"
+      }, {
+        "item" : "63998027-00029853",
+        "count" : "1"
+      }, {
+        "item" : "75828984-00234186",
+        "count" : "1"
+      }, {
+        "item" : "25987960-00518132",
+        "count" : "1"
+      }, {
+        "item" : "52855264-00498615",
+        "count" : "1"
+      }, {
+        "item" : "26938771-00303788",
+        "count" : "1"
+      }, {
+        "item" : "37373416-00044568",
+        "count" : "1"
+      }, {
+        "item" : "41164961-00490967",
+        "count" : "1"
+      }, {
+        "item" : "36449004-00109985",
+        "count" : "1"
+      }, {
+        "item" : "67145322-00272971",
+        "count" : "1"
+      } ],
+      "smallest" : "10000243-00570345",
+      "count" : "566868",
+      "cardinality" : "566868"
+    },
+    "format" : { }
+  }, {
+    "id" : 609644074,
+    "name" : "Agency Acronym",
+    "dataTypeName" : "text",
+    "description" : "Acronym of responding City Government Agency or entity responding to 311 service request that the survey response corresponds to.",
+    "fieldName" : "agency",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 158320762,
+    "cachedContents" : {
+      "non_null" : "566868",
+      "largest" : "TLC",
+      "null" : "0",
+      "top" : [ {
+        "item" : "NYPD",
+        "count" : "261193"
+      }, {
+        "item" : "HPD",
+        "count" : "87827"
+      }, {
+        "item" : "DSNY",
+        "count" : "66018"
+      }, {
+        "item" : "DEP",
+        "count" : "40032"
+      }, {
+        "item" : "DPR",
+        "count" : "29382"
+      }, {
+        "item" : "DOT",
+        "count" : "24297"
+      }, {
+        "item" : "DOF",
+        "count" : "21314"
+      }, {
+        "item" : "DOB",
+        "count" : "12216"
+      }, {
+        "item" : "DOHMH",
+        "count" : "10279"
+      }, {
+        "item" : "TLC",
+        "count" : "4614"
+      }, {
+        "item" : "DHS",
+        "count" : "4357"
+      }, {
+        "item" : "DCWP",
+        "count" : "3551"
+      }, {
+        "item" : "EDC",
+        "count" : "1088"
+      }, {
+        "item" : "OTI",
+        "count" : "407"
+      }, {
+        "item" : "DOE",
+        "count" : "188"
+      }, {
+        "item" : "OOS",
+        "count" : "70"
+      }, {
+        "item" : "DFTA",
+        "count" : "26"
+      }, {
+        "item" : "DORIS",
+        "count" : "8"
+      }, {
+        "item" : "NYCEM",
+        "count" : "1"
+      } ],
+      "smallest" : "DCWP",
+      "count" : "566868",
+      "cardinality" : "566868"
+    },
+    "format" : { }
+  }, {
+    "id" : 609644075,
+    "name" : "Agency Name",
+    "dataTypeName" : "text",
+    "description" : "Full agency name of responding City Government Agency, or entity responding to 311 service request that the survey response corresponds to.",
+    "fieldName" : "agency_name",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 158320761,
+    "cachedContents" : {
+      "non_null" : "566768",
+      "largest" : "Taxi and Limousine Commission",
+      "null" : "100",
+      "top" : [ {
+        "item" : "New York City Police Department",
+        "count" : "261160"
+      }, {
+        "item" : "Department of Housing Preservation and Development",
+        "count" : "87799"
+      }, {
+        "item" : "Department of Sanitation",
+        "count" : "65579"
+      }, {
+        "item" : "Department of Environmental Protection",
+        "count" : "40024"
+      }, {
+        "item" : "Department of Parks and Recreation",
+        "count" : "29365"
+      }, {
+        "item" : "Department of Transportation",
+        "count" : "24292"
+      }, {
+        "item" : "Department of Finance",
+        "count" : "21300"
+      }, {
+        "item" : "Department of Buildings",
+        "count" : "12211"
+      }, {
+        "item" : "Department of Health and Mental Hygiene",
+        "count" : "10279"
+      }, {
+        "item" : "Taxi and Limousine Commission",
+        "count" : "4614"
+      }, {
+        "item" : "Department of Homeless Services",
+        "count" : "4357"
+      }, {
+        "item" : "Department of Consumer and Worker Protection",
+        "count" : "3551"
+      }, {
+        "item" : "Economic Development Corporation",
+        "count" : "1088"
+      }, {
+        "item" : "nyc311-prd",
+        "count" : "452"
+      }, {
+        "item" : "Office of Technology and Innovation",
+        "count" : "406"
+      }, {
+        "item" : "Department of Education",
+        "count" : "186"
+      }, {
+        "item" : "Office of the Sheriff",
+        "count" : "70"
+      }, {
+        "item" : "Department for the Aging",
+        "count" : "26"
+      }, {
+        "item" : "Department of Records and Information Services",
+        "count" : "8"
+      }, {
+        "item" : "NYC Emergency Management",
+        "count" : "1"
+      } ],
+      "smallest" : "Department for the Aging",
+      "count" : "566868",
+      "cardinality" : "566868"
+    },
+    "format" : { }
+  }, {
+    "id" : 609644076,
+    "name" : "Complaint Type",
+    "dataTypeName" : "text",
+    "description" : "The Complaint Type of the service request that the survey corresponds to. The Complaint Type is the first level of a hierarchy identifying the topic of the incident or condition. Complaint Type broadly describes the topic of the incident or condition and are defined by the responding agencies.",
+    "fieldName" : "complaint_type",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 158320759,
+    "cachedContents" : {
+      "non_null" : "566868",
+      "largest" : "Zoning Violation",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Illegal Parking",
+        "count" : "139303"
+      }, {
+        "item" : "Noise - Residential",
+        "count" : "35657"
+      }, {
+        "item" : "Blocked Driveway",
+        "count" : "31237"
+      }, {
+        "item" : "Heat/Hot Water",
+        "count" : "30571"
+      }, {
+        "item" : "Missed Collection",
+        "count" : "20130"
+      }, {
+        "item" : "Abandoned Vehicle",
+        "count" : "17318"
+      }, {
+        "item" : "Unsanitary Condition",
+        "count" : "13524"
+      }, {
+        "item" : "Water Maintenance",
+        "count" : "12748"
+      }, {
+        "item" : "Noise - Street/Sidewalk",
+        "count" : "12509"
+      }, {
+        "item" : "Dirty Condition",
+        "count" : "11915"
+      }, {
+        "item" : "Noise - Commercial",
+        "count" : "11682"
+      }, {
+        "item" : "Noise",
+        "count" : "11226"
+      }, {
+        "item" : "Sewer Maintenance",
+        "count" : "9292"
+      }, {
+        "item" : "Illegal Dumping",
+        "count" : "9029"
+      }, {
+        "item" : "Street Condition",
+        "count" : "8899"
+      }, {
+        "item" : "Plumbing",
+        "count" : "8204"
+      }, {
+        "item" : "Paint/Plaster",
+        "count" : "7852"
+      }, {
+        "item" : "Damaged Tree",
+        "count" : "6941"
+      }, {
+        "item" : "Encampment",
+        "count" : "6924"
+      }, {
+        "item" : "DOF Literature Request",
+        "count" : "6913"
+      } ],
+      "smallest" : "Abandoned Bike",
+      "count" : "566868",
+      "cardinality" : "566868"
+    },
+    "format" : { }
+  }, {
+    "id" : 609644077,
+    "name" : "Descriptor",
+    "dataTypeName" : "text",
+    "description" : "The Descriptor of the service request that the survey corresponds to. The Descriptor is associated to the Complaint Type, and provides further detail on the incident or condition. Descriptor values are dependent on the Complaint Type, and are not always required in the service request.",
+    "fieldName" : "descriptor",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 158320758,
+    "cachedContents" : {
+      "non_null" : "548142",
+      "largest" : "Zoning Violation",
+      "null" : "18726",
+      "top" : [ {
+        "item" : "Blocked Sidewalk",
+        "count" : "69878"
+      }, {
+        "item" : "Loud Music/Party",
+        "count" : "38768"
+      }, {
+        "item" : "No Access",
+        "count" : "21706"
+      }, {
+        "item" : "Blocked Hydrant",
+        "count" : "19966"
+      }, {
+        "item" : "Apartment Only",
+        "count" : "19695"
+      }, {
+        "item" : "Posted Parking Sign Violation",
+        "count" : "19588"
+      }, {
+        "item" : "Banging/Pounding",
+        "count" : "16756"
+      }, {
+        "item" : "Trash",
+        "count" : "15774"
+      }, {
+        "item" : "With License Plate",
+        "count" : "11132"
+      }, {
+        "item" : "Entire Building",
+        "count" : "10876"
+      }, {
+        "item" : "Commercial Overnight Parking",
+        "count" : "9643"
+      }, {
+        "item" : "Partial Access",
+        "count" : "9531"
+      }, {
+        "item" : "Removal Request",
+        "count" : "7662"
+      }, {
+        "item" : "Pests",
+        "count" : "7200"
+      }, {
+        "item" : "Without License Plate",
+        "count" : "6186"
+      }, {
+        "item" : "Mold",
+        "count" : "5110"
+      }, {
+        "item" : "Loud Talking",
+        "count" : "4718"
+      }, {
+        "item" : "Compost",
+        "count" : "4690"
+      }, {
+        "item" : "Construction",
+        "count" : "4319"
+      }, {
+        "item" : "Blocked Crosswalk",
+        "count" : "4012"
+      } ],
+      "smallest" : "1 or 2",
+      "count" : "566868",
+      "cardinality" : "566868"
+    },
+    "format" : { }
+  }, {
+    "id" : 609644078,
+    "name" : "Borough",
+    "dataTypeName" : "text",
+    "description" : "The borough in which the customer reported a problem",
+    "fieldName" : "borough",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 158320757,
+    "cachedContents" : {
+      "non_null" : "557287",
+      "largest" : "STATEN ISLAND",
+      "null" : "9581",
+      "top" : [ {
+        "item" : "BROOKLYN",
+        "count" : "193082"
+      }, {
+        "item" : "QUEENS",
+        "count" : "146960"
+      }, {
+        "item" : "MANHATTAN",
+        "count" : "107635"
+      }, {
+        "item" : "BRONX",
+        "count" : "83586"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "26024"
+      } ],
+      "smallest" : "BRONX",
+      "count" : "566868",
+      "cardinality" : "566868"
+    },
+    "format" : { }
+  }, {
+    "id" : 609644079,
+    "name" : "Resolution Description",
+    "dataTypeName" : "text",
+    "description" : "Describes the last action taken on the service request by the responding agency. May describe next or future steps.",
+    "fieldName" : "resolution_description",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 158320754,
+    "cachedContents" : {
+      "non_null" : "564870",
+      "largest" : "You withdrew your complaint. The Department of Consumer and Worker Protection (DCWP) will not take any action.",
+      "null" : "1998",
+      "top" : [ {
+        "item" : "The Department of Housing Preservation and Development conducted or attempted to conduct an inspection.  More information about inspection results can be found through HPD's website at www.nyc.gov/hpd by using HPDONLINE (enter your address on the home page) and entering your SR number under the complaint status option.",
+        "count" : "69279"
+      }, {
+        "item" : "The Police Department responded to the complaint and took action to fix the condition.",
+        "count" : "56146"
+      }, {
+        "item" : "The Police Department responded to the complaint and determined that police action was not necessary.",
+        "count" : "50117"
+      }, {
+        "item" : "The Police Department responded to the complaint and with the information available observed no evidence of the violation at that time.",
+        "count" : "33286"
+      }, {
+        "item" : "The Police Department issued a summons in response to the complaint.",
+        "count" : "24918"
+      }, {
+        "item" : "The Police Department responded and upon arrival those responsible for the condition were gone.",
+        "count" : "20372"
+      }, {
+        "item" : "The New York City Police Department responded to the complaint and their investigation determined that no criminal violation existed. The condition was corrected without the need to issue a summons or effect an arrest. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). Thank you for your attention to this matter. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+        "count" : "18520"
+      }, {
+        "item" : "The New York City Police Department responded to the complaint and their investigation determined that police action was not necessary. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+        "count" : "17600"
+      }, {
+        "item" : "The Department of Sanitation investigated this complaint and found no condition at the location.",
+        "count" : "13790"
+      }, {
+        "item" : "The Department of Sanitation collected the requested items.",
+        "count" : "13587"
+      }, {
+        "item" : "The Department of Housing Preservation and Development has closed this complaint administratively. More information can be found through HPD's website at www.nyc.gov/hpd by using HPDONLINE (enter your address on the home page) and entering your SR number under the complaint status option.",
+        "count" : "10067"
+      }, {
+        "item" : "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+        "count" : "8966"
+      }, {
+        "item" : "The literature you requested has been mailed to you. Please allow additional time for delivery.",
+        "count" : "8914"
+      }, {
+        "item" : "The New York City Police Department responded to the complaint and their investigation determined that a violation of law occurred. Police issued a summons in response to the complaint. Thank you for attention to this matter. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+        "count" : "8319"
+      }, {
+        "item" : "The Department of Housing Preservation and Development contacted an occupant of the apartment or building and verified that the complaint was addressed.  The complaint has been closed.",
+        "count" : "8082"
+      }, {
+        "item" : "The Department of Sanitation cleaned the location.",
+        "count" : "7620"
+      }, {
+        "item" : "The Department of Environmental Protection determined that this complaint is a duplicate of a previously filed complaint. The original complaint is being addressed.",
+        "count" : "7547"
+      }, {
+        "item" : "The Department of Sanitation investigated this complaint and found no violation at the location.",
+        "count" : "6988"
+      }, {
+        "item" : "The New York City Police Department responded to the complaint and observed no criminal violation upon their arrival. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+        "count" : "6241"
+      }, {
+        "item" : "See notes.",
+        "count" : "5742"
+      } ],
+      "smallest" : "A copy of the requested document was mailed.",
+      "count" : "566868",
+      "cardinality" : "566868"
+    },
+    "format" : { }
+  }, {
+    "id" : 609644080,
+    "name" : "Survey Year",
+    "dataTypeName" : "number",
+    "description" : "The year in which the customer began filling out the survey",
+    "fieldName" : "year",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 158320752,
+    "cachedContents" : {
+      "non_null" : "566868",
+      "largest" : "2026",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2025",
+        "count" : "159930"
+      }, {
+        "item" : "2024",
+        "count" : "141552"
+      }, {
+        "item" : "2026",
+        "count" : "115537"
+      }, {
+        "item" : "2023",
+        "count" : "111910"
+      }, {
+        "item" : "2022",
+        "count" : "37939"
+      } ],
+      "smallest" : "2022",
+      "count" : "566868",
+      "cardinality" : "566868"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 609644081,
+    "name" : "Survey Month",
+    "dataTypeName" : "number",
+    "description" : "The month in which the customer began filling out the survey",
+    "fieldName" : "month",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 158320753,
+    "cachedContents" : {
+      "non_null" : "566868",
+      "largest" : "12",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "52656"
+      }, {
+        "item" : "5",
+        "count" : "52105"
+      }, {
+        "item" : "3",
+        "count" : "52056"
+      }, {
+        "item" : "6",
+        "count" : "50165"
+      }, {
+        "item" : "4",
+        "count" : "49720"
+      }, {
+        "item" : "10",
+        "count" : "47931"
+      }, {
+        "item" : "12",
+        "count" : "47013"
+      }, {
+        "item" : "8",
+        "count" : "46865"
+      }, {
+        "item" : "2",
+        "count" : "45510"
+      }, {
+        "item" : "11",
+        "count" : "45016"
+      }, {
+        "item" : "7",
+        "count" : "42807"
+      }, {
+        "item" : "9",
+        "count" : "35024"
+      } ],
+      "smallest" : "1",
+      "count" : "566868",
+      "cardinality" : "566868"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 609644082,
+    "name" : "Satisfaction Response",
+    "dataTypeName" : "text",
+    "description" : "Customers are asked to respond to the statement \"Overall, I am satisfied with the way my Service Request was handled.\"",
+    "fieldName" : "overall_satisfaction",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 158320756,
+    "cachedContents" : {
+      "non_null" : "566868",
+      "largest" : "Strongly Disagree",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Strongly Disagree",
+        "count" : "308770"
+      }, {
+        "item" : "Strongly Agree",
+        "count" : "137088"
+      }, {
+        "item" : "Agree",
+        "count" : "51622"
+      }, {
+        "item" : "Disagree",
+        "count" : "43230"
+      }, {
+        "item" : "Neutral",
+        "count" : "26158"
+      } ],
+      "smallest" : "Agree",
+      "count" : "566868",
+      "cardinality" : "566868"
+    },
+    "format" : { }
+  }, {
+    "id" : 609644083,
+    "name" : "Dissatisfaction Reason",
+    "dataTypeName" : "text",
+    "description" : "If someone was dissatisfied (responded 'Disagree' or 'Strongly Disagree'), they are asked to choose a reason why from a list or select 'Other' to write their own explanation.",
+    "fieldName" : "dissatisfaction_reason",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 158320755,
+    "cachedContents" : {
+      "non_null" : "351389",
+      "largest" : "The Agency said I did not provide complete or accurate information, but I did.",
+      "null" : "215479",
+      "top" : [ {
+        "item" : "The Agency did not correct the issue.",
+        "count" : "135477"
+      }, {
+        "item" : "Other",
+        "count" : "116558"
+      }, {
+        "item" : "The Agency did not correct the issue and this Service Request should be reopened.",
+        "count" : "57513"
+      }, {
+        "item" : "Status updates were unhelpful, inaccurate, incomplete, and/or confusing.",
+        "count" : "24162"
+      }, {
+        "item" : "The Agency corrected the issue, but they took too long to respond.",
+        "count" : "6139"
+      }, {
+        "item" : "The Agency said I did not provide complete or accurate information, but I did.",
+        "count" : "4839"
+      }, {
+        "item" : "The Agency did not provide enough status updates.",
+        "count" : "3756"
+      }, {
+        "item" : "The Agency corrected the issue, but the work they did was unsatisfactory.",
+        "count" : "2945"
+      } ],
+      "smallest" : "Other",
+      "count" : "566868",
+      "cardinality" : "566868"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "311 Resolution Satisfaction Survey Data Dictionary.xlsx",
+      "assetId" : "87ca2932-bfa8-4145-831c-7b32e9c6cf54",
+      "name" : "311 Resolution Satisfaction Survey Data Dictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "5/23/2025",
+        "Update Frequency" : "Weekly",
+        "Data Change Frequency" : "Daily"
+      },
+      "Dataset Information" : {
+        "Agency" : "Office of Technology and Innovation (OTI)"
+      }
+    },
+    "rowLabel" : "survey response",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "311", "311 service requests", "complaints", "survey", "rsat" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

@@ -1,0 +1,45 @@
+2026-09-25 11:24:31,782 UTC INFO Run started; log=/Users/kartik/Downloads/Computer Vision/FDE/nyc311/logs/acquire_20260925T112431Z.log
+2026-09-25 11:24:31,782 UTC INFO SOCRATA_APP_TOKEN is absent
+2026-09-25 11:24:31,782 UTC INFO Existing raw file retained unchanged: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/metadata/erm2-nwe9_views.json
+2026-09-25 11:27:32,765 UTC WARNING RETRY timeout attempt=1 delay=2s url=https://data.cityofnewyork.us/resource/erm2-nwe9.json params={'$select': 'unique_key,created_date,closed_date,due_date,resolution_action_updated_date,agency,agency_name,complaint_type,descriptor,status,resolution_description,open_data_channel_type,borough,community_board,incident_zip,location_type', '$where': "created_date >= '2026-04-01T00:00:00' AND created_date < '2026-07-01T00:00:00'", '$limit': 50000, '$offset': 0, '$order': 'unique_key'}
+2026-09-25 11:28:36,529 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00001.json.gz bytes=42540911
+2026-09-25 11:28:36,691 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00001.json.gz rows=50000 cumulative=50000
+2026-09-25 11:29:01,924 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00002.json.gz bytes=41260225
+2026-09-25 11:29:02,100 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00002.json.gz rows=50000 cumulative=100000
+2026-09-25 11:29:36,170 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00003.json.gz bytes=42941303
+2026-09-25 11:29:36,371 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00003.json.gz rows=50000 cumulative=150000
+2026-09-25 11:30:09,016 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00004.json.gz bytes=42685306
+2026-09-25 11:30:09,220 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00004.json.gz rows=50000 cumulative=200000
+2026-09-25 11:32:52,266 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00005.json.gz bytes=42185414
+2026-09-25 11:32:52,450 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00005.json.gz rows=50000 cumulative=250000
+2026-09-25 11:34:28,919 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00006.json.gz bytes=41909693
+2026-09-25 11:34:29,121 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00006.json.gz rows=50000 cumulative=300000
+2026-09-25 11:34:44,342 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00007.json.gz bytes=43333747
+2026-09-25 11:34:44,544 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00007.json.gz rows=50000 cumulative=350000
+2026-09-25 11:35:00,242 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00008.json.gz bytes=43010150
+2026-09-25 11:35:00,426 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00008.json.gz rows=50000 cumulative=400000
+2026-09-25 11:35:12,017 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00009.json.gz bytes=41692043
+2026-09-25 11:35:12,219 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00009.json.gz rows=50000 cumulative=450000
+2026-09-25 11:35:25,942 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00010.json.gz bytes=43861688
+2026-09-25 11:35:26,128 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00010.json.gz rows=50000 cumulative=500000
+2026-09-25 11:35:49,218 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00011.json.gz bytes=41637679
+2026-09-25 11:35:49,392 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00011.json.gz rows=50000 cumulative=550000
+2026-09-25 11:36:00,297 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00012.json.gz bytes=42796269
+2026-09-25 11:36:00,449 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00012.json.gz rows=50000 cumulative=600000
+2026-09-25 11:36:13,105 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00013.json.gz bytes=43665085
+2026-09-25 11:36:13,271 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00013.json.gz rows=50000 cumulative=650000
+2026-09-25 11:36:27,478 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00014.json.gz bytes=42501629
+2026-09-25 11:36:27,631 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00014.json.gz rows=50000 cumulative=700000
+2026-09-25 11:36:41,887 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00015.json.gz bytes=42256487
+2026-09-25 11:36:42,099 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00015.json.gz rows=50000 cumulative=750000
+2026-09-25 11:37:07,035 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00016.json.gz bytes=42549486
+2026-09-25 11:37:07,236 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00016.json.gz rows=50000 cumulative=800000
+2026-09-25 11:37:21,878 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00017.json.gz bytes=42295118
+2026-09-25 11:37:22,106 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00017.json.gz rows=50000 cumulative=850000
+2026-09-25 11:37:37,198 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00018.json.gz bytes=43535921
+2026-09-25 11:37:37,412 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00018.json.gz rows=50000 cumulative=900000
+2026-09-25 11:37:52,027 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00019.json.gz bytes=44056125
+2026-09-25 11:37:52,309 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00019.json.gz rows=50000 cumulative=950000
+2026-09-25 11:38:09,441 UTC INFO Saved raw response: /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00020.json.gz bytes=15455336
+2026-09-25 11:38:09,574 UTC INFO Page /Users/kartik/Downloads/Computer Vision/FDE/nyc311/data/raw/service_requests/created_2026Q2/page_00020.json.gz rows=19004 cumulative=969004
+2026-09-25 11:38:09,639 UTC INFO Run completed
