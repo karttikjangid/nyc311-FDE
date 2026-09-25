@@ -4,6 +4,9 @@ All numbers come from `output/run_date=2026-09-25/` (snapshot `20260925T112431Z_
 
 ## 1. Evidence table
 
+How to read the codes in this document. A request is **answerable** when its record passes five checks: **A1** dates in a possible order, **A2** status and closed date agree, **A3** the closing note says what happened or who acts next, **A4** an open request has a published target time, **A5** 311 holds the status (the note does not send the resident to another website). The **strict reading** counts vague notes as unclear; the **loose reading** takes them at face value.
+
+
 | Metric | Type | NYPD | HPD | DOT | DOB |
 |---|---|---:|---:|---:|---:|
 | Requests | | 460,240 | 159,275 | 76,000 | 30,604 |
@@ -30,7 +33,7 @@ How to read the KPI: **answerable means the record can tell the resident, in pla
 4. **One NYPD template sets NYPD's score.** 120,685 NYPD requests close with a note that says both "no criminal violation existed" and "the condition was corrected". Read at face value, NYPD scores 98.0%. Treated as uncertain, 71.5%.
 5. **DOT cannot be answered from 311 for a third of its requests.** 33.1% of DOT notes point elsewhere for the status: DOT's website (20,225 requests), a "Notes to Customer" field that is not published (4,414) or a call to 311 (485). For traffic signals and street lights, 94% to 98% of requests stop at this check.
 6. **DOB records disagree with themselves.** 3,759 DOB requests are Open or Assigned but already have a closed date, and 89% of DOB closure times are exactly midnight.
-7. **"When will it be fixed?" has no answer in the data.** `due_date` is empty for 99.6% of requests. The only published targets are a 2024 table of response times, and they match cleanly for 75.5% of requests (the rest are ambiguous, unmatched or "not managed by 311").
+7. **"When will it be fixed?" has no answer in the data.** `due_date` is empty for 99.6% of requests. The only published targets are a 2024 table of response times. It gives exactly one target for 75.5% of requests; the rest get two conflicting targets, no target at all, or "SLA not managed by 311".
 
 ## 3. Proposed decision (owner: 311/OTI leadership with each agency)
 
@@ -42,6 +45,14 @@ The rule uses the strict reading so it stays conservative: 90%+ answerable = can
 | **Fix the blocker first** | 28 | 530,888 | most HPD housing conditions and NYPD parking and noise types; the blocker is the note wording (A3) |
 | **Hold** | 17 | 179,380 | HPD heat/hot water; DOT signals, street lights, sidewalks; NYPD street and commercial noise |
 | Of which **hold under both readings** | 7 | 36,033 | DOT traffic signal, street light, outdoor dining, parking meters (status held by DOT); DOB elevator, building/use, SPIT |
+
+The same 49 complaint types, grouped by whether the reading of the notes matters:
+
+| Status | Complaint types | Requests |
+|---|---:|---:|
+| Ready under both readings | 4 | 12,681 |
+| Ready only if the vague notes are confirmed | 27 | 555,224 |
+| Not ready under either reading | 18 | 155,044 |
 
 A pilot here means reading back the coded outcome to residents or call-center agents and measuring whether repeat status calls fall. It never means telling a resident "fixed" without fix evidence.
 

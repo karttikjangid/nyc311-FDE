@@ -266,3 +266,118 @@
 2026-09-25T13:08:34Z INFO pipeline VALIDATE R24 Status calls attributable to an agency        reporting=WARN    live=WARN
 2026-09-25T13:08:34Z INFO pipeline VALIDATE R25 Survey represents all requests                reporting=WARN    live=FAIL
 2026-09-25T13:09:38Z INFO pipeline PUBLISHED /sessions/rcw-01gzbv3brayersg97mrzskfz/mnt/FDE/nyc311/output/run_date=2026-09-25 gate=READY (with warnings) live_gate=NOT READY in 87.6s
+2026-09-25T18:56:50Z INFO pipeline START run_date=2026-09-25 source=snapshot chaos=None
+2026-09-25T18:57:01Z INFO pipeline EXTRACT snapshot=20260925T112431Z_initial rows={'call_center': 950999, 'service_requests': 969004, 'sla': 3563, 'survey': 275467} integrity_problems=0
+2026-09-25T18:57:07Z INFO pipeline CLEAN {'rows_in': 969004, 'exact_duplicate_rows_removed': 0, 'conflicting_duplicate_keys': 0, 'created_date_unparseable': 0, 'closed_date_unparseable': 0, 'due_date_unparseable': 0, 'resolution_action_updated_date_unparseable': 0, 'rows_out': 969004}
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R01 Retrieval count matches source count          reporting=PASS    live=PASS
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R02 Raw files unchanged since retrieval           reporting=PASS    live=PASS
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R03 Required columns present                      reporting=PASS    live=PASS
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R04 Full SLA hierarchy available                  reporting=WARN    live=WARN
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R05 One row per request                           reporting=PASS    live=PASS
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R06 Timestamps parse                              reporting=PASS    live=PASS
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R07 Rows inside the requested window              reporting=PASS    live=PASS
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R08 Snapshot fresh enough                         reporting=PASS    live=UNKNOWN
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R09 Event order is possible                       reporting=WARN    live=FAIL
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R10 Status and closed date agree                  reporting=WARN    live=FAIL
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R11 Closure time has hour precision               reporting=WARN    live=WARN
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R12 No timestamps after the snapshot              reporting=PASS    live=PASS
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R13 Status values are known                       reporting=PASS    live=PASS
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R14 Closing note present                          reporting=WARN    live=FAIL
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R15 Closing note text intact                      reporting=WARN    live=FAIL
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R16 Mapping file is valid                         reporting=PASS    live=PASS
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R17 Mapping covers the focus-agency notes         reporting=PASS    live=PASS
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R18 Mapping agrees with an independent coder      reporting=WARN    live=UNKNOWN
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R19 SLA units understood                          reporting=PASS    live=PASS
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R20 SLA reference is current                      reporting=WARN    live=FAIL
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R21 SLA match is unambiguous                      reporting=WARN    live=WARN
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R22 Joins do not duplicate rows                   reporting=PASS    live=PASS
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R23 Timezone of timestamps                        reporting=UNKNOWN live=UNKNOWN
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R24 Status calls attributable to an agency        reporting=WARN    live=WARN
+2026-09-25T18:57:09Z INFO pipeline VALIDATE R25 Survey represents all requests                reporting=WARN    live=FAIL
+2026-09-25T18:57:26Z INFO pipeline PUBLISHED /Users/kartik/Downloads/Computer Vision/FDE/nyc311/output/run_date=2026-09-25 gate=READY (with warnings) live_gate=NOT READY in 35.6s
+2026-09-25T19:02:35Z INFO pipeline START run_date=2026-09-25 source=snapshot chaos=None
+2026-09-25T19:02:43Z INFO pipeline EXTRACT snapshot=20260925T112431Z_initial rows={'call_center': 950999, 'service_requests': 969004, 'sla': 3563, 'survey': 275467} integrity_problems=0
+2026-09-25T19:02:47Z INFO pipeline CLEAN {'rows_in': 969004, 'exact_duplicate_rows_removed': 0, 'conflicting_duplicate_keys': 0, 'created_date_unparseable': 0, 'closed_date_unparseable': 0, 'due_date_unparseable': 0, 'resolution_action_updated_date_unparseable': 0, 'rows_out': 969004}
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R01 Retrieval count matches source count          reporting=PASS    live=PASS
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R02 Raw files unchanged since retrieval           reporting=PASS    live=PASS
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R03 Required columns present                      reporting=PASS    live=PASS
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R04 Full SLA hierarchy available                  reporting=WARN    live=WARN
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R05 One row per request                           reporting=PASS    live=PASS
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R06 Timestamps parse                              reporting=PASS    live=PASS
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R07 Rows inside the requested window              reporting=PASS    live=PASS
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R08 Snapshot fresh enough                         reporting=PASS    live=UNKNOWN
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R09 Event order is possible                       reporting=WARN    live=FAIL
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R10 Status and closed date agree                  reporting=WARN    live=FAIL
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R11 Closure time has hour precision               reporting=WARN    live=WARN
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R12 No timestamps after the snapshot              reporting=PASS    live=PASS
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R13 Status values are known                       reporting=PASS    live=PASS
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R14 Closing note present                          reporting=WARN    live=FAIL
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R15 Closing note text intact                      reporting=WARN    live=FAIL
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R16 Mapping file is valid                         reporting=PASS    live=PASS
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R17 Mapping covers the focus-agency notes         reporting=PASS    live=PASS
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R18 Mapping agrees with an independent coder      reporting=WARN    live=UNKNOWN
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R19 SLA units understood                          reporting=PASS    live=PASS
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R20 SLA reference is current                      reporting=WARN    live=FAIL
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R21 SLA match is unambiguous                      reporting=WARN    live=WARN
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R22 Joins do not duplicate rows                   reporting=PASS    live=PASS
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R23 Timezone of timestamps                        reporting=UNKNOWN live=UNKNOWN
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R24 Status calls attributable to an agency        reporting=WARN    live=WARN
+2026-09-25T19:02:49Z INFO pipeline VALIDATE R25 Survey represents all requests                reporting=WARN    live=FAIL
+2026-09-25T19:04:15Z INFO pipeline START run_date=2026-09-25 source=snapshot chaos=None
+2026-09-25T19:04:23Z INFO pipeline EXTRACT snapshot=20260925T112431Z_initial rows={'call_center': 950999, 'service_requests': 969004, 'sla': 3563, 'survey': 275467} integrity_problems=0
+2026-09-25T19:04:26Z INFO pipeline CLEAN {'rows_in': 969004, 'exact_duplicate_rows_removed': 0, 'conflicting_duplicate_keys': 0, 'created_date_unparseable': 0, 'closed_date_unparseable': 0, 'due_date_unparseable': 0, 'resolution_action_updated_date_unparseable': 0, 'rows_out': 969004}
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R01 Retrieval count matches source count          reporting=PASS    live=PASS
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R02 Raw files unchanged since retrieval           reporting=PASS    live=PASS
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R03 Required columns present                      reporting=PASS    live=PASS
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R04 Full SLA hierarchy available                  reporting=WARN    live=WARN
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R05 One row per request                           reporting=PASS    live=PASS
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R06 Timestamps parse                              reporting=PASS    live=PASS
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R07 Rows inside the requested window              reporting=PASS    live=PASS
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R08 Snapshot fresh enough                         reporting=PASS    live=UNKNOWN
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R09 Event order is possible                       reporting=WARN    live=FAIL
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R10 Status and closed date agree                  reporting=WARN    live=FAIL
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R11 Closure time has hour precision               reporting=WARN    live=WARN
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R12 No timestamps after the snapshot              reporting=PASS    live=PASS
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R13 Status values are known                       reporting=PASS    live=PASS
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R14 Closing note present                          reporting=WARN    live=FAIL
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R15 Closing note text intact                      reporting=WARN    live=FAIL
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R16 Mapping file is valid                         reporting=PASS    live=PASS
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R17 Mapping covers the focus-agency notes         reporting=PASS    live=PASS
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R18 Mapping agrees with an independent coder      reporting=WARN    live=UNKNOWN
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R19 SLA units understood                          reporting=PASS    live=PASS
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R20 SLA reference is current                      reporting=WARN    live=FAIL
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R21 SLA match is unambiguous                      reporting=WARN    live=WARN
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R22 Joins do not duplicate rows                   reporting=PASS    live=PASS
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R23 Timezone of timestamps                        reporting=UNKNOWN live=UNKNOWN
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R24 Status calls attributable to an agency        reporting=WARN    live=WARN
+2026-09-25T19:04:28Z INFO pipeline VALIDATE R25 Survey represents all requests                reporting=WARN    live=FAIL
+2026-09-25T19:04:40Z INFO pipeline PUBLISHED /sessions/rcw-01gzbv3brayersg97mrzskfz/mnt/FDE/nyc311/output/run_date=2026-09-25 gate=READY (with warnings) live_gate=NOT READY in 25.4s
+2026-09-25T19:05:17Z INFO pipeline START run_date=2026-09-25 source=snapshot chaos=None
+2026-09-25T19:05:27Z INFO pipeline EXTRACT snapshot=20260925T112431Z_initial rows={'call_center': 950999, 'service_requests': 969004, 'sla': 3563, 'survey': 275467} integrity_problems=0
+2026-09-25T19:05:31Z INFO pipeline CLEAN {'rows_in': 969004, 'exact_duplicate_rows_removed': 0, 'conflicting_duplicate_keys': 0, 'created_date_unparseable': 0, 'closed_date_unparseable': 0, 'due_date_unparseable': 0, 'resolution_action_updated_date_unparseable': 0, 'rows_out': 969004}
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R01 Retrieval count matches source count          reporting=PASS    live=PASS
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R02 Raw files unchanged since retrieval           reporting=PASS    live=PASS
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R03 Required columns present                      reporting=PASS    live=PASS
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R04 Full SLA hierarchy available                  reporting=WARN    live=WARN
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R05 One row per request                           reporting=PASS    live=PASS
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R06 Timestamps parse                              reporting=PASS    live=PASS
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R07 Rows inside the requested window              reporting=PASS    live=PASS
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R08 Snapshot fresh enough                         reporting=PASS    live=UNKNOWN
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R09 Event order is possible                       reporting=WARN    live=FAIL
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R10 Status and closed date agree                  reporting=WARN    live=FAIL
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R11 Closure time has hour precision               reporting=WARN    live=WARN
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R12 No timestamps after the snapshot              reporting=PASS    live=PASS
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R13 Status values are known                       reporting=PASS    live=PASS
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R14 Closing note present                          reporting=WARN    live=FAIL
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R15 Closing note text intact                      reporting=WARN    live=FAIL
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R16 Mapping file is valid                         reporting=PASS    live=PASS
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R17 Mapping covers the focus-agency notes         reporting=PASS    live=PASS
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R18 Mapping agrees with an independent coder      reporting=WARN    live=UNKNOWN
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R19 SLA units understood                          reporting=PASS    live=PASS
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R20 SLA reference is current                      reporting=WARN    live=FAIL
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R21 SLA match is unambiguous                      reporting=WARN    live=WARN
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R22 Joins do not duplicate rows                   reporting=PASS    live=PASS
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R23 Timezone of timestamps                        reporting=UNKNOWN live=UNKNOWN
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R24 Status calls attributable to an agency        reporting=WARN    live=WARN
+2026-09-25T19:05:33Z INFO pipeline VALIDATE R25 Survey represents all requests                reporting=WARN    live=FAIL
+2026-09-25T19:05:45Z INFO pipeline PUBLISHED /sessions/rcw-01gzbv3brayersg97mrzskfz/mnt/FDE/nyc311/output/run_date=2026-09-25 gate=READY (with warnings) live_gate=NOT READY in 27.3s

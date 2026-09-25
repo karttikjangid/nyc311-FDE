@@ -102,11 +102,16 @@ def run(args):
         shutil.rmtree(tmp_dir)
     tmp_dir.mkdir(parents=True)
     mapping_version = Path(cfg["paths"]["mapping"]).stem
-    con = model.build(tmp_dir / "model.sqlite", sr, rules, sla_match, mp, calls, survey, as_of_local, cfg, mapping_version)
+    # Build the SQLite model on local disk (fast, and safe on network or synced folders), not in the output folder.
+    import tempfile
+    work_dir = Path(tempfile.mkdtemp(prefix="nyc311_model_"))
+    db_path = work_dir / "model.sqlite"
+    con = model.build(db_path, sr, rules, sla_match, mp, calls, survey, as_of_local, cfg, mapping_version)
     results.append(validate.reconcile(model.request_grain_counts(con), len(sr)))
     if results[-1]["reporting"] == "FAIL":
         con.close()
         shutil.rmtree(tmp_dir)
+        shutil.rmtree(work_dir, ignore_errors=True)
         return fail(cfg, args, snapshot_id, results, "model does not reconcile to cleaned rows")
 
     # METRICS
@@ -146,8 +151,9 @@ def run(args):
     (tmp_dir / "gate2.md").write_text(gate2_markdown(run_meta, g, results), encoding="utf-8")
 
     # SAVE
-    if not args.keep_model:
-        (tmp_dir / "model.sqlite").unlink()
+    if args.keep_model:
+        shutil.move(str(db_path), tmp_dir / "model.sqlite")
+    shutil.rmtree(work_dir, ignore_errors=True)
     save.publish(tmp_dir, final_dir)
     log.info("PUBLISHED %s gate=%s live_gate=%s in %.1fs", final_dir, g["reporting_gate"], g["live_answer_gate"], time.time() - t0)
     return 0

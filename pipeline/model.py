@@ -12,6 +12,7 @@ Tables (grain in brackets):
 Views/tables built by sql/model.sql: agency_action, closure_outcome, answerability.
 """
 import sqlite3
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 
 import pandas as pd
@@ -26,11 +27,28 @@ def _ts(s):
     return s.dt.strftime("%Y-%m-%d %H:%M:%S").where(s.notna(), None)
 
 
+def _round_half_up(x, digits=0):
+    """Deterministic ROUND. SQLite's built-in ROUND treats exact ties (e.g. 45847/76000 = 0.60325)
+    differently across SQLite versions, so the same data gave 0.6033 on one machine and 0.6032 on another.
+    Rounding the shortest decimal form of the float with ROUND_HALF_UP gives the same answer everywhere."""
+    if x is None:
+        return None
+    q = Decimal(1).scaleb(-int(digits))
+    return float(Decimal(repr(float(x))).quantize(q, rounding=ROUND_HALF_UP))
+
+
+def connect(db_path):
+    con = sqlite3.connect(db_path)
+    con.create_function("ROUND", 2, _round_half_up, deterministic=True)
+    con.create_function("ROUND", 1, _round_half_up, deterministic=True)
+    return con
+
+
 def build(db_path, sr, sla_rules, sla_match, mapping, calls, survey, as_of_local_ts, cfg, mapping_version):
     db_path = Path(db_path)
     if db_path.exists():
         db_path.unlink()
-    con = sqlite3.connect(db_path)
+    con = connect(db_path)
     cols = ["unique_key", "agency", "agency_name", "complaint_type", "descriptor", "status",
             "open_data_channel_type", "borough", "note_hash"]
     t = sr[cols].copy()

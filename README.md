@@ -1,73 +1,83 @@
-# NYC 311: can the City's own data tell a resident where their request is?
+# NYC 311 Service Request Status: Data Readiness Assessment for an AI Assistant
 
 FDE Data Foundations assignment (Classes 4 to 8), Track C. Kartik Jangid.
 
-## The problem
+## The problem in plain words
 
-**Client:** City of New York, 311 and the Office of Technology and Innovation (OTI).
+New Yorkers report problems to the City through 311: a noisy neighbour, no heat, a pothole. Each report becomes a "service request" that a City agency handles and then closes.
 
-**The ask:** "Build an AI assistant that tells residents where their 311 request is and when it will be fixed."
+The City wants an **AI assistant** that answers residents who ask: *"What happened to my request, and when will it be fixed?"* Residents do ask this a lot: it was the second most common topic in 311 phone calls between April and June 2026 (20,389 calls).
 
-**What we did first:** checked whether the City's published 311 records can answer that question truthfully, request by request, before anyone builds an assistant on top of them. "Service Request Status" was the second most common topic in agent-handled 311 calls last quarter (20,389 calls, April to June 2026), so the demand is real. The question is whether the data behind the answer holds up.
+An assistant can only be as honest as the records it reads. So before anyone builds it, this project answers one question:
 
-**Decision this output supports:** for each complaint type, should 311/OTI and the agency start a measurement pilot, fix a named data problem first, or hold? The evidence table gives that call per type, with the owner of each fix.
+> **For each type of complaint, can the City's own records tell a resident the truth about their request?**
 
-## Stakeholders
+**Client:** City of New York: 311 and the Office of Technology and Innovation (OTI), which runs it.
+**Decision this supports:** for each complaint type, is it ready for a small pilot, does it need a specific data fix first, or should it wait?
 
-| Who | What they own | What they need from this |
+## Who cares about this
+
+| Who | What they control | What they get from this project |
 |---|---|---|
-| 311 / OTI leadership | the 311 platform and the open data feed; the build decision | which complaint types are safe to pilot, and what to fix |
-| Agencies (HPD, NYPD, DOT, DOB) | closing notes, closure rules, response targets | where their records fail, and the exact rows |
-| 311 call center | status calls | whether answers could come from the record |
-| Residents | the question | an answer that does not claim a fix that did not happen |
+| 311 / OTI leadership | the 311 system and the decision to build | which complaint types are ready, and what to fix first |
+| City agencies (housing HPD, police NYPD, transport DOT, buildings DOB) | the notes they write when they close a request | where their records fail, down to the exact rows |
+| 311 call center | the status calls | whether the answer could come from the record instead |
+| Residents | the question | an answer that never claims a fix that did not happen |
 
-Nobody formally owns the definition of "answered". We propose one below and name who should confirm it.
+## How we measure it
 
-## KPI and metrics
+**Main measure (KPI): record-answerability.** The share of requests whose record passes all five checks below. A request that passes can be explained to a resident in plain words. **It does not mean the problem was fixed.**
 
-**Project KPI: record-answerability.** Share of requests whose record passes all five checks at the as-of time:
-
-| Check | Question |
+| Check | What it asks |
 |---|---|
-| A1 | Are the dates in a possible order? |
-| A2 | Do status and closed date agree? |
-| A3 | Does the closing note say what happened (closed) or who acts next (open)? |
-| A4 | Does an open request have a published response target? |
-| A5 | Is the status held in 311, not only in another agency system? |
+| A1 Dates | Are the dates in a possible order (not closed before it was opened)? |
+| A2 Status | Do the status and the closed date agree? |
+| A3 Closing note | Does the agency's note say what happened (if closed) or who acts next (if open)? |
+| A4 Target time | Does an open request have a published target time? |
+| A5 Record holder | Does 311 hold the status, rather than sending the resident to another website? |
 
-Supporting metrics: agency action mix (intervention), next step stated for open requests, weekly status-call volume (context). Guardrail: Closed requests whose note gives no evidence of a fix.
+**Safety check (guardrail):** the share of "Closed" requests whose note gives **no evidence the problem was fixed**. This is what an assistant would get wrong if it said "Closed means solved".
 
-"Answerable" means the record can tell the resident, in plain words, what happened. It does not mean the problem was fixed. Details: [`docs/03_data_model.md`](docs/03_data_model.md).
+**Two readings of the notes.** Some closing notes are vague (for example, one NYPD note says both "no violation found" and "the condition was corrected"). The **loose reading** takes such notes at face value. The **strict reading** counts them as unclear. We report both, because the answer changes a lot.
 
-## Results (as-of 2026-09-25)
+## What we found (requests created April to June 2026)
 
-| | NYPD | HPD | DOT | DOB |
+| | NYPD (police) | HPD (housing) | DOT (transport) | DOB (buildings) |
 |---|---:|---:|---:|---:|
-| Requests (Apr to Jun 2026) | 460,240 | 159,275 | 76,000 | 30,604 |
-| Record-answerability | 98.0% | 96.0% | 60.3% | 66.9% |
-| Same, strict reading of the notes | 71.5% | 68.9% | 39.8% | 63.3% |
-| Closed without fix evidence (guardrail) | 73.8% | 90.8% | 77.2% | 100.0% |
+| Requests | 460,240 | 159,275 | 76,000 | 30,604 |
+| Record-answerability, loose reading | 98.0% | 96.0% | 60.3% | 66.9% |
+| Record-answerability, strict reading | 71.5% | 68.9% | 39.8% | 63.3% |
+| Closed, but no evidence it was fixed | 73.8% | 90.8% | 77.2% | 100.0% |
 
-- Most Closed requests carry no evidence that anything was fixed. An assistant that reads `status` would mislead residents.
-- Whether a complaint type is ready depends on how a handful of hedged closing notes are read. Loose reading: 31 of 49 large complaint types qualify for a pilot. Strict reading: 4. The agencies, not us, have to settle what those notes mean.
-- One NYPD template ("no criminal violation existed ... the condition was corrected") covers 120,685 requests and moves NYPD's score by 26.5 points.
-- For a third of DOT requests (33.1%), the note points elsewhere for the status, mostly to DOT's website (20,225 requests): 311 does not hold it.
-- `due_date` is empty for 99.6% of requests, so "when will it be fixed" has no answer in the data.
+1. **"Closed" usually does not mean "fixed".** For every agency, most closed requests have no evidence of a fix. An assistant reading the status field would mislead residents.
+2. **Vague notes decide the outcome.** One NYPD note used on 120,685 requests moves NYPD from 98.0% (loose) to 71.5% (strict). Only the agencies can say what their notes mean.
+3. **For a third of DOT requests, 311 does not hold the answer.** The note sends residents to DOT's own website (20,225 requests).
+4. **"When will it be fixed?" has no answer in the data.** The due-date field is empty for 99.6% of requests.
 
-A second, live run on a fresh API pull (`output/run_date=2026-09-26/`) matched every source count exactly and gave the same conclusions (details in `docs/04_evidence.md`, section 5).
+## Recommendation
 
-Proposed decision (strict reading): 4 complaint types (12,681 requests) are candidates for a measurement pilot, 28 need a named fix first, 17 should hold; 7 of those hold under either reading. Full evidence, decision table and Known / Unknown / Assumption / Limitation: [`docs/04_evidence.md`](docs/04_evidence.md).
+Across the 49 largest complaint types:
+
+| Status | Complaint types | Requests | What it means |
+|---|---:|---:|---|
+| Ready under both readings | 4 | 12,681 | Can start a small pilot now (for example, NYPD encampment reports) |
+| Ready only if the vague notes are confirmed | 27 | 555,224 | Agencies must confirm what their notes mean first |
+| Not ready under either reading | 18 | 155,044 | A named data problem must be fixed first (for example, DOT traffic signals: status lives only on DOT's website) |
+
+**So: do not build the assistant yet.** First, the agencies confirm their 7 most-used vague notes, NYPD splits its two-meaning note, and DOT sends its status back into 311. Then this pipeline runs every week and shows which complaint types are ready.
+
+Full evidence and the Known / Unknown / Assumption / Limitation list: [`docs/04_evidence.md`](docs/04_evidence.md). A second run on a fresh download (`output/run_date=2026-09-26/`) gave the same conclusions.
 
 ## Sources
 
 | Source | Id | Retrieval | Use |
 |---|---|---|---|
-| 311 Service Requests from 2020 to Present | `erm2-nwe9` | JSON API, keyset pagination, SoQL count | core facts |
-| 311 Call Center Inquiry | `wewp-mm3p` | JSON API, SoQL count | status-call context |
+| 311 Service Requests from 2020 to Present | `erm2-nwe9` | JSON API, page by page, plus a SQL-style row count (SoQL, the API's query language) | core facts |
+| 311 Call Center Inquiry | `wewp-mm3p` | JSON API plus SoQL row count | status-call context |
 | 311 Service Level Agreements | `cs9t-e3x8` | JSON file snapshot | response targets (2024) |
 | 311 Resolution Satisfaction Survey | `5ijn-vbdv` | JSON file snapshot | resident-view context |
 
-Plus SQL: the model is built and queried in SQLite (`sql/`). Owners, grain, freshness and source-of-truth decisions: [`docs/01_source_map.md`](docs/01_source_map.md).
+Plus SQL: the cleaned data is loaded into a SQLite database and every metric is a SQL query (`sql/`). Owners, grain, freshness and source-of-truth decisions: [`docs/01_source_map.md`](docs/01_source_map.md).
 
 ## Run it
 
@@ -108,7 +118,7 @@ Without `--snapshot-id`, a replay uses the newest complete snapshot. The run dat
 | Retrieve data (5) | `pipeline/extract.py` (API keyset paging, SoQL counts, retries, raw pages + SHA-256), `data/raw/snapshots/*/manifest.json`, `tests/test_extract.py`, `tests/test_http.py` |
 | Profile and validate (6) | `reports/raw_profile.md`, [`docs/02_validation_contract.md`](docs/02_validation_contract.md), `pipeline/validate.py`, `output/run_date=*/validation_report.json` |
 | Model workflow (7) | [`docs/03_data_model.md`](docs/03_data_model.md), `sql/model.sql`, `reference/` (closing-note coding), `output/run_date=*/request_journey_sample.csv` |
-| Dependable pipeline (8) | `run_pipeline.py`, `config/pipeline.json`, `tests/test_pipeline.py`, [`docs/05_gate2_readiness.md`](docs/05_gate2_readiness.md) |
+| Dependable pipeline (8) | `run_pipeline.py`, `config/pipeline.json`, `tests/test_pipeline.py`, [`docs/05_gate2_readiness.md`](docs/05_gate2_readiness.md) (the Class 8 "Gate 2" data-readiness checklist) |
 | Evidence table, Known / Unknown / Assumption / Limitation | [`docs/04_evidence.md`](docs/04_evidence.md), `output/run_date=2026-09-25/evidence_table.md`, `notebooks/evidence_walkthrough.ipynb` |
 
 ## Repository

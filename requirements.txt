@@ -1,3 +1,4 @@
-pandas>=2.0
-requests>=2.28
-pytest>=7.0
+# Tested with pandas 2.3.3 / 3.0.6, requests 2.34, pytest 9.1, Python 3.10 to 3.14
+pandas>=2.2,<4
+requests>=2.28,<3
+pytest>=7,<10

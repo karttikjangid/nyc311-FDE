@@ -57,3 +57,11 @@ def test_mapping_file_is_valid_and_kappa_is_correct():
     assert info["invalid_values"] == [] and info["duplicate_hashes"] == 0
     assert mapping.cohen_kappa(list("aabb"), list("aabb")) == 1.0
     assert round(mapping.cohen_kappa(list("aabb"), list("abab")), 4) == 0.0
+
+
+def test_round_is_deterministic_on_exact_ties():
+    from pipeline.model import connect
+    con = connect(":memory:")
+    # 45847/76000 = 0.60325 exactly: SQLite versions disagree on this tie; ours always rounds half up.
+    assert con.execute("SELECT ROUND(45847.0 / 76000, 4)").fetchone()[0] == 0.6033
+    assert con.execute("SELECT ROUND(AVG(x), 4) FROM (SELECT 1 AS x UNION ALL SELECT 0)").fetchone()[0] == 0.5
